@@ -1,0 +1,5018 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: en\n"
+
+#: ../src/gui/tray/ActivityItem.qml:24
+msgid "Open %1 locally"
+msgstr "在本機開啟 %1"
+
+#: ../src/gui/tray/ActivityItem.qml:29
+msgid "In %1"
+msgstr "在 %1"
+
+#: ../src/gui/tray/ActivityItemContent.qml:170
+msgid "Open file details"
+msgstr "開啟檔案詳細資訊"
+
+#: ../src/gui/tray/ActivityItemContent.qml:203
+msgid "Dismiss"
+msgstr "忽略"
+
+#: ../src/gui/tray/ActivityList.qml:31
+msgid "Activity list"
+msgstr "事件清單"
+
+#: ../src/gui/tray/ActivityList.qml:108
+msgid "No activities yet"
+msgstr "尚無活動"
+
+#: ../src/gui/BasicComboBox.qml:62
+msgid "Clear status message menu"
+msgstr "清除狀態訊息選單"
+
+#: ../src/gui/tray/CallNotificationDialog.qml:194
+msgid "Talk notification caller avatar"
+msgstr "Talk 通知來電者大頭照"
+
+#: ../src/gui/tray/CallNotificationDialog.qml:260
+msgid "Answer Talk call notification"
+msgstr "接聽 Talk 來電通知"
+
+#: ../src/gui/tray/CallNotificationDialog.qml:268
+msgid "Decline"
+msgstr "回絕"
+
+#: ../src/gui/tray/CallNotificationDialog.qml:284
+msgid "Decline Talk call notification"
+msgstr "回絕 Talk 來電通知"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:106
+msgid "%1 (%2, %3)"
+msgstr "%1 (%2, %3)"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:123
+msgid "Checking for changes in \"%1\""
+msgstr "正在檢查「%1」的變動"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:128
+msgid "Syncing %1 of %2  (%3 left)"
+msgstr "正在同步第 %1 項，共 %2 項（剩餘 %3 項）"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:133
+msgid "Syncing %1 of %2"
+msgstr "正在同步第 %1 項，共 %2 項"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:140
+msgid "Syncing %1 (%2 left)"
+msgstr "正在同步%1（剩餘 %2 項）"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:143
+msgid "Syncing %1"
+msgstr "正在同步 %1"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:164
+msgid "No recently changed files"
+msgstr "無在近期更動過的檔案"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:180
+msgid "Sync paused"
+msgstr "同步已暫停"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:183
+msgid "Syncing"
+msgstr "正在同步"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:219
+msgid "Open website"
+msgstr "開啟網站"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:231
+msgid "Recently changed"
+msgstr "最近的更動"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:238
+msgid "Pause synchronization"
+msgstr "暫停同步"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:245
+msgid "Help"
+msgstr "說明"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:248
+msgid "Settings"
+msgstr "設定"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:251
+msgid "Log out"
+msgstr "登出"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:254
+msgid "Quit sync client"
+msgstr "退出同步客戶端"
+
+#: ../src/gui/ConflictDelegate.qml:62
+msgid "Local version"
+msgstr "本機版本"
+
+#: ../src/gui/ConflictDelegate.qml:77
+msgid "Server version"
+msgstr "伺服器版本"
+
+#: ../src/gui/tray/EditFileLocallyLoadingDialog.qml:95
+msgid "Opening file for local editing"
+msgstr "開啟檔案供本機編輯"
+
+#: ../src/gui/EmojiPicker.qml:136
+msgid "No recent emojis"
+msgstr "無最近的表情符號"
+
+#: ../src/gui/ErrorBox.qml:63
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/gui/filedetails/FileDetailsPage.qml:143
+msgid "Dismiss"
+msgstr "忽略"
+
+#: ../src/gui/filedetails/FileDetailsPage.qml:229
+msgid "Activity"
+msgstr "活動"
+
+#: ../src/gui/filedetails/FileDetailsPage.qml:238
+msgid "Sharing"
+msgstr "分享"
+
+#: ../src/gui/filedetails/FileDetailsWindow.qml:34
+msgid "File details of %1 · %2"
+msgstr "%1 的檔案詳細資訊 · %2"
+
+#: ../src/libsync/filesystem.cpp:157
+msgid "Error removing \"%1\": %2"
+msgstr "移除「%1」時發生錯誤：%2"
+
+#: ../src/libsync/filesystem.cpp:173
+msgid "Could not remove folder \"%1\""
+msgstr "無法移除資料夾「%1」"
+
+#: ../src/common/filesystembase.cpp:384
+msgid "Could not make directories in trash"
+msgstr "無法將目錄移到回收桶"
+
+#: ../src/common/filesystembase.cpp:398
+msgid "Could not move \"%1\" to \"%2\""
+msgstr "無法將「%1」移動至「%2」"
+
+#: ../src/common/filesystembase.cpp:438
+msgid "Moving to the trash is not implemented on this platform"
+msgstr "此平台不具有移至回收桶功能"
+
+#: ../src/gui/wizard/flow2authwidget.ui:26
+msgid "Browser Authentication"
+msgstr "瀏覽器驗證"
+
+#: ../src/gui/wizard/flow2authwidget.ui:56
+msgid "Logo"
+msgstr "商標"
+
+#: ../src/gui/wizard/flow2authwidget.ui:73
+msgid "Switch to your browser to connect your account"
+msgstr "切換到您的瀏覽器以連結您的帳號"
+
+#: ../src/gui/wizard/flow2authwidget.ui:148
+msgid "An error occurred while connecting. Please try again."
+msgstr "連線時發生錯誤。請重試。"
+
+#: ../src/gui/folderwizardsourcepage.ui:33
+msgid "Pick a local folder on your computer to sync"
+msgstr "在您的電腦選取要用來同步的本機資料夾"
+
+#: ../src/gui/folderwizardsourcepage.ui:44
+msgid "&Choose …"
+msgstr "選擇(&C)..."
+
+#: ../src/gui/folderwizardtargetpage.ui:131
+msgid "Select a remote destination folder"
+msgstr "選擇一個遠端的目標資料夾"
+
+#: ../src/gui/folderwizardtargetpage.ui:143
+msgid "Create folder"
+msgstr "新增資料夾"
+
+#: ../src/gui/folderwizardtargetpage.ui:163
+msgid "Refresh"
+msgstr "重新整理"
+
+#: ../src/gui/folderwizardtargetpage.ui:177
+msgid "Folders"
+msgstr "資料夾"
+
+#: ../src/libsync/abstractnetworkjob.cpp:314
+msgid "Connection timed out"
+msgstr "連線逾時"
+
+#: ../src/libsync/abstractnetworkjob.cpp:316
+msgid "Unknown error: network reply was deleted"
+msgstr "未知錯誤：網路回覆被刪除"
+
+#: ../src/libsync/abstractnetworkjob.cpp:469
+msgid "Server replied \"%1 %2\" to \"%3 %4\""
+msgstr "伺服器回覆「%1 %2」到「%3 %4」"
+
+#: ../src/libsync/abstractpropagateremotedeleteencrypted.cpp:139
+msgid "Wrong HTTP code returned by server. Expected 204, but received \"%1 %2\"."
+msgstr "伺服器回傳錯誤的 HTTP 代碼。預期為 204，但收到的是「%1 %2」。"
+
+#: ../src/libsync/abstractpropagateremotedeleteencrypted.cpp:183
+msgid "\"%1 Failed to unlock encrypted folder %2\"."
+msgstr "「%1 解鎖已加密的資料夾 %2 失敗」。"
+
+#: ../src/libsync/account.cpp:939
+msgid "File %1 is already locked by %2."
+msgstr "檔案 %1 已被 %2 鎖定。"
+
+#: ../src/libsync/account.cpp:941
+msgid "Lock operation on %1 failed with error %2"
+msgstr "%1 的鎖定操作失敗，錯誤為 %2"
+
+#: ../src/libsync/account.cpp:943
+msgid "Unlock operation on %1 failed with error %2"
+msgstr "%1 的解除鎖定操作失敗，錯誤為 %2"
+
+#: ../src/gui/accountmanager.cpp:184
+msgid ""
+"An existing configuration from a legacy desktop client was detected.\n"
+"Should an account import be attempted?"
+msgstr ""
+"偵測到既有的來自舊版桌面客戶端的設定。\n"
+"應該嘗試匯入帳號嗎？"
+
+#: ../src/gui/accountmanager.cpp:195
+msgid ""
+"%1 accounts were detected from a legacy desktop client.\n"
+"Should the accounts be imported?"
+msgstr ""
+"偵測到 %1 個來自舊版桌面客戶端的帳號。\n"
+"是否應該匯入這些帳號？"
+
+#: ../src/gui/accountmanager.cpp:197
+msgid ""
+"1 account was detected from a legacy desktop client.\n"
+"Should the account be imported?"
+msgstr ""
+"偵測到 1 個來自舊版桌面客戶端的帳號。\n"
+"是否應該匯入這些帳號？"
+
+#: ../src/gui/accountmanager.cpp:186
+msgid "Legacy import"
+msgstr "舊版匯入"
+
+#: ../src/gui/accountmanager.cpp:200
+msgid "Import"
+msgstr "匯入"
+
+#: ../src/gui/accountmanager.cpp:201
+msgid "Skip"
+msgstr "略過"
+
+#: ../src/gui/accountmanager.cpp:255
+msgid "Successfully imported account from legacy client: %1"
+msgstr "成功從舊版客戶端匯入帳號：%1"
+
+#: ../src/gui/accountmanager.cpp:263
+msgid "Could not import accounts from legacy client configuration."
+msgstr "無法從舊版客戶端設定中匯入帳號。"
+
+#: ../src/gui/accountsettings.ui:31
+msgid ""
+"Unchecked folders will be <b>removed</b> from your local file system and "
+"will not be synchronized to this computer anymore"
+msgstr "未標示的資料夾將會從這台電腦被<b>刪除</b>，而且不會再被同步到這台電腦 "
+
+#: ../src/gui/accountsettings.ui:70
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/gui/accountsettings.ui:83
+msgid "Apply"
+msgstr "套用"
+
+#: ../src/gui/accountsettings.ui:118
+msgid "Connected with <server> as <user>"
+msgstr "以 <user> 的身分連線到 <server>"
+
+#: ../src/gui/accountsettings.ui:148
+msgid "Storage space: …"
+msgstr "儲存空間：……"
+
+#: ../src/gui/accountsettings.ui:256
+msgid "Synchronize all"
+msgstr "全部同步"
+
+#: ../src/gui/accountsettings.ui:263
+msgid "Synchronize none"
+msgstr "全部不同步"
+
+#: ../src/gui/accountsettings.ui:270
+msgid "Apply manual changes"
+msgstr "套用手動改變"
+
+#: ../src/gui/accountsettings.cpp:93
+msgid "End-to-end Encryption with Virtual Files"
+msgstr "虛擬檔案的端到端加密"
+
+#: ../src/gui/accountsettings.cpp:94
+msgid ""
+"You seem to have the Virtual Files feature enabled on this folder. At the "
+"moment, it is not possible to implicitly download virtual files that are "
+"end-to-end encrypted. To get the best experience with virtual files and end-"
+"to-end encryption, make sure the encrypted folder is marked with \"Make "
+"always available locally\"."
+msgstr ""
+"您似乎在此資料夾啟用了虛擬檔案的功能。目前無法下載透過端到端加密的虛擬檔案。為了得到最佳的虛擬檔案與端到端加密體驗，請確保已加密的資料夾被標記為「一律可在本機使用」。"
+
+#: ../src/gui/accountsettings.cpp:102
+msgid "Do not encrypt folder"
+msgstr "不要加密資料夾"
+
+#: ../src/gui/accountsettings.cpp:105
+msgid "Encrypt folder"
+msgstr "加密資料夾"
+
+#: ../src/gui/accountsettings.cpp:116
+msgid "End-to-end Encryption"
+msgstr "端到端加密"
+
+#: ../src/gui/accountsettings.cpp:118
+msgid ""
+"This will encrypt your folder and all files within it. These files will no longer be accessible without your encryption mnemonic key. \n"
+"<b>This process is not reversible. Are you sure you want to proceed?</b>"
+msgstr ""
+"這將會加密您的資料夾與其中的所有檔案。若無您的加密助記金鑰，將無法再存取這些檔案。\n"
+"<b>此過程是不可逆的。您確定您要繼續嗎？</b>"
+
+#: ../src/gui/accountsettings.cpp:232
+msgid "No account configured."
+msgstr "未設定帳號。"
+
+#: ../src/gui/accountsettings.cpp:245
+msgid "Disable encryption"
+msgstr "停用加密"
+
+#: ../src/gui/accountsettings.cpp:250
+msgid "Display mnemonic"
+msgstr "顯示助記碼"
+
+#: ../src/gui/accountsettings.cpp:256
+msgid "End-to-end encryption has been enabled for this account"
+msgstr "此帳號已啟用端到端加密"
+
+#: ../src/gui/accountsettings.cpp:288
+msgid "Warning"
+msgstr "警告"
+
+#: ../src/gui/accountsettings.cpp:356
+msgid "Please wait for the folder to sync before trying to encrypt it."
+msgstr "請等待資料夾同步，然後再嘗試對其進行加密。"
+
+#: ../src/gui/accountsettings.cpp:358
+msgid ""
+"The folder has a minor sync problem. Encryption of this folder will be "
+"possible once it has synced successfully"
+msgstr "資料夾有輕微的同步問題。同步成功後即可加密該資料夾"
+
+#: ../src/gui/accountsettings.cpp:360
+msgid ""
+"The folder has a sync error. Encryption of this folder will be possible once"
+" it has synced successfully"
+msgstr "資料夾有同步錯誤。同步成功後即可加密該資料夾"
+
+#: ../src/gui/accountsettings.cpp:341
+msgid ""
+"End-to-end encryption is not configured on this device. Once it is configured, you will be able to encrypt this folder.\n"
+"Would you like to set up end-to-end encryption?"
+msgstr ""
+"端到端加密尚未在此裝置上設定。一旦其設定好，您將可以加密此資料夾。\n"
+"您想要設定端到端加密嗎？"
+
+#: ../src/gui/accountsettings.cpp:366
+msgid ""
+"You cannot encrypt a folder with contents, please remove the files.\n"
+"Wait for the new sync, then encrypt it."
+msgstr ""
+"您無法加密有內容的資料夾，請移除檔案。\n"
+"等待新同步，然後加密。"
+
+#: ../src/gui/accountsettings.cpp:390
+msgid "Encryption failed"
+msgstr "加密失敗"
+
+#: ../src/gui/accountsettings.cpp:390
+msgid "Could not encrypt folder because the folder does not exist anymore"
+msgstr "無法加密資料夾，因為該資料夾不存在"
+
+#: ../src/gui/accountsettings.cpp:510
+msgid "Open folder"
+msgstr "開啟資料夾"
+
+#: ../src/gui/accountsettings.cpp:527
+msgid "Encrypt"
+msgstr "加密"
+
+#: ../src/gui/accountsettings.cpp:535
+msgid "Edit Ignored Files"
+msgstr "編輯要忽視的檔案"
+
+#: ../src/gui/accountsettings.cpp:538
+msgid "Create new folder"
+msgstr "建立新資料夾"
+
+#: ../src/gui/accountsettings.cpp:544
+msgid "Availability"
+msgstr "可用性"
+
+#: ../src/gui/accountsettings.cpp:613
+msgid "Choose what to sync"
+msgstr "選擇要同步的項目"
+
+#: ../src/gui/accountsettings.cpp:619
+msgid "Force sync now"
+msgstr "強制同步"
+
+#: ../src/gui/accountsettings.cpp:621
+msgid "Restart sync"
+msgstr "重新啟動同步"
+
+#: ../src/gui/accountsettings.cpp:627
+msgid "Resume sync"
+msgstr "繼續同步"
+
+#: ../src/gui/accountsettings.cpp:627
+msgid "Pause sync"
+msgstr "暫停同步"
+
+#: ../src/gui/accountsettings.cpp:630
+msgid "Remove folder sync connection"
+msgstr "移除資料夾同步連線"
+
+#: ../src/gui/accountsettings.cpp:643
+msgid "Disable virtual file support …"
+msgstr "停用虛擬檔案支援……"
+
+#: ../src/gui/accountsettings.cpp:651
+msgid "Enable virtual file support %1 …"
+msgstr "啟用虛擬檔案支援 %1……"
+
+#: ../src/gui/accountsettings.cpp:651
+msgid "(experimental)"
+msgstr "（實驗性）"
+
+#: ../src/gui/accountsettings.cpp:745
+msgid "Folder creation failed"
+msgstr "資料夾建立失敗"
+
+#: ../src/gui/accountsettings.cpp:746
+msgid "<p>Could not create local folder <i>%1</i>.</p>"
+msgstr "<p>無法建立本機資料夾<i>%1</i>。</p>"
+
+#: ../src/gui/accountsettings.cpp:803
+msgid "Confirm Folder Sync Connection Removal"
+msgstr "確認移除資料夾同步連線"
+
+#: ../src/gui/accountsettings.cpp:804
+msgid ""
+"<p>Do you really want to stop syncing the folder "
+"<i>%1</i>?</p><p><b>Note:</b> This will <b>not</b> delete any files.</p>"
+msgstr "<p>您真的想要停止同步資料夾 <i>%1</i> 嗎？</p><p><b>注意：</b>這<b>不會</b>刪除任何檔案。</p>"
+
+#: ../src/gui/accountsettings.cpp:810
+msgid "Remove Folder Sync Connection"
+msgstr "移除資料夾同步連線"
+
+#: ../src/gui/accountsettings.cpp:921
+msgid "Disable virtual file support?"
+msgstr "停用虛擬檔案支援？"
+
+#: ../src/gui/accountsettings.cpp:922
+msgid ""
+"This action will disable virtual file support. As a consequence contents of folders that are currently marked as \"available online only\" will be downloaded.\n"
+"\n"
+"The only advantage of disabling virtual file support is that the selective sync feature will become available again.\n"
+"\n"
+"This action will abort any currently running synchronization."
+msgstr ""
+"此動作將會停用虛擬檔案支援。結果是將會下載目前標記為「僅線上可用」的資料夾內容。\n"
+"\n"
+"停用虛擬檔案支援的好處是選擇性同步功能將再次可用。\n"
+"\n"
+"此動作將會中止任何目前正在執行的同步。"
+
+#: ../src/gui/accountsettings.cpp:929
+msgid "Disable support"
+msgstr "停用支援"
+
+#: ../src/gui/accountsettings.cpp:1014
+msgid "End-to-end encryption mnemonic"
+msgstr "端到端加密助記字串"
+
+#: ../src/gui/accountsettings.cpp:1016
+msgid ""
+"To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 "
+"dictionary words. Please note these down and keep them safe. They will be "
+"needed to add other devices to your account (like your mobile phone or "
+"laptop)."
+msgstr ""
+"為了保護您的身份，我們將用含 12 "
+"個單詞的助記詞進行加密。請將這些單詞記在一個安全的地方。要將其他裝置（如手機或筆記型電腦）加入您的帳號中，需用到此助記詞。"
+
+#: ../src/gui/accountsettings.cpp:1041
+msgid "Disable end-to-end encryption"
+msgstr "停用端到端加密"
+
+#: ../src/gui/accountsettings.cpp:1042
+msgid "Disable end-to-end encryption for %1?"
+msgstr "停用 %1 的端到端加密？"
+
+#: ../src/gui/accountsettings.cpp:1043
+msgid ""
+"Removing end-to-end encryption will remove locally-synced files that are "
+"encrypted.<br>Encrypted files will remain on the server."
+msgstr "移除端到端加密將會移除本機同步的加密檔案。<br>加密檔案將會保留在伺服器上。"
+
+#: ../src/gui/accountsettings.cpp:1105
+msgid "Sync Running"
+msgstr "正在執行同步"
+
+#: ../src/gui/accountsettings.cpp:1106
+msgid "The syncing operation is running.<br/>Do you want to terminate it?"
+msgstr "正在執行同步動作。<br/>您真的想要中斷嗎？"
+
+#: ../src/gui/accountsettings.cpp:1178
+msgid ""
+"%1 (%3%) of %2 in use. Some folders, including network mounted or shared "
+"folders, might have different limits."
+msgstr "%1 (%3%) 中的 %2 正在使用， 有些資料夾，包括網路掛載或分享資料夾，可能有不同的限制。"
+
+#: ../src/gui/accountsettings.cpp:1179
+msgid "%1 of %2 in use"
+msgstr "已使用 %2 中的 %1%"
+
+#: ../src/gui/accountsettings.cpp:1188
+msgid "Currently there is no storage usage information available."
+msgstr "目前無法查詢儲存空間使用資訊。"
+
+#: ../src/gui/accountsettings.cpp:1191
+msgid "%1 in use"
+msgstr "%1 正在使用"
+
+#: ../src/gui/accountsettings.cpp:1218
+msgid "%1 as %2"
+msgstr "%1 作為 %2"
+
+#: ../src/gui/accountsettings.cpp:1225
+msgid "The server version %1 is unsupported! Proceed at your own risk."
+msgstr "已不支援伺服器版本 %1！繼續的風險請自負。"
+
+#: ../src/gui/accountsettings.cpp:1227
+msgid "Connected to %1."
+msgstr "已連線到 %1"
+
+#: ../src/gui/accountsettings.cpp:1231
+msgid "Server %1 is temporarily unavailable."
+msgstr "伺服器 ％1 暫時無法使用。"
+
+#: ../src/gui/accountsettings.cpp:1234
+msgid "Server %1 is currently in maintenance mode."
+msgstr "伺服器 %1 目前正處於維護模式。"
+
+#: ../src/gui/accountsettings.cpp:1237
+msgid ""
+"Server %1 is currently being redirected, or your connection is behind a "
+"captive portal."
+msgstr "伺服器 %1 目前正被重新導向，或者您的連線位於強制入口網站後面。"
+
+#: ../src/gui/accountsettings.cpp:1240
+msgid "Signed out from %1."
+msgstr "從 %1 登出。"
+
+#: ../src/gui/accountsettings.cpp:1250
+msgid ""
+"Obtaining authorization from the browser. <a href='%1'>Click here</a> to re-"
+"open the browser."
+msgstr "正在從瀏覽器取得授權。<a href='%1'>點擊此處</a>以重新開啟瀏覽器。"
+
+#: ../src/gui/accountsettings.cpp:1254
+msgid "Connecting to %1 …"
+msgstr "正在連線到 %1……"
+
+#: ../src/gui/accountsettings.cpp:1259
+msgid "No connection to %1 at %2."
+msgstr "在 %2 沒有連線到 %1。"
+
+#: ../src/gui/accountsettings.cpp:1264
+msgid "Server configuration error: %1 at %2."
+msgstr "伺服器設定錯誤：%1 於 %2。"
+
+#: ../src/gui/accountsettings.cpp:1275
+msgid "No %1 connection configured."
+msgstr "未設定 %1 連線。"
+
+#: ../src/gui/accountsettings.cpp:1517
+msgid ""
+"There are folders that were not synchronized because they are too big: "
+msgstr "有部份的資料夾因為容量太大沒有辦法同步："
+
+#: ../src/gui/accountsettings.cpp:1519
+msgid ""
+"There are folders that were not synchronized because they are external "
+"storages: "
+msgstr "有部分資料夾因為是外部儲存空間沒有辦法同步："
+
+#: ../src/gui/accountsettings.cpp:1520
+msgid ""
+"There are folders that were not synchronized because they are too big or "
+"external storages: "
+msgstr "有部分資料夾因為容量太大或是外部儲存空間沒有辦法同步："
+
+#: ../src/gui/accountsettings.cpp:1572
+msgid "There are folders that have grown in size beyond %1MB: %2"
+msgstr "有些資料夾的大小已超過 %1MB：%2"
+
+#: ../src/gui/accountsettings.cpp:1577
+msgid ""
+"End-to-end encryption has been enabled on this account with another "
+"device.<br>It can be enabled on this device by entering your "
+"mnemonic.<br>This will enable synchronisation of existing encrypted folders."
+msgstr "已在其他裝置上為此帳號啟用端到端加密。<br>可透過輸入您的助記字串在此裝置上啟用。<br>這將啟用現有加密資料夾的同步。"
+
+#: ../src/gui/accountsettings.cpp:1568
+msgid "This account supports end-to-end encryption"
+msgstr "此帳號支援端點對端點加密"
+
+#: ../src/gui/accountsettings.cpp:1572
+msgid "Set up encryption"
+msgstr "設定加密"
+
+#: ../src/gui/accountsetupfromcommandlinejob.cpp:142
+msgid ""
+"The authenticated request to the server was redirected to \"%1\". The URL is"
+" bad, the server is misconfigured."
+msgstr "對伺服器的已驗證請求將會被重新導向至「%1」。URL 錯誤，伺服器設定錯誤。"
+
+#: ../src/gui/accountsetupfromcommandlinejob.cpp:152
+msgid ""
+"Access forbidden by server. To verify that you have proper access, <a "
+"href=\"%1\">click here</a> to access the service with your browser."
+msgstr "伺服器禁止存取。為了驗證您是否有適當的存取權限，<a href=\"%1\">點擊此處</a>以使用您的瀏覽器存取服務。"
+
+#: ../src/gui/accountsetupfromcommandlinejob.cpp:160
+msgid "There was an invalid response to an authenticated WebDAV request"
+msgstr "伺服器回應 WebDAV 驗證請求無效"
+
+#: ../src/gui/accountstate.cpp:148
+msgid "Signed out"
+msgstr "已登出"
+
+#: ../src/gui/accountstate.cpp:150
+msgid "Disconnected"
+msgstr "已斷線"
+
+#: ../src/gui/accountstate.cpp:152
+msgid "Connected"
+msgstr "已連線"
+
+#: ../src/gui/accountstate.cpp:154
+msgid "Service unavailable"
+msgstr "服務無法使用"
+
+#: ../src/gui/accountstate.cpp:156
+msgid "Maintenance mode"
+msgstr "維護模式"
+
+#: ../src/gui/accountstate.cpp:158
+msgid "Redirect detected"
+msgstr "偵測到重新導向"
+
+#: ../src/gui/accountstate.cpp:160
+msgid "Network error"
+msgstr "網路錯誤"
+
+#: ../src/gui/accountstate.cpp:162
+msgid "Configuration error"
+msgstr "設定錯誤"
+
+#: ../src/gui/accountstate.cpp:164
+msgid "Asking Credentials"
+msgstr "正在詢問憑證"
+
+#: ../src/gui/accountstate.cpp:166
+msgid "Unknown account state"
+msgstr "未知的帳號狀態"
+
+#: ../src/gui/tray/activitylistmodel.cpp:490
+msgid "For more activities please open the Activity app."
+msgstr "請開啟活動應用程式以檢視更多活動。"
+
+#: ../src/gui/tray/activitylistmodel.cpp:510
+msgid "Fetching activities …"
+msgstr "正在擷取活動紀錄……"
+
+#: ../src/gui/tray/activitylistmodel.cpp:566
+msgid "Network error occurred: client will retry syncing."
+msgstr "遇到網路錯誤：客戶端將會重試同步。"
+
+#: ../src/gui/tray/activitylistmodel.cpp:579
+msgid "Files from the ignore list as well as symbolic links are not synced."
+msgstr "忽略列表中的檔案與符號連結不會同步。"
+
+#: ../src/gui/addcertificatedialog.ui:17
+msgid "SSL client certificate authentication"
+msgstr "SSL 客戶端憑證驗證"
+
+#: ../src/gui/addcertificatedialog.ui:23
+msgid "This server probably requires a SSL client certificate."
+msgstr "伺服器可能需要客戶端 SSL 憑證。"
+
+#: ../src/gui/addcertificatedialog.ui:35
+msgid "Certificate & Key (pkcs12):"
+msgstr "憑證與金鑰 (pkcs12)："
+
+#: ../src/gui/addcertificatedialog.ui:51
+msgid "Browse …"
+msgstr "瀏覽……"
+
+#: ../src/gui/addcertificatedialog.ui:60
+msgid "Certificate password:"
+msgstr "憑證密碼："
+
+#: ../src/gui/addcertificatedialog.ui:79
+msgid ""
+"An encrypted pkcs12 bundle is strongly recommended as a copy will be stored "
+"in the configuration file."
+msgstr "強烈建議使用加密的 pkcs12 套裝，因為副本將儲存在設定檔中。"
+
+#: ../src/gui/addcertificatedialog.cpp:38
+msgid "Select a certificate"
+msgstr "選取憑證"
+
+#: ../src/gui/addcertificatedialog.cpp:38
+msgid "Certificate files (*.p12 *.pfx)"
+msgstr "憑證檔案 (*.p12 *.pfx)"
+
+#: ../src/gui/application.cpp:177
+msgid ""
+"Some settings were configured in %1 versions of this client and use features"
+" that are not available in this version.<br><br>Continuing will mean <b>%2 "
+"these settings</b>.<br><br>The current configuration file was already backed"
+" up to <i>%3</i>."
+msgstr ""
+"某些設定是在此客戶端的 %1 版本中設定的，並使用了此版本中無法使用的功能。<br><br>繼續將代表 <b>%2 "
+"這些設定</b>。<br><br>目前設定檔已備份至 <i>%3</i>。"
+
+#: ../src/gui/application.cpp:183
+msgid "newer"
+msgstr "較新的"
+
+#: ../src/gui/application.cpp:183
+msgid "older"
+msgstr "較舊的"
+
+#: ../src/gui/application.cpp:184
+msgid "ignoring"
+msgstr "忽略"
+
+#: ../src/gui/application.cpp:184
+msgid "deleting"
+msgstr "刪除"
+
+#: ../src/gui/application.cpp:186
+msgid "Quit"
+msgstr "離開"
+
+#: ../src/gui/application.cpp:187
+msgid "Continue"
+msgstr "繼續"
+
+#: ../src/gui/application.cpp:451
+msgid "%1 accounts"
+msgstr "%1 個帳號"
+
+#: ../src/gui/application.cpp:452
+msgid "1 account"
+msgstr "1 個帳號"
+
+#: ../src/gui/application.cpp:454
+msgid "%1 folders"
+msgstr "%1 個資料夾"
+
+#: ../src/gui/application.cpp:455
+msgid "1 folder"
+msgstr "1 個資料夾"
+
+#: ../src/gui/application.cpp:457
+msgid "Legacy import"
+msgstr "舊版匯入"
+
+#: ../src/gui/application.cpp:458
+msgid ""
+"Imported %1 and %2 from a legacy desktop client.\n"
+"%3"
+msgstr ""
+"已從舊版桌面客戶端匯入 %1 與 %2。\n"
+"%3"
+
+#: ../src/gui/application.cpp:394
+msgid "Error accessing the configuration file"
+msgstr "存取設定檔時發生錯誤"
+
+#: ../src/gui/application.cpp:395
+msgid ""
+"There was an error while accessing the configuration file at %1. Please make"
+" sure the file can be accessed by your system account."
+msgstr "存取位於 %1 的設定檔時發生錯誤。請確保您的系統帳號可以存取該檔案。"
+
+#: ../src/gui/application.cpp:398
+msgid "Quit %1"
+msgstr "離開 %1"
+
+#: ../src/gui/authenticationdialog.cpp:30
+msgid "Authentication Required"
+msgstr "必須驗證"
+
+#: ../src/gui/authenticationdialog.cpp:32
+msgid "Enter username and password for \"%1\" at %2."
+msgstr "於 %2 輸入「％1」的使用者與密碼。"
+
+#: ../src/gui/authenticationdialog.cpp:37
+msgid "&Username:"
+msgstr "使用者名稱(&U)："
+
+#: ../src/gui/authenticationdialog.cpp:38
+msgid "&Password:"
+msgstr "密碼(&P)："
+
+#: ../src/libsync/bulkpropagatorjob.cpp:123
+msgid ""
+"File %1 cannot be uploaded because another file with the same name, "
+"differing only in case, exists"
+msgstr "無法上傳 %1 檔案，因為另一個僅有大小寫不同的相同名稱檔案已存在"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:175
+msgid "File %1 has invalid modified time. Do not upload to the server."
+msgstr "檔案 %1 的修改時間無效。不要上傳到伺服器。"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:296
+msgid "File Removed (start upload) %1"
+msgstr "已移除檔案（開始上傳）%1"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:308
+msgid "File %1 has invalid modification time. Do not upload to the server."
+msgstr "檔案 %1 的修改時間無效。不要上傳到伺服器。"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:320
+msgid "Local file changed during syncing. It will be resumed."
+msgstr "本機檔案在同步的過程中被修改。其將會被復原。"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:334
+msgid "Local file changed during sync."
+msgstr "本機檔案在同步的過程中被修改。"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:432
+msgid "Network error: %1"
+msgstr "網路錯誤：%1"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:477
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:480
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前使用中"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:649
+msgid "The local file was removed during sync."
+msgstr "本機檔案在同步的過程中被移除。"
+
+#: ../src/libsync/bulkpropagatorjob.cpp:697
+msgid "Restoration failed: %1"
+msgstr "還原失敗：%1"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:78
+msgid ""
+"Cannot rename file because a file with the same name already exists on the "
+"server. Please pick another name."
+msgstr "無法重新命名檔案，因為伺服器上已有同名檔案。請換一個名字。"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:121
+msgid ""
+"Could not rename file. Please make sure you are connected to the server."
+msgstr "無法重新命名檔案。請確保您已連線至伺服器。"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:172
+msgid ""
+"You don't have the permission to rename this file. Please ask the author of "
+"the file to rename it."
+msgstr "您無權重新命名此檔案。請要求檔案的作者重新命名它。"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:179
+msgid "Failed to fetch permissions with error %1"
+msgstr "擷取權限失敗，錯誤 %1"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:200
+msgid "Filename contains leading and trailing spaces."
+msgstr "檔案名稱包含了前導及結尾空格。"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:203
+msgid "Filename contains leading spaces."
+msgstr "檔案名稱包含了前導空格。"
+
+#: ../src/libsync/caseclashconflictsolver.cpp:206
+msgid "Filename contains trailing spaces."
+msgstr "檔案名稱包含了結尾空格。"
+
+#: ../src/gui/caseclashfilenamedialog.ui:14
+msgid "Case Clash Conflict"
+msgstr "大小寫衝突"
+
+#: ../src/gui/caseclashfilenamedialog.ui:23
+msgid ""
+"The file could not be synced because it generates a case clash conflict with"
+" an existing file on this system."
+msgstr "無法同步檔案，因為其會與該系統上既有的檔案產生大小寫衝突。"
+
+#: ../src/gui/caseclashfilenamedialog.ui:36
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/gui/caseclashfilenamedialog.ui:53
+msgid "Existing file"
+msgstr "既有檔案"
+
+#: ../src/gui/caseclashfilenamedialog.ui:60
+msgid "file A"
+msgstr "檔案 A"
+
+#: ../src/gui/caseclashfilenamedialog.ui:107
+msgid "today"
+msgstr "今天"
+
+#: ../src/gui/caseclashfilenamedialog.ui:114
+msgid "0 byte"
+msgstr "0 位元組"
+
+#: ../src/gui/caseclashfilenamedialog.ui:121
+msgid "Open existing file"
+msgstr "開啟既有檔案"
+
+#: ../src/gui/caseclashfilenamedialog.ui:165
+msgid "Case clashing file"
+msgstr "大小寫衝突檔案"
+
+#: ../src/gui/caseclashfilenamedialog.ui:172
+msgid "file B"
+msgstr "檔案 B"
+
+#: ../src/gui/caseclashfilenamedialog.ui:227
+msgid "Open clashing file"
+msgstr "開啟衝突檔案"
+
+#: ../src/gui/caseclashfilenamedialog.ui:268
+msgid "Please enter a new name for the clashing file:"
+msgstr "請輸入衝突檔案的新名稱："
+
+#: ../src/gui/caseclashfilenamedialog.ui:281
+msgid "New filename"
+msgstr "新檔案名稱"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:97
+msgid "Rename file"
+msgstr "重新命名檔案"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:99
+msgid ""
+"The file \"%1\" could not be synced because of a case clash conflict with an"
+" existing file on this system."
+msgstr "無法同步檔案「%1」，因為其會與該系統上既有的檔案產生大小寫衝突。"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:100
+msgid ""
+"%1 does not support equal file names with only letter casing differences."
+msgstr "%1 不支援僅字母大小寫不同的檔案名稱。"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:243
+msgid "Filename contains leading and trailing spaces."
+msgstr "檔案名稱包含了前導及結尾空格。"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:246
+msgid "Filename contains leading spaces."
+msgstr "檔案名稱包含了前導空格。"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:248
+msgid "Filename contains trailing spaces."
+msgstr "檔案名稱包含了結尾空格。"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:253
+msgid "Use invalid name"
+msgstr "使用無效名稱"
+
+#: ../src/gui/caseclashfilenamedialog.cpp:278
+msgid "Filename contains illegal characters: %1"
+msgstr "檔案名稱包含了非法字元：%1"
+
+#: ../src/libsync/owncloudpropagator.cpp:1585
+msgid "Error writing metadata to the database"
+msgstr "將詮釋資料寫入到資料庫時發生錯誤"
+
+#: ../src/libsync/clientsideencryption.cpp:1369
+msgid ""
+"Please enter your end-to-end encryption passphrase:<br><br>Username: "
+"%2<br>Account: %3<br>"
+msgstr "請輸入您的端到端加密通關密語：<br><br>使用者名稱：%2<br>帳號：%3<br>"
+
+#: ../src/libsync/clientsideencryption.cpp:1377
+msgid "Enter E2E passphrase"
+msgstr "輸入端到端加密認證資訊"
+
+#: ../src/gui/conflictdialog.ui:14
+msgid "Sync Conflict"
+msgstr "同步衝突"
+
+#: ../src/gui/conflictdialog.ui:20
+msgid "Conflicting versions of %1."
+msgstr "衝突的 %1 版本。"
+
+#: ../src/gui/conflictdialog.ui:32
+msgid ""
+"Which version of the file do you want to keep?<br/>If you select both "
+"versions, the local file will have a number added to its name."
+msgstr "您想要保留哪個版本的檔案？<br/>如果您選擇同時保留兩個版本，本機的檔案名稱後方僵化加上數字。"
+
+#: ../src/gui/conflictdialog.ui:46
+msgid "Local version"
+msgstr "本機版本"
+
+#: ../src/gui/conflictdialog.ui:57
+msgid "Click to open the file"
+msgstr "點選開啟檔案"
+
+#: ../src/gui/conflictdialog.ui:96
+msgid "today"
+msgstr "今天"
+
+#: ../src/gui/conflictdialog.ui:103
+msgid "0 byte"
+msgstr "0 位元組"
+
+#: ../src/gui/conflictdialog.ui:110
+msgid "<a href=\"%1\">Open local version</a>"
+msgstr "<a href=\"%1\">開啟本機版本</a>"
+
+#: ../src/gui/conflictdialog.ui:154
+msgid "Server version"
+msgstr "伺服器版本"
+
+#: ../src/gui/conflictdialog.ui:218
+msgid "<a href=\"%1\">Open server version</a>"
+msgstr "<a href=\"%1\">開啟伺服器版本</a>"
+
+#: ../src/gui/conflictdialog.cpp:54
+msgid "Keep selected version"
+msgstr "保留選取的版本"
+
+#: ../src/gui/conflictdialog.cpp:150
+msgid "Open local version"
+msgstr "開啟本機版本"
+
+#: ../src/gui/conflictdialog.cpp:158
+msgid "Open server version"
+msgstr "開啟伺服器版本"
+
+#: ../src/gui/conflictdialog.cpp:176
+msgid "Keep both versions"
+msgstr "保留兩個版本"
+
+#: ../src/gui/conflictdialog.cpp:177
+msgid "Keep local version"
+msgstr "保留本機版本"
+
+#: ../src/gui/conflictdialog.cpp:178
+msgid "Keep server version"
+msgstr "保留伺服器版本"
+
+#: ../src/gui/conflictsolver.cpp:88
+msgid ""
+"Do you want to delete the directory <i>%1</i> and all its contents "
+"permanently?"
+msgstr "您確定要永久刪除所選目錄 <i>%1</i> 和裡面的內容嗎？"
+
+#: ../src/gui/conflictsolver.cpp:89
+msgid "Do you want to delete the file <i>%1</i> permanently?"
+msgstr "您確定要永久刪除檔案 <i>%1</i> 嗎？"
+
+#: ../src/gui/conflictsolver.cpp:90
+msgid "Confirm deletion"
+msgstr "確認刪除"
+
+#: ../src/gui/conflictsolver.cpp:134
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/gui/conflictsolver.cpp:134
+msgid ""
+"Moving file failed:\n"
+"\n"
+"%1"
+msgstr ""
+"移動檔案失敗：\n"
+"\n"
+"%1"
+
+#: ../src/gui/connectionvalidator.cpp:49
+msgid "No Nextcloud account configured"
+msgstr "沒有 Nextcloud 帳號的設定檔"
+
+#: ../src/gui/connectionvalidator.cpp:166
+msgid "Authentication error: Either username or password are wrong."
+msgstr "驗證錯誤︰使用者名稱或是密碼錯誤。"
+
+#: ../src/gui/connectionvalidator.cpp:178
+msgid "Timeout"
+msgstr "逾時"
+
+#: ../src/gui/connectionvalidator.cpp:215
+msgid "The provided credentials are not correct"
+msgstr "提供的憑證不正確"
+
+#: ../src/gui/connectionvalidator.cpp:286
+msgid "The configured server for this client is too old"
+msgstr "設定的伺服器對此客戶端來說太舊了"
+
+#: ../src/gui/connectionvalidator.cpp:287
+msgid "Please update to the latest server and restart the client."
+msgstr "請將伺服器端更新到最新版並重新啟動客戶端。"
+
+#: ../src/libsync/discoveryphase.cpp:191
+msgid "Error while canceling deletion of a file"
+msgstr "取消刪除檔案時發生錯誤"
+
+#: ../src/libsync/discoveryphase.cpp:192
+msgid "Error while canceling deletion of %1"
+msgstr "取消刪除 %1 時發生錯誤"
+
+#: ../src/libsync/discoveryphase.cpp:580
+msgid "Server error: PROPFIND reply is not XML formatted!"
+msgstr "伺服器錯誤：PROPFIND 回覆未使用 XML 格式！"
+
+#: ../src/libsync/discoveryphase.cpp:279
+msgid "Error while opening directory %1"
+msgstr "開啟目錄 %1 時發生錯誤"
+
+#: ../src/libsync/discoveryphase.cpp:281
+msgid "Directory not accessible on client, permission denied"
+msgstr "客戶端無法存取目錄，權限被拒"
+
+#: ../src/libsync/discoveryphase.cpp:285
+msgid "Directory not found: %1"
+msgstr "找不到目錄：%1"
+
+#: ../src/libsync/discoveryphase.cpp:316
+msgid "Filename encoding is not valid"
+msgstr "檔案名稱編碼無效"
+
+#: ../src/libsync/discoveryphase.cpp:336
+msgid "Error while reading directory %1"
+msgstr "讀取目錄 %1 時發生錯誤"
+
+#: ../src/gui/editlocallyjob.cpp:62
+msgid "Invalid token received."
+msgstr "收到無效的權杖。"
+
+#: ../src/gui/editlocallyjob.cpp:62
+msgid "Please try again."
+msgstr "請再試一次。"
+
+#: ../src/gui/editlocallyjob.cpp:68
+msgid "Invalid file path was provided."
+msgstr "提供了無效的檔案路徑。"
+
+#: ../src/gui/editlocallyjob.cpp:76
+msgid "Could not find an account for local editing."
+msgstr "找不到用於本機編輯的帳號。"
+
+#: ../src/gui/editlocallyjob.cpp:93
+msgid "Could not start editing locally."
+msgstr "無法在本機開始編輯。"
+
+#: ../src/gui/editlocallyjob.cpp:94
+msgid "An error occurred trying to verify the request to edit locally."
+msgstr "嘗試驗證本機編輯請求時發生錯誤。"
+
+#: ../src/gui/editlocallyjob.cpp:121
+msgid "Could not validate the request to open a file from server."
+msgstr "無法驗證從伺服器開啟檔案的請求。"
+
+#: ../src/gui/editlocallyjob.cpp:138
+msgid ""
+"Could not find a file for local editing. Make sure its path is valid and it "
+"is synced locally."
+msgstr "找不到用於本機編輯的檔案。請確保其路徑有效且在本機同步。"
+
+#: ../src/gui/editlocallyjob.cpp:146
+msgid ""
+"Could not find a file for local editing. Make sure it is not excluded via "
+"selective sync."
+msgstr "找不到用於本機編輯的檔案。請確保其沒有被選擇性同步排除。"
+
+#: ../src/gui/editlocallyjob.cpp:205
+msgid "An error occurred during data retrieval."
+msgstr "擷取資料時發生錯誤。"
+
+#: ../src/gui/editlocallyjob.cpp:261
+msgid "An error occurred trying to synchronise the file to edit locally."
+msgstr "嘗試同步檔案以在本機編輯時發生錯誤。"
+
+#: ../src/gui/editlocallyjob.cpp:466
+msgid "An error occurred during setup."
+msgstr "設定時發生錯誤。"
+
+#: ../src/gui/editlocallyjob.cpp:512
+msgid "Server error: PROPFIND reply is not XML formatted!"
+msgstr "伺服器錯誤：PROPFIND 回覆不是 XML 格式！"
+
+#: ../src/gui/editlocallyjob.cpp:514
+msgid ""
+"Could not find a remote file info for local editing. Make sure its path is "
+"valid."
+msgstr "找不到用於本機編輯的遠端檔案資訊。請確保其路徑有效。"
+
+#: ../src/gui/editlocallyjob.cpp:578
+msgid "Invalid local file path."
+msgstr "無效的本機檔案路徑。"
+
+#: ../src/gui/editlocallyjob.cpp:588
+msgid "Could not open %1"
+msgstr "無法開啟 %1"
+
+#: ../src/gui/editlocallyjob.cpp:669
+msgid "File %1 already locked."
+msgstr "檔案 ％1 已被鎖定。"
+
+#: ../src/gui/editlocallyjob.cpp:670
+msgid ""
+"Lock will last for %1 minutes. You can also unlock this file manually once "
+"you are finished editing."
+msgstr "鎖定將會持續 %1 分鐘。一旦您完成編輯，您也可以手動解鎖此檔案。"
+
+#: ../src/gui/editlocallyjob.cpp:680
+msgid "File %1 now locked."
+msgstr "檔案 %1 現在已被鎖定。"
+
+#: ../src/gui/editlocallyjob.cpp:689
+msgid "File %1 could not be locked."
+msgstr "檔案 %1 無法被鎖定。"
+
+#: ../src/libsync/encryptfolderjob.cpp:90
+msgid ""
+"Could not generate the metadata for encryption, Unlocking the folder.\n"
+"This can be an issue with your OpenSSL libraries."
+msgstr ""
+"無法生成用於加密的詮釋資料，正在解鎖資料夾。\n"
+"這可能是您 OpenSSL 函式庫的問題。"
+
+#: ../src/gui/filedetails/filedetails.cpp:109
+msgid "%1 second(s) ago"
+msgstr ""
+
+#: ../src/gui/filedetails/filedetails.cpp:112
+msgid "%1 minute(s) ago"
+msgstr ""
+
+#: ../src/gui/filedetails/filedetails.cpp:115
+msgid "%1 hour(s) ago"
+msgstr ""
+
+#: ../src/gui/filedetails/filedetails.cpp:118
+msgid "%1 day(s) ago"
+msgstr ""
+
+#: ../src/gui/filedetails/filedetails.cpp:121
+msgid "%1 month(s) ago"
+msgstr ""
+
+#: ../src/gui/filedetails/filedetails.cpp:124
+msgid "%1 year(s) ago"
+msgstr ""
+
+#: ../src/gui/filedetails/filedetails.cpp:156
+msgid "Locked by %1 - Expires in %2 minute(s)"
+msgstr ""
+
+#: ../src/gui/creds/flow2auth.cpp:102
+msgid ""
+"The polling URL does not start with HTTPS despite the login URL started with"
+" HTTPS. Login will not be possible because this might be a security issue. "
+"Please contact your administrator."
+msgstr "雖然登入的 URL 是以 HTTPS 開頭，但輪詢的 URL 不是。因為這可能是安全性問題，所以您無法登入。請聯絡您的管理員。"
+
+#: ../src/gui/creds/flow2auth.cpp:113
+msgid "Error returned from the server: <em>%1</em>"
+msgstr "伺服器回傳錯誤訊息：<em>%1</em>"
+
+#: ../src/gui/creds/flow2auth.cpp:116
+msgid "There was an error accessing the \"token\" endpoint: <br><em>%1</em>"
+msgstr "存取「權杖」進入點發生錯誤：<br><em>%1</em>"
+
+#: ../src/gui/creds/flow2auth.cpp:119
+msgid "Could not parse the JSON returned from the server: <br><em>%1</em>"
+msgstr "無法解析伺服器回傳的 JSON：<br><em>%1</em>"
+
+#: ../src/gui/creds/flow2auth.cpp:122
+msgid "The reply from the server did not contain all expected fields"
+msgstr "伺服器的回應並未包含所有預期的欄位"
+
+#: ../src/gui/creds/flow2auth.cpp:219
+msgid ""
+"The returned server URL does not start with HTTPS despite the login URL "
+"started with HTTPS. Login will not be possible because this might be a "
+"security issue. Please contact your administrator."
+msgstr "雖然登入的 URL 是以 HTTPS 開頭，但回傳的 URL 不是。因為這可能是安全性問題，所以您無法登入。請聯絡您的管理員。"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:97
+msgid "Unable to open the Browser, please copy the link to your Browser."
+msgstr "無法開啟瀏覽器，請將連結複製到瀏覽器中。"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:160
+msgid "Waiting for authorization"
+msgstr "正在等候授權"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:165
+msgid "Polling for authorization"
+msgstr "正在輪詢授權"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:170
+msgid "Starting authorization"
+msgstr "開始授權"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:174
+msgid "Link copied to clipboard."
+msgstr "超連結已複製到剪貼簿。"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:221
+msgid "Reopen Browser"
+msgstr "重新開啟瀏覽器"
+
+#: ../src/gui/wizard/flow2authwidget.cpp:224
+msgid "Copy Link"
+msgstr "複製連結"
+
+#: ../src/gui/folder.cpp:179
+msgid "Local folder %1 does not exist."
+msgstr "本機資料夾 %1 不存在。"
+
+#: ../src/gui/folder.cpp:182
+msgid "%1 should be a folder but is not."
+msgstr "%1 應該是資料夾，但並不是。"
+
+#: ../src/gui/folder.cpp:185
+msgid "%1 is not readable."
+msgstr "%1 不可讀。"
+
+#: ../src/gui/folder.cpp:428
+msgid "%1 and %n other file(s) have been removed."
+msgstr ""
+
+#: ../src/gui/folder.cpp:430
+msgid "%1 has been removed."
+msgstr "已移除 %1。"
+
+#: ../src/gui/folder.cpp:435
+msgid "%1 and %n other file(s) have been added."
+msgstr ""
+
+#: ../src/gui/folder.cpp:437
+msgid "%1 has been added."
+msgstr "已新增 %1。"
+
+#: ../src/gui/folder.cpp:442
+msgid "%1 and %n other file(s) have been updated."
+msgstr ""
+
+#: ../src/gui/folder.cpp:444
+msgid "%1 has been updated."
+msgstr "已更新 %1。"
+
+#: ../src/gui/folder.cpp:449
+msgid "%1 has been renamed to %2 and %n other file(s) have been renamed."
+msgstr ""
+
+#: ../src/gui/folder.cpp:451
+msgid "%1 has been renamed to %2."
+msgstr "%1 已被重新命名為 %2。"
+
+#: ../src/gui/folder.cpp:456
+msgid "%1 has been moved to %2 and %n other file(s) have been moved."
+msgstr ""
+
+#: ../src/gui/folder.cpp:458
+msgid "%1 has been moved to %2."
+msgstr "%1 已被移動到 %2。"
+
+#: ../src/gui/folder.cpp:463
+msgid "%1 has and %n other file(s) have sync conflicts."
+msgstr ""
+
+#: ../src/gui/folder.cpp:465
+msgid "%1 has a sync conflict. Please check the conflict file!"
+msgstr "%1 同步時發生衝突。請檢查發生衝突的檔案！"
+
+#: ../src/gui/folder.cpp:470
+msgid ""
+"%1 and %n other file(s) could not be synced due to errors. See the log for "
+"details."
+msgstr ""
+
+#: ../src/gui/folder.cpp:472
+msgid "%1 could not be synced due to an error. See the log for details."
+msgstr "%1 因為錯誤無法被同步。請檢視紀錄檔以取得詳細資訊。"
+
+#: ../src/gui/folder.cpp:477
+msgid "%1 and %n other file(s) are currently locked."
+msgstr ""
+
+#: ../src/gui/folder.cpp:479
+msgid "%1 is currently locked."
+msgstr "%1 目前已被鎖定。"
+
+#: ../src/gui/folder.cpp:487
+msgid "Sync Activity"
+msgstr "同步活動"
+
+#: ../src/gui/folder.cpp:942
+msgid "Could not read system exclude file"
+msgstr "無法讀取系統的排除檔案"
+
+#: ../src/gui/folder.cpp:1225
+msgid "A new folder larger than %1 MB has been added: %2.\n"
+msgstr "一個大於 %1 MB 的資料夾已被新增至：%2\n"
+
+#: ../src/gui/folder.cpp:1228
+msgid "A folder from an external storage has been added.\n"
+msgstr "一個來自外部空間的資料夾已被新增。\n"
+
+#: ../src/gui/folder.cpp:1229
+msgid "Please go in the settings to select it if you wish to download it."
+msgstr "若要下載此項目，請前往設定選擇它。"
+
+#: ../src/gui/folder.cpp:1366
+msgid ""
+"A folder has surpassed the set folder size limit of %1MB: %2.\n"
+"%3"
+msgstr ""
+"資料夾已超過設定的資料夾大小限制 %1MB：%2。\n"
+"%3"
+
+#: ../src/gui/folder.cpp:1377
+msgid "Keep syncing"
+msgstr "保持同步"
+
+#: ../src/gui/folder.cpp:1385
+msgid "Stop syncing"
+msgstr "停止同步"
+
+#: ../src/gui/folder.cpp:1396
+msgid "The folder %1 has surpassed the set folder size limit of %2MB."
+msgstr "資料夾 %1 已超過設定的資料夾大小限制 %2MB"
+
+#: ../src/gui/folder.cpp:1397
+msgid "Would you like to stop syncing this folder?"
+msgstr "您想要停止同步此資料夾嗎？"
+
+#: ../src/gui/folder.cpp:1294
+msgid ""
+"The folder %1 was created but was excluded from synchronization previously. "
+"Data inside it will not be synchronized."
+msgstr "已建立 %1 資料夾，但先前已從同步中排除。因此其中的資料將不會被同步。"
+
+#: ../src/gui/folder.cpp:1297
+msgid ""
+"The file %1 was created but was excluded from synchronization previously. It"
+" will not be synchronized."
+msgstr "已建立 %1 檔案，但先前已從同步中排除。因此其中的資料將不會被同步。"
+
+#: ../src/gui/folder.cpp:1308
+msgid ""
+"Changes in synchronized folders could not be tracked reliably.\n"
+"\n"
+"This means that the synchronization client might not upload local changes immediately and will instead only scan for local changes and upload them occasionally (every two hours by default).\n"
+"\n"
+"%1"
+msgstr ""
+"無法可靠地追蹤要同步的資料夾內容更動。\n"
+"\n"
+"客戶端可能無法及時上傳本地的更動，而只能每隔一段時間（預設為2小時）才掃描及上傳一次本機變更。\n"
+"\n"
+"%1"
+
+#: ../src/gui/folder.cpp:1518
+msgid ""
+"Virtual file download failed with code \"%1\", status \"%2\" and error "
+"message \"%3\""
+msgstr "虛擬檔案下載失敗，代碼為「%1」，狀態為「%2」，錯誤訊息「%3」"
+
+#: ../src/gui/folder.cpp:1411
+msgid ""
+"All files in the sync folder \"%1\" folder were deleted on the server.\n"
+"These deletes will be synchronized to your local sync folder, making such files unavailable unless you have a right to restore. \n"
+"If you decide to restore the files, they will be re-synced with the server if you have rights to do so.\n"
+"If you decide to delete the files, they will be unavailable to you, unless you are the owner."
+msgstr ""
+"「%1」資料夾中的所有檔案已從伺服器上移除。\n"
+"同步後，這些檔案也會從您的本地資料夾中移除。除非您有復原的權限，否則您將無法讀取這些檔案。\n"
+"假如您決定復原這些檔案，只要您擁有權限，這些檔案就會重新和伺服器同步。\n"
+"假如您決定移除這些檔案，除非您是檔案的所有者，否則您將無法讀取這些檔案。"
+
+#: ../src/gui/folder.cpp:1416
+msgid ""
+"All the files in your local sync folder \"%1\" were deleted. These deletes will be synchronized with your server, making such files unavailable unless restored.\n"
+"Are you sure you want to sync those actions with the server?\n"
+"If this was an accident and you decide to keep your files, they will be re-synced from the server."
+msgstr ""
+"在您本機同步資料夾「%1」中的所有檔案都已刪除。這些刪除將會與您的伺服器同步，除非復原，否則這些檔案將不可用。\n"
+"您確定您想要與伺服器同步那些動作嗎？\n"
+"如果這是意外，而且您決定保留您的檔案，它們將會自伺服器重新同步。"
+
+#: ../src/gui/folder.cpp:1420
+msgid "Remove All Files?"
+msgstr "移除所有檔案？"
+
+#: ../src/gui/folder.cpp:1424
+msgid "Remove all files"
+msgstr "移除所有檔案"
+
+#: ../src/gui/folder.cpp:1425
+msgid "Keep files"
+msgstr "保留檔案"
+
+#: ../src/gui/foldercreationdialog.ui:14
+msgid "Create new folder"
+msgstr "建立新資料夾"
+
+#: ../src/gui/foldercreationdialog.ui:42
+msgid "Enter folder name"
+msgstr "輸入資料夾名稱"
+
+#: ../src/gui/foldercreationdialog.ui:61
+msgid "Folder already exists"
+msgstr "資料夾已存在"
+
+#: ../src/gui/foldercreationdialog.cpp:80
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/gui/foldercreationdialog.cpp:80
+msgid "Could not create a folder! Check your write permissions."
+msgstr "無法建立資料夾！請檢查您的寫入權限。"
+
+#: ../src/gui/folderman.cpp:414
+msgid "Could not reset folder state"
+msgstr "無法重設資料夾狀態"
+
+#: ../src/gui/folderman.cpp:415
+msgid ""
+"An old sync journal \"%1\" was found, but could not be removed. Please make "
+"sure that no application is currently using it."
+msgstr "發現較舊的同步處理日誌「%1」，但無法移除。請確認沒有應用程式正在使用它。"
+
+#: ../src/gui/folderman.cpp:1337
+msgid " (backup)"
+msgstr "（備份）"
+
+#: ../src/gui/folderman.cpp:1342
+msgid " (backup %1)"
+msgstr "（備份 %1）"
+
+#: ../src/gui/folderman.cpp:1602
+msgid "Undefined state."
+msgstr "未定義狀態。"
+
+#: ../src/gui/folderman.cpp:1605
+msgid "Waiting to start syncing."
+msgstr "正在等待同步開始。"
+
+#: ../src/gui/folderman.cpp:1608
+msgid "Preparing for sync."
+msgstr "正在準備同步。"
+
+#: ../src/gui/folderman.cpp:1611
+msgid "Sync is running."
+msgstr "正在執行同步。"
+
+#: ../src/gui/folderman.cpp:1616
+msgid "Sync finished with unresolved conflicts."
+msgstr "同步完成，但有未解決的衝突。"
+
+#: ../src/gui/folderman.cpp:1618
+msgid "Last sync was successful."
+msgstr "上次同步成功。"
+
+#: ../src/gui/folderman.cpp:1624
+msgid "Setup error."
+msgstr "設定錯誤。"
+
+#: ../src/gui/folderman.cpp:1627
+msgid "Sync request was cancelled."
+msgstr "同步請求已取消。"
+
+#: ../src/gui/folderman.cpp:1630
+msgid "Sync is paused."
+msgstr "同步已暫停。"
+
+#: ../src/gui/folderman.cpp:1636
+msgid "%1 (Sync is paused)"
+msgstr "%1（同步已暫停）"
+
+#: ../src/gui/folderman.cpp:1644
+msgid "No valid folder selected!"
+msgstr "未選取有效的資料夾！"
+
+#: ../src/gui/folderman.cpp:1656
+msgid "The selected path does not exist!"
+msgstr "所選的路徑不存在！"
+
+#: ../src/gui/folderman.cpp:1660
+msgid "The selected path is not a folder!"
+msgstr "所選的路徑並非資料夾！"
+
+#: ../src/gui/folderman.cpp:1664
+msgid "You have no permission to write to the selected folder!"
+msgstr "您沒有權限來寫入被選取的資料夾！"
+
+#: ../src/gui/folderman.cpp:1716
+msgid ""
+"The local folder %1 already contains a folder used in a folder sync "
+"connection. Please pick another one!"
+msgstr "本地資料夾 %1 裡已經有被資料夾同步功能使用的資料夾，請選擇其他資料夾！"
+
+#: ../src/gui/folderman.cpp:1724
+msgid ""
+"The local folder %1 is already contained in a folder used in a folder sync "
+"connection. Please pick another one!"
+msgstr "本地資料夾 %1 是被包含在一個已經被資料夾同步功能使用的資料夾，請選擇其他資料夾！"
+
+#: ../src/gui/folderman.cpp:1740
+msgid ""
+"There is already a sync from the server to this local folder. Please pick "
+"another local folder!"
+msgstr "此本機資料夾已設定為從伺服器同步。請挑選其他本機資料夾！"
+
+#: ../src/gui/folderstatusdelegate.cpp:55
+msgid "Add Folder Sync Connection"
+msgstr "新增資料夾同步功能的連線"
+
+#: ../src/gui/folderstatusdelegate.cpp:299
+msgid "File"
+msgstr "檔案"
+
+#: ../src/gui/folderstatusmodel.cpp:151
+msgid "You need to be connected to add a folder"
+msgstr "您必須連上伺服器才能新增資料夾"
+
+#: ../src/gui/folderstatusmodel.cpp:153
+msgid "Click this button to add a folder to synchronize."
+msgstr "點擊此按鈕來新增同步資料夾"
+
+#: ../src/gui/folderstatusmodel.cpp:166
+msgid "Could not decrypt!"
+msgstr "無法解密！"
+
+#: ../src/gui/folderstatusmodel.cpp:168
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: ../src/gui/folderstatusmodel.cpp:210
+msgid "Error while loading the list of folders from the server."
+msgstr "從伺服器端同步資料夾列表時發生錯誤。"
+
+#: ../src/gui/folderstatusmodel.cpp:213
+msgid "Fetching folder list from server …"
+msgstr "正在從伺服器擷取資料夾列表……"
+
+#: ../src/gui/folderstatusmodel.cpp:239
+msgid "There are unresolved conflicts. Click for details."
+msgstr "有未解決的衝突。點擊以檢視詳細資訊。"
+
+#: ../src/gui/folderstatusmodel.cpp:245
+msgid "Virtual file support is enabled."
+msgstr "已啟用虛擬檔案支援。"
+
+#: ../src/gui/folderstatusmodel.cpp:267
+msgid "Signed out"
+msgstr "已登出"
+
+#: ../src/gui/folderstatusmodel.cpp:309
+msgid "Synchronizing VirtualFiles with local folder"
+msgstr "與本機資料夾同步虛擬檔案"
+
+#: ../src/gui/folderstatusmodel.cpp:311
+msgid "Synchronizing with local folder"
+msgstr "與本機資料夾同步"
+
+#: ../src/gui/folderstatusmodel.cpp:993
+msgid "Checking for changes in remote \"%1\""
+msgstr "正在檢查遠端「%1」的變動"
+
+#: ../src/gui/folderstatusmodel.cpp:997
+msgid "Checking for changes in local \"%1\""
+msgstr "正在檢查本機「%1」的變動"
+
+#: ../src/gui/folderstatusmodel.cpp:1004
+msgid "Reconciling changes"
+msgstr "正在排解更動"
+
+#: ../src/gui/folderstatusmodel.cpp:1066
+msgid "Syncing %1"
+msgstr "正在同步 %1"
+
+#: ../src/gui/folderstatusmodel.cpp:1068
+msgid ", "
+msgstr ", "
+
+#: ../src/gui/folderstatusmodel.cpp:1072
+msgid "download %1/s"
+msgstr "下載 %1／秒"
+
+#: ../src/gui/folderstatusmodel.cpp:1074
+msgid "↓ %1/s"
+msgstr "↓ %1／秒"
+
+#: ../src/gui/folderstatusmodel.cpp:1082
+msgid "upload %1/s"
+msgstr "上傳 %1／秒"
+
+#: ../src/gui/folderstatusmodel.cpp:1084
+msgid "↑ %1/s"
+msgstr "↑ %1／秒"
+
+#: ../src/gui/folderstatusmodel.cpp:1090
+msgid "%1 %2 (%3 of %4)"
+msgstr "%1 %2（%3 的 %4）"
+
+#: ../src/gui/folderstatusmodel.cpp:1094
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: ../src/gui/folderstatusmodel.cpp:1115
+msgid "A few seconds left, %1 of %2, file %3 of %4"
+msgstr "將在幾秒內完成，%2 之 %1， 檔案 %4 之 %3"
+
+#: ../src/gui/folderstatusmodel.cpp:1120
+msgid "%5 left, %1 of %2, file %3 of %4"
+msgstr "剩餘%5，%1 的 %2，檔案 %3 的 %4"
+
+#: ../src/gui/folderstatusmodel.cpp:1129
+msgid "%1 of %2, file %3 of %4"
+msgstr "%1 的 %2，檔案 %3 的 %4"
+
+#: ../src/gui/folderstatusmodel.cpp:1136
+msgid "file %1 of %2"
+msgstr "檔案 %1 的 %2"
+
+#: ../src/gui/folderstatusmodel.cpp:1191
+msgid "Waiting …"
+msgstr "請稍候……"
+
+#: ../src/gui/folderstatusmodel.cpp:1193
+msgid "Waiting for %n other folder(s) …"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1199
+msgid "Preparing to sync …"
+msgstr "正在準備同步……"
+
+#: ../src/gui/folderwatcher.cpp:129
+msgid "The watcher did not receive a test notification."
+msgstr "監視程式未收到測試通知。"
+
+#: ../src/gui/folderwatcher_linux.cpp:88
+msgid ""
+"This problem usually happens when the inotify watches are exhausted. Check "
+"the FAQ for details."
+msgstr "這個問題通常是因為 inotify 監視程式資源耗盡。請到 FAQ 檢視詳細資訊。"
+
+#: ../src/gui/folderwizard.cpp:684
+msgid "Add Folder Sync Connection"
+msgstr "新增資料夾同步功能的連線"
+
+#: ../src/gui/folderwizard.cpp:686
+msgid "Add Sync Connection"
+msgstr "新增同步連線"
+
+#: ../src/gui/folderwizard.cpp:84
+msgid "Click to select a local folder to sync."
+msgstr "點擊選取要同步的本機資料夾。"
+
+#: ../src/gui/folderwizard.cpp:91
+msgid "Enter the path to the local folder."
+msgstr "請輸入本機資料夾的路徑。"
+
+#: ../src/gui/folderwizard.cpp:152
+msgid "Select the source folder"
+msgstr "選擇來源資料夾"
+
+#: ../src/gui/folderwizard.cpp:223
+msgid "Create Remote Folder"
+msgstr "建立遠端資料夾"
+
+#: ../src/gui/folderwizard.cpp:224
+msgid "Enter the name of the new folder to be created below \"%1\":"
+msgstr "請輸入要在「%1」底下建立的資料夾名稱："
+
+#: ../src/gui/folderwizard.cpp:253
+msgid "Folder was successfully created on %1."
+msgstr "資料夾成功建立於 %1。"
+
+#: ../src/gui/folderwizard.cpp:263
+msgid "Authentication failed accessing %1"
+msgstr "存取 %1 驗證失敗"
+
+#: ../src/gui/folderwizard.cpp:265
+msgid "Failed to create the folder on %1. Please check manually."
+msgstr "在 %1 建立資料夾失敗。請手動檢查。"
+
+#: ../src/gui/folderwizard.cpp:283
+msgid "Failed to list a folder. Error: %1"
+msgstr "取得資料夾列表失敗。錯誤：%1"
+
+#: ../src/gui/folderwizard.cpp:364
+msgid "Choose this to sync the entire account"
+msgstr " 請選擇這個功能用來同步整個帳號"
+
+#: ../src/gui/folderwizard.cpp:507
+msgid "This folder is already being synced."
+msgstr "這個資料夾已經被同步了。"
+
+#: ../src/gui/folderwizard.cpp:509
+msgid ""
+"You are already syncing <i>%1</i>, which is a parent folder of <i>%2</i>."
+msgstr "您已經同步了 <i>%1</i>，這個資料夾是 <i>%2</i> 的上層資料夾。"
+
+#: ../src/gui/folderwizard.cpp:511
+msgid "You are already syncing <i>%1</i>, which is a subfolder of <i>%2</i>."
+msgstr "您已經同步了 <i>%1</i>，這個資料夾是 <i>%2</i> 的下層資料夾。"
+
+#: ../src/gui/folderwizard.cpp:572
+msgid "Use virtual files instead of downloading content immediately %1"
+msgstr "使用虛擬檔案而非立刻下載內容 %1"
+
+#: ../src/gui/folderwizard.cpp:572
+msgid "(experimental)"
+msgstr "（實驗性）"
+
+#: ../src/gui/folderwizard.cpp:605
+msgid ""
+"Virtual files are not supported for Windows partition roots as local folder."
+" Please choose a valid subfolder under drive letter."
+msgstr "Windows 分割區跟目錄不支援將虛擬檔案作為本機資料夾使用。請在磁碟區代號下選擇有效的子資料夾。"
+
+#: ../src/gui/folderwizard.cpp:628
+msgid "Virtual files are not available for the selected folder"
+msgstr "選取的資料夾無法使用虛擬檔案"
+
+#: ../src/gui/folderwizard.cpp:65
+msgid "<b>Warning:</b> %1"
+msgstr "<b>警告：</b> %1"
+
+#: ../src/gui/folderwizard.cpp:67
+msgid "<b>Warning:</b>"
+msgstr "<b>警告：</b>"
+
+#: ../src/libsync/propagatedownload.cpp:195
+msgid "No E-Tag received from server, check Proxy/Gateway"
+msgstr "沒有收到來自伺服器的 E-Tag，請檢查代理伺服器或網路閘道器"
+
+#: ../src/libsync/propagatedownload.cpp:202
+msgid "We received a different E-Tag for resuming. Retrying next time."
+msgstr "在復原時收到了不同的 E-Tag。將在下一次重新嘗試取得。"
+
+#: ../src/libsync/propagatedownload.cpp:213
+msgid "We received an unexpected download Content-Length."
+msgstr "我們收到了非預期的下載 Content-Length。"
+
+#: ../src/libsync/propagatedownload.cpp:241
+msgid "Server returned wrong content-range"
+msgstr "伺服器回傳了錯誤的內容長度"
+
+#: ../src/libsync/propagatedownload.cpp:367
+msgid "Connection Timeout"
+msgstr "連線逾時"
+
+#: ../src/gui/generalsettings.ui:221
+msgid "Advanced"
+msgstr "進階"
+
+#: ../src/gui/generalsettings.ui:20
+msgid "About"
+msgstr "關於"
+
+#: ../src/gui/generalsettings.ui:33
+msgid "Ask for confirmation before synchronizing new folders larger than"
+msgstr "先詢問，當要同步的新資料夾大小超過"
+
+#: ../src/gui/generalsettings.ui:41
+msgid "Legal notice"
+msgstr "法律聲明"
+
+#: ../src/gui/generalsettings.ui:249
+msgid "MB"
+msgstr "MB"
+
+#: ../src/gui/generalsettings.ui:75
+msgid "Use &Monochrome Icons"
+msgstr "使用單色圖示(&M)"
+
+#: ../src/gui/generalsettings.ui:82
+msgid "&Launch on System Startup"
+msgstr "系統啟動時啟動(&L)"
+
+#: ../src/gui/generalsettings.ui:89
+msgid "Show Server &Notifications"
+msgstr "顯示伺服器通知(&N)"
+
+#: ../src/gui/generalsettings.ui:96
+msgid "Notify when synchronised folders grow larger than specified limit"
+msgstr "當同步資料夾的大小超過指定限制時發出通知"
+
+#: ../src/gui/generalsettings.ui:96
+msgid "Show Call Notifications"
+msgstr "顯示來電通知"
+
+#: ../src/gui/generalsettings.ui:106
+msgid "Updates"
+msgstr "更新"
+
+#: ../src/gui/generalsettings.ui:114
+msgid "&Automatically check for Updates"
+msgstr "自動檢查更新(&A)"
+
+#: ../src/gui/generalsettings.ui:123
+msgid "Automatically disable synchronisation of folders that overcome limit"
+msgstr "自動停用超出限制的資料夾同步"
+
+#: ../src/gui/generalsettings.ui:134
+msgid "&Channel"
+msgstr "頻道(&C)"
+
+#: ../src/gui/generalsettings.ui:273
+msgid "Ask for confirmation before synchronizing external storages"
+msgstr "在與外部儲存空間同步時先詢問"
+
+#: ../src/gui/generalsettings.ui:147
+msgid "Move removed files to trash"
+msgstr "將移除的檔案移動到垃圾桶"
+
+#: ../src/gui/generalsettings.ui:158
+msgid "Show sync folders in &Explorer's navigation pane"
+msgstr "在檔案總管的導覽面板中顯示同步資料夾(&E)"
+
+#: ../src/gui/generalsettings.ui:301
+msgid "S&how crash reporter"
+msgstr "顯示當機回報程式(&H)"
+
+#: ../src/gui/generalsettings.ui:312
+msgid "Edit &Ignored Files"
+msgstr "編輯被忽略的檔案(&I)"
+
+#: ../src/gui/generalsettings.ui:319
+msgid "Create Debug Archive"
+msgstr "建立除錯壓縮檔"
+
+#: ../src/gui/generalsettings.ui:198
+msgid "&Check for Update now"
+msgstr "立即檢查更新(&C)"
+
+#: ../src/gui/generalsettings.ui:218
+msgid "Info"
+msgstr "資訊"
+
+#: ../src/gui/generalsettings.ui:229
+msgid "Ask for confirmation before synchronizing folders larger than"
+msgstr "先詢問，當要同步的資料夾大小超過"
+
+#: ../src/gui/generalsettings.ui:245
+msgid "Desktop client x.x.x"
+msgstr "桌面用戶端 x.x.x"
+
+#: ../src/gui/generalsettings.ui:260
+msgid "Update channel"
+msgstr "更新頻道"
+
+#: ../src/gui/generalsettings.ui:151
+msgid "stable"
+msgstr "穩定版"
+
+#: ../src/gui/generalsettings.ui:156
+msgid "beta"
+msgstr "測試版"
+
+#: ../src/gui/generalsettings.ui:183
+msgid "&Restart && Update"
+msgstr "重新啟動並更新(&R)"
+
+#: ../src/gui/generalsettings.ui:284
+msgid "Show sync folders in &Explorer's Navigation Pane"
+msgstr "在檔案總管的導覽面板中顯示同步資料夾(&E)"
+
+#: ../src/gui/generalsettings.ui:323
+msgid "&Automatically check for updates"
+msgstr "自動檢查更新(&A)"
+
+#: ../src/gui/generalsettings.ui:339
+msgid "Check Now"
+msgstr "立刻檢查"
+
+#: ../src/gui/generalsettings.ui:363
+msgid "Usage Documentation"
+msgstr "使用方式說明文件"
+
+#: ../src/gui/generalsettings.ui:370
+msgid "Legal Notice"
+msgstr "法律聲明"
+
+#: ../src/gui/generalsettings.ui:66
+msgid "General Settings"
+msgstr "一般設定"
+
+#: ../src/gui/generalsettings.ui:72
+msgid "For System Tray"
+msgstr "系統匣"
+
+#: ../src/gui/generalsettings.ui:420
+msgid "Use &monochrome icons"
+msgstr "使用單色圖示(&M)"
+
+#: ../src/gui/generalsettings.ui:427
+msgid "&Launch on system startup"
+msgstr "系統啟動時啟動(&L)"
+
+#: ../src/gui/generalsettings.ui:434
+msgid "Show server &notifications"
+msgstr "顯示伺服器通知(&N)"
+
+#: ../src/gui/generalsettings.ui:441
+msgid "Show call notifications"
+msgstr "顯示來電通知"
+
+#: ../src/gui/generalsettings.cpp:144
+msgid "Server notifications that require attention."
+msgstr "需要注意的伺服器通知。"
+
+#: ../src/gui/generalsettings.cpp:148
+msgid "Show call notification dialogs."
+msgstr "顯示來電通知對話方塊。"
+
+#: ../src/gui/generalsettings.cpp:162
+msgid "You cannot disable autostart because system-wide autostart is enabled."
+msgstr "您無法停用自動啟動，因為已啟用系統層面的自動啟動。"
+
+#: ../src/gui/generalsettings.cpp:350
+msgid "Change update channel?"
+msgstr "變更更新頻道？"
+
+#: ../src/gui/generalsettings.cpp:351
+msgid ""
+"The update channel determines which client updates will be offered for installation. The \"stable\" channel contains only upgrades that are considered reliable, while the versions in the \"beta\" channel may contain newer features and bugfixes, but have not yet been tested thoroughly.\n"
+"\n"
+"Note that this selects only what pool upgrades are taken from, and that there are no downgrades: So going back from the beta channel to the stable channel usually cannot be done immediately and means waiting for a stable version that is newer than the currently installed beta version."
+msgstr ""
+"更新頻道將決定會提供哪些更新給客戶端安裝。「穩定」頻道僅包含被認為足夠可靠的升級，而「測試」頻道可能會包含較新的功能與臭蟲修復，但尚未經過全面測試。\n"
+"\n"
+"請注意，這只是選取從哪個軟體庫中取得升級，無法降級，因此通常無法立刻從測試頻道回到穩定頻道，這代表了要等到比目前測試版本還新的穩定版本才會切換成功。"
+
+#: ../src/gui/generalsettings.cpp:364
+msgid "Change update channel"
+msgstr "變更更新頻道"
+
+#: ../src/gui/generalsettings.cpp:365
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/gui/generalsettings.cpp:469
+msgid "Zip Archives"
+msgstr "ZIP 壓縮檔"
+
+#: ../src/gui/generalsettings.cpp:475
+msgid "Debug Archive Created"
+msgstr "已建立除錯壓縮檔"
+
+#: ../src/gui/generalsettings.cpp:475
+msgid "Debug archive is created at %1"
+msgstr "除錯壓縮檔已在 %1 建立"
+
+#: ../src/gui/socketapi/socketapi.cpp:798
+msgid "Password for share required"
+msgstr "透過密碼保護分享連結"
+
+#: ../src/gui/socketapi/socketapi.cpp:799
+msgid "Please enter a password for your link share:"
+msgstr "請輸入分享連結密碼："
+
+#: ../src/gui/socketapi/socketapi.cpp:825
+msgid "Sharing error"
+msgstr "分享發生錯誤"
+
+#: ../src/gui/socketapi/socketapi.cpp:826
+msgid ""
+"Could not retrieve or create the public link share. Error:\n"
+"\n"
+"%1"
+msgstr ""
+"無法取回或生成公開分享連結。錯誤:\n"
+"\n"
+"%1"
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:97
+msgid "Please enter %1 password:<br><br>Username: %2<br>Account: %3<br>"
+msgstr "請輸入 %1 密碼：<br><br>使用者名稱：%2<br>帳號：%3<br>"
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:111
+msgid "Reading from keychain failed with error: \"%1\""
+msgstr "從鑰匙串讀取資料時失敗，錯誤：「%1」"
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:118
+msgid "Enter Password"
+msgstr "輸入密碼"
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:156
+msgid ""
+"<a href=\"%1\">Click here</a> to request an app password from the web "
+"interface."
+msgstr "<a href=\"%1\">點擊此處</a>，通過網頁介面索取應用程式密碼"
+
+#: ../src/gui/ignorelisteditor.ui:14
+msgid "Ignored Files Editor"
+msgstr "忽略的檔案編輯器"
+
+#: ../src/gui/ignorelisteditor.ui:20
+msgid "Global Ignore Settings"
+msgstr "一般忽略設定"
+
+#: ../src/gui/ignorelisteditor.ui:26
+msgid "Sync hidden files"
+msgstr "同步隱藏檔案"
+
+#: ../src/gui/ignorelisteditor.ui:36
+msgid "Files Ignored by Patterns"
+msgstr "根據模式套用什麼檔案要被忽略"
+
+#: ../src/gui/ignorelisteditor.cpp:40
+msgid ""
+"This entry is provided by the system at \"%1\" and cannot be modified in "
+"this view."
+msgstr "這個項目是由系統提供於「%1」且不能在這個頁面被修改。"
+
+#: ../src/gui/ignorelisttablewidget.ui:33
+msgid "Pattern"
+msgstr "模式"
+
+#: ../src/gui/ignorelisttablewidget.ui:38
+msgid "Allow Deletion"
+msgstr "允許刪除"
+
+#: ../src/gui/ignorelisttablewidget.ui:49
+msgid "Add"
+msgstr "新增"
+
+#: ../src/gui/ignorelisttablewidget.ui:59
+msgid "Remove"
+msgstr "移除"
+
+#: ../src/gui/ignorelisttablewidget.ui:66
+msgid "Remove all"
+msgstr "移除所有"
+
+#: ../src/gui/ignorelisttablewidget.cpp:24
+msgid ""
+"Files or folders matching a pattern will not be synchronized.\n"
+"\n"
+"Items where deletion is allowed will be deleted if they prevent a directory from being removed. This is useful for meta data."
+msgstr ""
+"與某個模式相符的檔案或資料夾將不會被同步。\n"
+"\n"
+"如果允許移除的項目使得某個資料夾無法被移除，這些項目將會被移除。此設定可用於詮釋資料。"
+
+#: ../src/gui/ignorelisttablewidget.cpp:93
+msgid "Could not open file"
+msgstr "無法開啟檔案"
+
+#: ../src/gui/ignorelisttablewidget.cpp:94
+msgid "Cannot write changes to \"%1\"."
+msgstr "無法將變動寫入到「%1」。"
+
+#: ../src/gui/ignorelisttablewidget.cpp:112
+msgid "Add Ignore Pattern"
+msgstr "新增要忽略的檔案模式"
+
+#: ../src/gui/ignorelisttablewidget.cpp:113
+msgid "Add a new ignore pattern:"
+msgstr "新增要忽略的檔案模式"
+
+#: ../src/gui/invalidfilenamedialog.ui:14
+msgid "Invalid filename"
+msgstr "無效的檔案名稱"
+
+#: ../src/gui/invalidfilenamedialog.ui:23
+msgid ""
+"The file could not be synced because it contains characters which are not "
+"allowed on this system."
+msgstr "無法同步檔案，因為其包含了此系統上不允許的字元。"
+
+#: ../src/gui/invalidfilenamedialog.ui:39
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/gui/invalidfilenamedialog.ui:55
+msgid "Please enter a new name for the file:"
+msgstr "請輸入新檔案名稱："
+
+#: ../src/gui/invalidfilenamedialog.ui:71
+msgid "New filename"
+msgstr "新檔案名稱"
+
+#: ../src/gui/invalidfilenamedialog.cpp:87
+msgid "Rename file"
+msgstr "重新命名檔案"
+
+#: ../src/gui/invalidfilenamedialog.cpp:92
+msgid ""
+"The file \"%1\" could not be synced because the name contains characters "
+"which are not allowed on this system."
+msgstr "無法同步檔案「%1」，因為名稱包含了此系統上不允許的字元。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:93
+msgid ""
+"The following characters are not allowed on the system: * \" | & ? , ; : \\ "
+"/ ~ < > leading/trailing spaces"
+msgstr "系統不允許以下字元：* \" | & ? , ; : \\ / ~ < > 以及前導或結尾空格"
+
+#: ../src/gui/invalidfilenamedialog.cpp:100
+msgid "Checking rename permissions …"
+msgstr "正在檢查重新命名權限……"
+
+#: ../src/gui/invalidfilenamedialog.cpp:135
+msgid ""
+"You don't have the permission to rename this file. Please ask the author of "
+"the file to rename it."
+msgstr "您無權重新命名此檔案。請要求檔案的作者重新命名它。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:140
+msgid "Failed to fetch permissions with error %1"
+msgstr "擷取權限失敗，錯誤 %1"
+
+#: ../src/gui/invalidfilenamedialog.cpp:157
+msgid "Filename contains leading and trailing spaces."
+msgstr "檔案名稱包含了前導與結尾空格。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:160
+msgid "Filename contains leading spaces."
+msgstr "檔案名稱包含了前導空格。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:162
+msgid "Filename contains trailing spaces."
+msgstr "檔案名稱包含了結尾空格。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:167
+msgid "Use invalid name"
+msgstr "使用無效的名稱"
+
+#: ../src/gui/invalidfilenamedialog.cpp:222
+msgid "Filename contains illegal characters: %1"
+msgstr "檔案名稱包含了非法字元：%1"
+
+#: ../src/gui/invalidfilenamedialog.cpp:235
+msgid ""
+"Could not rename file. Please make sure you are connected to the server."
+msgstr "無法重新命名檔案。請確保您已連線至伺服器。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:246
+msgid ""
+"Cannot rename file because a file with the same name does already exist on "
+"the server. Please pick another name."
+msgstr "無法重新命名檔案，因為伺服器上已有同名檔案。請換一個名字。"
+
+#: ../src/gui/invalidfilenamedialog.cpp:282
+msgid "Could not rename local file. %1"
+msgstr "無法重新命名本機檔案。%1"
+
+#: ../src/gui/legalnotice.ui:14
+msgid "Legal notice"
+msgstr "法律聲明"
+
+#: ../src/gui/legalnotice.ui:57
+msgid "Close"
+msgstr "關閉"
+
+#: ../src/gui/legalnotice.cpp:55
+msgid ""
+"<p>Copyright 2017-2023 Nextcloud GmbH<br />Copyright 2012-2023 ownCloud "
+"GmbH</p>"
+msgstr ""
+"<p>Copyright 2017-2023 Nextcloud GmbH<br />Copyright 2012-2023 ownCloud "
+"GmbH</p>"
+
+#: ../src/gui/legalnotice.cpp:58
+msgid ""
+"<p>Licensed under the GNU General Public License (GPL) Version 2.0 or any "
+"later version.</p>"
+msgstr "<p>以 GNU 通用公眾授權條款 (GPL) 2.0 版或更新版本授權。</p>"
+
+#: ../src/gui/logbrowser.cpp:44
+msgid "Log Output"
+msgstr "記錄輸出"
+
+#: ../src/gui/logbrowser.cpp:50
+msgid ""
+"The client can write debug logs to a temporary folder. These logs are very helpful for diagnosing problems.\n"
+"Since log files can get large, the client will start a new one for each sync run and compress older ones. It will also delete log files after a couple of hours to avoid consuming too much disk space.\n"
+"If enabled, logs will be written to %1"
+msgstr ""
+"客戶端可以將除錯日誌寫入臨時資料夾中。這些紀錄檔對診斷問題非常有用。\n"
+"因為紀錄檔會變大，所以客戶端將會在每次同步時開啟一個新檔案，並壓縮較舊的。它將會在數小時候刪除紀錄檔案，以避免消耗太多磁碟空間。\n"
+"若啟用，紀錄檔將會被寫入 %1"
+
+#: ../src/gui/logbrowser.cpp:64
+msgid "Enable logging to temporary folder"
+msgstr "啟用紀錄到暫存資料夾"
+
+#: ../src/gui/logbrowser.cpp:70
+msgid ""
+"This setting persists across client restarts.\n"
+"Note that using any logging command line options will override this setting."
+msgstr ""
+"此設定在客戶端重新啟動後仍然存在。\n"
+"請注意，使用任何紀錄命令列選項將會覆寫此設定。"
+
+#: ../src/gui/logbrowser.cpp:77
+msgid "Open folder"
+msgstr "開啟資料夾"
+
+#: ../src/libsync/logger.cpp:353
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/libsync/logger.cpp:354
+msgid ""
+"<nobr>File \"%1\"<br/>cannot be opened for writing.<br/><br/>The log output "
+"<b>cannot</b> be saved!</nobr>"
+msgstr "<nobr>檔案「%1」<br/>無法開啟供寫入。<br/><br/>記錄<b>無法</b>被儲存！</nobr>"
+
+#: ../src/gui/updater/ocupdater.cpp:408
+msgid "New Version Available"
+msgstr "有新版本"
+
+#: ../src/gui/updater/ocupdater.cpp:414
+msgid ""
+"<p>A new version of the %1 Client is available.</p><p><b>%2</b> is available"
+" for download. The installed version is %3.</p>"
+msgstr "<p>%1 客戶端有新版本了。</p><p><b>%2</b> 可供下載，目前安裝的版本是 %3。</p>"
+
+#: ../src/gui/updater/ocupdater.cpp:427
+msgid "Skip this time"
+msgstr "跳過這次更新"
+
+#: ../src/gui/updater/ocupdater.cpp:428
+msgid "Get update"
+msgstr "取得更新"
+
+#: ../src/gui/updater/ocupdater.cpp:455
+msgid "Update Failed"
+msgstr "更新失敗"
+
+#: ../src/gui/updater/ocupdater.cpp:461
+msgid ""
+"<p>A new version of the %1 Client is available but the updating process "
+"failed.</p><p><b>%2</b> has been downloaded. The installed version is %3. If"
+" you confirm restart and update, your computer may reboot to complete the "
+"installation.</p>"
+msgstr ""
+"<p>%1  客戶端有新版本可用，但更新過程失敗。</p><p><b>%2</b> 已下載。 目前安裝的版本是 "
+"%3。如果您確認重新啟動和更新，您的電腦可能會重新啟動以完成安裝。</p>"
+
+#: ../src/gui/updater/ocupdater.cpp:474
+msgid "Ask again later"
+msgstr "稍後再問"
+
+#: ../src/gui/updater/ocupdater.cpp:475
+msgid "Restart and update"
+msgstr "重新啟動並更新"
+
+#: ../src/gui/updater/ocupdater.cpp:476
+msgid "Update manually"
+msgstr "手動更新"
+
+#: ../src/gui/networksettings.ui:23
+msgid "Proxy Settings"
+msgstr "代理伺服器設定"
+
+#: ../src/gui/networksettings.ui:36
+msgid "No Proxy"
+msgstr "不使用代理伺服器"
+
+#: ../src/gui/networksettings.ui:48
+msgid "No proxy"
+msgstr "沒有代理伺服器"
+
+#: ../src/gui/networksettings.ui:49
+msgid "Use system proxy"
+msgstr "使用系統代理伺服器"
+
+#: ../src/gui/networksettings.ui:59
+msgid "Specify proxy manually as"
+msgstr "手動指定代理伺服器為"
+
+#: ../src/gui/networksettings.ui:84
+msgid "Manually specify proxy"
+msgstr "手動指定代理伺服器"
+
+#: ../src/gui/networksettings.ui:80
+msgid "Host"
+msgstr "主機"
+
+#: ../src/gui/networksettings.ui:131
+msgid "Proxy server requires authentication"
+msgstr "代理伺服器要求認證"
+
+#: ../src/gui/networksettings.ui:176
+msgid "Note: proxy settings have no effects for accounts on localhost"
+msgstr "注意：代理伺服器設定對於 localhost 上的帳號沒有效果"
+
+#: ../src/gui/networksettings.ui:197
+msgid "Download Bandwidth"
+msgstr "下載頻寬"
+
+#: ../src/gui/networksettings.ui:210
+msgid "No limit"
+msgstr "沒有限制"
+
+#: ../src/gui/networksettings.ui:257
+msgid "Limit to 3/4 of estimated bandwidth"
+msgstr "限制預估頻寬的 3/4"
+
+#: ../src/gui/networksettings.ui:260
+msgid "Limit automatically"
+msgstr "自動限制"
+
+#: ../src/gui/networksettings.ui:203
+msgid "Limit to"
+msgstr "限制到"
+
+#: ../src/gui/networksettings.ui:248
+msgid "KBytes/s"
+msgstr "KB／秒"
+
+#: ../src/gui/networksettings.ui:276
+msgid "Upload Bandwidth"
+msgstr "上傳頻寬"
+
+#: ../src/gui/networksettings.cpp:40
+msgid "Hostname of proxy server"
+msgstr "代理伺服器主機名稱"
+
+#: ../src/gui/networksettings.cpp:41
+msgid "Username for proxy server"
+msgstr "代理伺服器使用者名稱"
+
+#: ../src/gui/networksettings.cpp:42
+msgid "Password for proxy server"
+msgstr "代理伺服器密碼"
+
+#: ../src/gui/networksettings.cpp:44
+msgid "HTTP(S) proxy"
+msgstr "HTTP(S) 代理伺服器"
+
+#: ../src/gui/networksettings.cpp:45
+msgid "SOCKS5 proxy"
+msgstr "SOCKS5 代理伺服器"
+
+#: ../src/gui/updater/ocupdater.cpp:107
+msgid "New %1 update ready"
+msgstr "新的 %1 更新已就緒"
+
+#: ../src/gui/updater/ocupdater.cpp:108
+msgid ""
+"A new update for %1 is about to be installed. The updater may ask for "
+"additional privileges during the process. Your computer may reboot to "
+"complete the installation."
+msgstr "一個新的 %1 更新已經安裝完成。更新也許會詢問要求給予權限在安裝的過程中。您的電腦可能會重新啟動以完成安裝。"
+
+#: ../src/gui/updater/ocupdater.cpp:152
+msgid "Downloading %1. Please wait …"
+msgstr "正在下載 %1。請稍候……"
+
+#: ../src/gui/updater/ocupdater.cpp:154
+msgid "%1 available. Restart application to start the update."
+msgstr "%1 已經可以安裝。請重新啟動應用程式開始安裝更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:157
+msgid ""
+"Could not download update. Please open <a href='%1'>%1</a> to download the "
+"update manually."
+msgstr "無法下載更新。請開啟 <a href='%1'>%1</a> 手動下載更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:159
+msgid ""
+"Could not download update. Please open %1 to download the update manually."
+msgstr "無法下載更新。請開啟 %1 以手動下載更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:162
+msgid "Could not check for new updates."
+msgstr "無法檢查新更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:165
+msgid ""
+"New %1 is available. Please open <a href='%2'>%2</a> to download the update."
+msgstr "新版本 %1 可更新。請開啟 <a href='%2'>%2</a> 下載更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:167
+msgid "New %1 is available. Please open %2 to download the update."
+msgstr "新版本 %1 可更新，請開啟 %2 下載更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:170
+msgid "Checking update server …"
+msgstr "正在檢查更新伺服器……"
+
+#: ../src/gui/updater/ocupdater.cpp:172
+msgid "Update status is unknown: Did not check for new updates."
+msgstr "更新狀態未知：無法檢查是否有新更新。"
+
+#: ../src/gui/updater/ocupdater.cpp:176
+msgid "No updates available. Your installation is at the latest version."
+msgstr "目前沒有可用的更新。您安裝的版本是最新的了。"
+
+#: ../src/gui/updater/ocupdater.cpp:195
+msgid "Update Check"
+msgstr "更新檢查"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:70
+msgid "Connect"
+msgstr "連線"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:104
+msgid "Use &virtual files instead of downloading content immediately %1"
+msgstr "使用虛擬檔案取代立即下載內容 %1 (&V)"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:104
+msgid "(experimental)"
+msgstr "（實驗性）"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:258
+msgid ""
+"Virtual files are not supported for Windows partition roots as local folder."
+" Please choose a valid subfolder under drive letter."
+msgstr "Windows 分割區跟目錄不支援將虛擬檔案作為本機資料夾使用。請在磁碟區代號下選擇有效的子資料夾。"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:295
+msgid "%1 folder \"%2\" is synced to local folder \"%3\""
+msgstr "%1 資料夾「%2」與本機資料夾「%3」同步"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:298
+msgid "Sync the folder \"%1\""
+msgstr "同步資料夾「%1」"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:303
+msgid "Warning: The local folder is not empty. Pick a resolution!"
+msgstr "警告：本機的資料夾不是空的。請選擇解決方案！"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:313
+msgid "%1 free space"
+msgstr "%1 剩餘空間"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:398
+msgid "Virtual files are not available for the selected folder"
+msgstr "選取的資料夾無法使用虛擬檔案"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:458
+msgid "Local Sync Folder"
+msgstr "本機同步資料夾"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:501
+msgid "(%1)"
+msgstr "(%1)"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:559
+msgid "There isn't enough free space in the local folder!"
+msgstr "本機資料夾沒有足夠的剩餘空間！"
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:14
+msgid "Connection failed"
+msgstr "連線失敗"
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:43
+msgid ""
+"<html><head/><body><p>Failed to connect to the secure server address "
+"specified. How do you wish to proceed?</p></body></html>"
+msgstr "<html><head/><body><p>無法連線到指定的安全伺服器位置，您想要如何處理？</p></body></html>"
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:55
+msgid "Select a different URL"
+msgstr "選取不同的 URL"
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:62
+msgid "Retry unencrypted over HTTP (insecure)"
+msgstr "透過未加密的 HTTP 重試（不安全）"
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:69
+msgid "Configure client-side TLS certificate"
+msgstr "設定客戶端 TLS 憑證"
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.cpp:34
+msgid ""
+"<html><head/><body><p>Failed to connect to the secure server address "
+"<em>%1</em>. How do you wish to proceed?</p></body></html>"
+msgstr ""
+"<html><head/><body><p>無法連線到安全伺服器 <em>%1</em>，您想要如何處理？</p></body></html>"
+
+#: ../src/gui/wizard/owncloudhttpcredspage.cpp:48
+msgid "&Email"
+msgstr "電子郵件(&E)"
+
+#: ../src/gui/wizard/owncloudhttpcredspage.cpp:58
+msgid "Connect to %1"
+msgstr "連線到 %1"
+
+#: ../src/gui/wizard/owncloudhttpcredspage.cpp:59
+msgid "Enter user credentials"
+msgstr "請輸入使用者憑證"
+
+#: ../src/libsync/owncloudpropagator.cpp:663
+msgid "Error with the metadata. Getting unexpected metadata format."
+msgstr "詮釋資料錯誤。取得意料之外的詮釋資料格式。"
+
+#: ../src/libsync/owncloudpropagator.cpp:875
+msgid "Impossible to get modification time for file in conflict %1"
+msgstr "無法取得衝突 %1 檔案的修改時間"
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:86
+msgid "The link to your %1 web interface when you open it in the browser."
+msgstr "在瀏覽器中開啟您 %1 的網頁介面連結。"
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:201
+msgid "&Next >"
+msgstr "下一步 (&N) >"
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:239
+msgid "Server address does not seem to be valid"
+msgstr "似乎是無效的伺服器地址"
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:350
+msgid "Could not load certificate. Maybe wrong password?"
+msgstr "無法載入憑證。可能密碼錯誤？"
+
+#: ../src/gui/owncloudsetupwizard.cpp:278
+msgid ""
+"<font color=\"green\">Successfully connected to %1: %2 version %3 "
+"(%4)</font><br/><br/>"
+msgstr "<font color=\"green\">成功連線到 %1：%2 版本 %3 (%4)</font><br/><br/>"
+
+#: ../src/gui/owncloudsetupwizard.cpp:304
+msgid "Invalid URL"
+msgstr "連結無效"
+
+#: ../src/gui/owncloudsetupwizard.cpp:306
+msgid "Failed to connect to %1 at %2:<br/>%3"
+msgstr "從 %2 連線到 %1 失敗：<br/>%3"
+
+#: ../src/gui/owncloudsetupwizard.cpp:324
+msgid "Timeout while trying to connect to %1 at %2."
+msgstr "從 %2 嘗試連線到 %1 逾時。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:358
+msgid "Trying to connect to %1 at %2 …"
+msgstr "嘗試以 %1 身分連線到 %2……"
+
+#: ../src/gui/owncloudsetupwizard.cpp:411
+msgid ""
+"The authenticated request to the server was redirected to \"%1\". The URL is"
+" bad, the server is misconfigured."
+msgstr "伺服器要求的認證請求被導向「%1」。這個網址可能不安全，此伺服器可能設定有錯。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:424
+msgid ""
+"Access forbidden by server. To verify that you have proper access, <a "
+"href=\"%1\">click here</a> to access the service with your browser."
+msgstr "從伺服器存取被拒絕。為了正確驗證您的存取資訊，<a href=\"%1\">請點選這裡</a>透過瀏覽器來存取服務。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:433
+msgid "There was an invalid response to an authenticated WebDAV request"
+msgstr "伺服器回應 WebDAV 驗證請求無效"
+
+#: ../src/gui/owncloudsetupwizard.cpp:479
+msgid "Local sync folder %1 already exists, setting it up for sync.<br/><br/>"
+msgstr "本機同步資料夾 %1 已存在，將其設定為同步。<br/><br/>"
+
+#: ../src/gui/owncloudsetupwizard.cpp:482
+msgid "Creating local sync folder %1 …"
+msgstr "正在新增本機同步資料夾 %1……"
+
+#: ../src/gui/owncloudsetupwizard.cpp:486
+msgid "OK"
+msgstr "確定"
+
+#: ../src/gui/owncloudsetupwizard.cpp:488
+msgid "failed."
+msgstr "失敗。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:490
+msgid "Could not create local folder %1"
+msgstr "無法建立本機資料夾 %1"
+
+#: ../src/gui/owncloudsetupwizard.cpp:550
+msgid "No remote folder specified!"
+msgstr "未指定遠端資料夾！"
+
+#: ../src/gui/owncloudsetupwizard.cpp:556
+msgid "Error: %1"
+msgstr "錯誤：%1"
+
+#: ../src/gui/owncloudsetupwizard.cpp:569
+msgid "creating folder on Nextcloud: %1"
+msgstr "正在 Nextcloud 上建立資料夾：%1"
+
+#: ../src/gui/owncloudsetupwizard.cpp:574
+msgid "Remote folder %1 created successfully."
+msgstr "遠端資料夾 %1 成功建立。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:589
+msgid "The remote folder %1 already exists. Connecting it for syncing."
+msgstr "遠端資料夾 %1 已存在。正在連線同步。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:591
+msgid "The folder creation resulted in HTTP error code %1"
+msgstr "資料夾建立結果為 HTTP 錯誤碼 %1"
+
+#: ../src/gui/owncloudsetupwizard.cpp:595
+msgid ""
+"The remote folder creation failed because the provided credentials are "
+"wrong!<br/>Please go back and check your credentials.</p>"
+msgstr "由於帳號或密碼錯誤，遠端資料夾建立失敗！<br/>請檢查您的帳號密碼。</p>"
+
+#: ../src/gui/owncloudsetupwizard.cpp:599
+msgid ""
+"<p><font color=\"red\">Remote folder creation failed probably because the "
+"provided credentials are wrong.</font><br/>Please go back and check your "
+"credentials.</p>"
+msgstr ""
+"<p><font "
+"color=\"red\">遠端資料夾建立失敗，也許是因為所提供的帳號密碼錯誤。</font><br/>請重新檢查您的帳號密碼。</p>"
+
+#: ../src/gui/owncloudsetupwizard.cpp:604
+msgid "Remote folder %1 creation failed with error <tt>%2</tt>."
+msgstr "建立遠端資料夾 %1 時發生錯誤 <tt>%2</tt>。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:619
+msgid "A sync connection from %1 to remote directory %2 was set up."
+msgstr "從 %1 到遠端資料夾 %2 的連線已建立。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:624
+msgid "Successfully connected to %1!"
+msgstr "成功連線至 %1！"
+
+#: ../src/gui/owncloudsetupwizard.cpp:631
+msgid "Connection to %1 could not be established. Please check again."
+msgstr "無法建立到 %1 的連線。請再檢查一次。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:644
+msgid "Folder rename failed"
+msgstr "重新命名資料夾失敗"
+
+#: ../src/gui/owncloudsetupwizard.cpp:645
+msgid ""
+"Cannot remove and back up the folder because the folder or a file in it is "
+"open in another program. Please close the folder or file and hit retry or "
+"cancel the setup."
+msgstr "無法移除與備份此資料夾，因為有其他的程式正在使用其中的資料夾或者檔案。請關閉使用中的資料夾或檔案並重試或者取消設定。"
+
+#: ../src/gui/owncloudsetupwizard.cpp:698
+msgid ""
+"<font color=\"green\"><b>Local sync folder %1 successfully "
+"created!</b></font>"
+msgstr "<font color=\"green\"><b>本機同步資料夾 %1 建立成功！</b></font>"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:93
+msgid "Add %1 account"
+msgstr "新增 %1 帳號"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:97
+msgid "Skip folders configuration"
+msgstr "忽略資料夾設定資訊"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:98
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:430
+msgid "Enable experimental feature?"
+msgstr "啟用實驗性功能？"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:431
+msgid ""
+"When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n"
+"\n"
+"The virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n"
+"\n"
+"Switching to this mode will abort any currently running synchronization.\n"
+"\n"
+"This is a new, experimental mode. If you decide to use it, please report any issues that come up."
+msgstr ""
+"啟用「虛擬檔案」模式時，ㄧ開始不會下載任何檔案。但會為伺服器上存在的每個檔案建立一個小型的「%1」檔案。可以透過執行這些檔案或使用它們的右鍵選單來下載內容。\n"
+"\n"
+"虛擬檔案模式與選擇性同步是互斥的。目前未選取的資料夾將會被轉換為僅線上的資料夾，而您選擇性的同步設定將會被重設。\n"
+"\n"
+"切換到此模式將會中止目前執行中的任何同步。\n"
+"\n"
+"這是一種新的、實驗性的模式。如果您決定要使用它，請回報出現的任何問題。"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:445
+msgid "Enable experimental placeholder mode"
+msgstr "啟用實驗性的佔位模式"
+
+#: ../src/gui/wizard/owncloudwizard.cpp:446
+msgid "Stay safe"
+msgstr "注意安全"
+
+#: ../src/gui/passwordinputdialog.ui:23
+msgid "Password for share required"
+msgstr "透過密碼保護分享連結"
+
+#: ../src/gui/passwordinputdialog.ui:35
+msgid "Please enter a password for your share:"
+msgstr "請輸入您的分享密碼："
+
+#: ../src/libsync/propagateupload.cpp:137
+msgid "Invalid JSON reply from the poll URL"
+msgstr "來自輪詢 URL 的無效 JSON 回覆"
+
+#: ../src/libsync/discovery.cpp:329
+msgid "Symbolic links are not supported in syncing."
+msgstr "同步不支援符號連結。"
+
+#: ../src/libsync/discovery.cpp:337
+msgid "File is listed on the ignore list."
+msgstr "檔案被列在忽略清單。"
+
+#: ../src/libsync/discovery.cpp:341
+msgid "File names ending with a period are not supported on this file system."
+msgstr "此檔案系統不支援以「.」結尾的檔案名。"
+
+#: ../src/libsync/discovery.cpp:351
+msgid ""
+"File names containing the character \"%1\" are not supported on this file "
+"system."
+msgstr "此檔案系統不支援包含「%1」字元的檔案名稱。"
+
+#: ../src/libsync/discovery.cpp:353
+msgid "File name contains at least one invalid character"
+msgstr "檔案名稱包含至少一個無效的字元"
+
+#: ../src/libsync/discovery.cpp:355
+msgid "The file name is a reserved name on this file system."
+msgstr "此檔案名稱為檔案系統的保留名稱。"
+
+#: ../src/libsync/discovery.cpp:361
+msgid "Filename contains trailing spaces."
+msgstr "檔案名稱的結尾為空格。"
+
+#: ../src/libsync/discovery.cpp:365
+msgid "Filename contains leading spaces."
+msgstr "檔案名稱包含了前導空格。"
+
+#: ../src/libsync/discovery.cpp:369
+msgid "Filename contains leading and trailing spaces."
+msgstr "檔案名稱包含了前導及結尾空格。"
+
+#: ../src/libsync/discovery.cpp:373
+msgid "Filename is too long."
+msgstr "檔案名稱太長。"
+
+#: ../src/libsync/discovery.cpp:377
+msgid "File/Folder is ignored because it's hidden."
+msgstr "因為檔案或資料夾被隱藏，因此被忽略。"
+
+#: ../src/libsync/discovery.cpp:380
+msgid "Stat failed."
+msgstr "統計失敗。"
+
+#: ../src/libsync/discovery.cpp:383
+msgid ""
+"Conflict: Server version downloaded, local copy renamed and not uploaded."
+msgstr "衝突：已下載伺服器的版本，本機版本已更名但並未上傳。"
+
+#: ../src/libsync/discovery.cpp:387
+msgid ""
+"Case Clash Conflict: Server file downloaded and renamed to avoid clash."
+msgstr "大小寫衝突：伺服器檔案已下載並重新命名以避免衝突。"
+
+#: ../src/libsync/discovery.cpp:391
+msgid "The filename cannot be encoded on your file system."
+msgstr "您的檔案系統無法對此檔案名進行編碼。"
+
+#: ../src/libsync/discovery.cpp:394
+msgid "The filename is blacklisted on the server."
+msgstr "伺服器已將此檔名列為黑名單。"
+
+#: ../src/libsync/discovery.cpp:516
+msgid "File has extension reserved for virtual files."
+msgstr "檔案有為虛擬檔案保留的副檔名。"
+
+#: ../src/libsync/discovery.cpp:602
+msgid "size"
+msgstr "大小"
+
+#: ../src/libsync/discovery.cpp:604
+msgid "permission"
+msgstr "權限"
+
+#: ../src/libsync/discovery.cpp:608
+msgid "file id"
+msgstr "檔案 ID"
+
+#: ../src/libsync/discovery.cpp:612
+msgid "Server reported no %1"
+msgstr "伺服器回報沒有 %1"
+
+#: ../src/libsync/discovery.cpp:982
+msgid "Cannot sync due to invalid modification time"
+msgstr "由於修改時間無效，因此無法同步"
+
+#: ../src/libsync/discovery.cpp:1010
+msgid "Error while deleting file record %1 from the database"
+msgstr "從資料庫刪除紀錄 %1 時發生錯誤"
+
+#: ../src/libsync/discovery.cpp:1265
+msgid "Conflict when uploading a folder. It's going to get cleared!"
+msgstr "上傳資料夾時發生衝突。將會被清除！"
+
+#: ../src/libsync/discovery.cpp:1268
+msgid "Conflict when uploading a file. It's going to get removed!"
+msgstr "上傳檔案時發生衝突。其將會被移除！"
+
+#: ../src/libsync/discovery.cpp:1637
+msgid "Ignored because of the \"choose what to sync\" blacklist"
+msgstr "由於「選擇要同步的內容」黑名單而被忽略"
+
+#: ../src/libsync/discovery.cpp:1671
+msgid ""
+"Not allowed because you don't have permission to add subfolders to that "
+"folder"
+msgstr "不允許，因為您無權新增子資料夾到該資料夾"
+
+#: ../src/libsync/discovery.cpp:1676
+msgid ""
+"Not allowed because you don't have permission to add files in that folder"
+msgstr "不允許，因為您無權新增檔案到該資料夾"
+
+#: ../src/libsync/discovery.cpp:1689
+msgid ""
+"Not allowed to upload this file because it is read-only on the server, "
+"restoring"
+msgstr "不允許上傳此檔案，因為這在伺服器上是唯讀，正在復原"
+
+#: ../src/libsync/discovery.cpp:1711
+msgid "Moved to invalid target, restoring"
+msgstr "移動至無效目標，正在復原"
+
+#: ../src/libsync/discovery.cpp:1725
+msgid "Not allowed to remove, restoring"
+msgstr "不允許刪除，正在復原"
+
+#: ../src/libsync/discovery.cpp:1864
+msgid "Error while reading the database"
+msgstr "讀取資料庫時發生錯誤"
+
+#: ../src/libsync/discovery.cpp:1930
+msgid "Server replied with an error while reading directory \"%1\" : %2"
+msgstr "伺服器在讀取目錄「%1」回覆錯誤：%2"
+
+#: ../src/libsync/owncloudpropagator.cpp:1357
+msgid "could not delete file %1 from local DB"
+msgstr "無法從本機資料庫中刪除檔案 %1"
+
+#: ../src/libsync/owncloudpropagator.cpp:1371
+msgid "Error updating metadata due to invalid modification time"
+msgstr "因為修改時間無效，所以更新詮釋資料時發生錯誤"
+
+#: ../src/libsync/owncloudpropagator.cpp:1387
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/owncloudpropagator.cpp:1391
+msgid "File is currently in use"
+msgstr "檔案目前正在使用中"
+
+#: ../src/libsync/propagatedownload.cpp:464
+msgid "could not get file %1 from local DB"
+msgstr "無法從本機資料庫取得檔案 %1"
+
+#: ../src/libsync/propagatedownload.cpp:481
+msgid ""
+"File %1 cannot be downloaded because encryption information is missing."
+msgstr "%1 檔案因為缺少加密資訊而無法下載。"
+
+#: ../src/libsync/propagatedownload.cpp:499
+msgid "File has changed since discovery"
+msgstr "尋找的過程中檔案已經被更改"
+
+#: ../src/libsync/propagatedownload.cpp:512
+msgid "Could not delete file record %1 from local DB"
+msgstr "無法從本機資料庫刪除檔案紀錄 %1"
+
+#: ../src/libsync/propagatedownload.cpp:533
+msgid "File %1 can not be downloaded because of a local file name clash!"
+msgstr "檔案 %1 無法被下載，因為本機檔案名稱有衝突！"
+
+#: ../src/libsync/propagatedownload.cpp:692
+msgid "The download would reduce free local disk space below the limit"
+msgstr "下載將會減少剩餘的本機磁碟空間，使其低於限制"
+
+#: ../src/libsync/propagatedownload.cpp:696
+msgid "Free space on disk is less than %1"
+msgstr "可用的磁碟空間已經少於 %1"
+
+#: ../src/libsync/propagatedownload.cpp:817
+msgid "File was deleted from server"
+msgstr "檔案已從伺服器刪除"
+
+#: ../src/libsync/propagatedownload.cpp:890
+msgid "The file could not be downloaded completely."
+msgstr "檔案下載無法完成。"
+
+#: ../src/libsync/propagatedownload.cpp:897
+msgid ""
+"The downloaded file is empty, but the server said it should have been %1."
+msgstr "已下載的檔案為空，但伺服器表示其應為 %1。"
+
+#: ../src/libsync/propagatedownload.cpp:1158
+msgid "File %1 has invalid modified time reported by server. Do not save it."
+msgstr "伺服器回報檔案 %1 的修改時間無效。不要儲存。"
+
+#: ../src/libsync/propagatedownload.cpp:1222
+msgid "File %1 downloaded but it resulted in a local file name clash!"
+msgstr "已下載檔案 %1，但其導致了本機檔案名稱衝突！"
+
+#: ../src/libsync/propagatedownload.cpp:1327
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/propagatedownload.cpp:1330
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前正在使用中"
+
+#: ../src/libsync/owncloudpropagator.cpp:237
+msgid "; Restoration Failed: %1"
+msgstr "；復原失敗：%1"
+
+#: ../src/libsync/owncloudpropagator.cpp:308
+msgid ""
+"A file or folder was removed from a read only share, but restoring failed: "
+"%1"
+msgstr "檔案或資料夾已被從唯讀分享移除，但復原失敗：%1"
+
+#: ../src/libsync/propagatorjobs.cpp:166
+msgid "could not delete file %1, error: %2"
+msgstr "無法刪除檔案 %1，錯誤：%2"
+
+#: ../src/libsync/propagatorjobs.cpp:181
+msgid ""
+"Folder %1 cannot be created because of a local file or folder name clash!"
+msgstr "無法建立資料夾 %1，因為本機檔案或資料夾名稱有衝突！"
+
+#: ../src/libsync/propagatorjobs.cpp:187
+msgid "Could not create folder %1"
+msgstr "無法建立資料夾 %1"
+
+#: ../src/libsync/propagatorjobs.cpp:200
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/propagatorjobs.cpp:203
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前正在使用中"
+
+#: ../src/libsync/propagatorjobs.cpp:105
+msgid "Could not remove %1 because of a local file name clash"
+msgstr "無法移除檔案 %1，因為本機檔案名稱有衝突"
+
+#: ../src/libsync/propagatorjobs.cpp:133
+msgid "Could not delete file record %1 from local DB"
+msgstr "無法從本機資料庫刪除檔案紀錄 %1"
+
+#: ../src/libsync/propagatorjobs.cpp:254
+msgid "File %1 downloaded but it resulted in a local file name clash!"
+msgstr "已下載檔案 %1，但其導致了本機檔案名稱衝突！"
+
+#: ../src/libsync/propagatorjobs.cpp:270
+msgid "could not get file %1 from local DB"
+msgstr "無法從本機資料庫取得檔案 %1"
+
+#: ../src/libsync/propagatorjobs.cpp:283
+msgid "Error setting pin state"
+msgstr "設定釘選狀態時發生錯誤"
+
+#: ../src/libsync/propagatorjobs.cpp:296
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/propagatorjobs.cpp:299
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前正在使用中"
+
+#: ../src/libsync/propagatorjobs.cpp:321
+msgid "Could not delete file record %1 from local DB"
+msgstr "無法從本機資料庫刪除檔案紀錄 %1"
+
+#: ../src/libsync/propagatorjobs.cpp:334
+msgid "Failed to propagate directory rename in hierarchy"
+msgstr "無法在層次結構中傳播目錄重新命名"
+
+#: ../src/libsync/propagatorjobs.cpp:339
+msgid "Failed to rename file"
+msgstr "重新命名檔案失敗"
+
+#: ../src/libsync/propagateremotedelete.cpp:111
+msgid "Wrong HTTP code returned by server. Expected 204, but received \"%1 %2\"."
+msgstr "伺服器回傳錯誤的 HTTP 代碼。預期為 204，但收到的是「%1 %2」。"
+
+#: ../src/libsync/propagateremotedelete.cpp:119
+msgid "Could not delete file record %1 from local DB"
+msgstr "無法從本機資料庫刪除檔案紀錄 %1"
+
+#: ../src/libsync/propagateremotedeleteencryptedrootfolder.cpp:152
+msgid "Wrong HTTP code returned by server. Expected 204, but received \"%1 %2\"."
+msgstr "伺服器回傳錯誤的 HTTP 代碼。預期為 204，但收到的是「%1 %2」。"
+
+#: ../src/libsync/propagateremotemkdir.cpp:133
+msgid "Wrong HTTP code returned by server. Expected 201, but received \"%1 %2\"."
+msgstr "伺服器回傳錯誤的 HTTP 代碼。預期為 201，但收到的是「%1 %2」。"
+
+#: ../src/libsync/propagateremotemkdir.cpp:260
+msgid "Error writing metadata to the database: %1"
+msgstr "將詮釋資料寫入到資料庫時發生錯誤：%1"
+
+#: ../src/libsync/propagateremotemkdir.cpp:263
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前正在使用中"
+
+#: ../src/libsync/propagateremotemove.cpp:169
+msgid "Could not rename %1 to %2, error: %3"
+msgstr "無法將 %1 重新命名為 %2，錯誤：%3"
+
+#: ../src/libsync/propagateremotemove.cpp:229
+msgid "Wrong HTTP code returned by server. Expected 201, but received \"%1 %2\"."
+msgstr "伺服器回傳錯誤的 HTTP 代碼。預期為 201，但收到的是「%1 %2」。"
+
+#: ../src/libsync/propagateremotemove.cpp:248
+msgid "could not get file %1 from local DB"
+msgstr "無法從本機資料庫取得檔案 %1"
+
+#: ../src/libsync/propagateremotemove.cpp:260
+msgid "Could not delete file record %1 from local DB"
+msgstr "無法從本機資料庫刪除檔案紀錄 %1"
+
+#: ../src/libsync/propagateremotemove.cpp:288
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/propagateremotemove.cpp:291
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前正在使用中"
+
+#: ../src/libsync/propagateremotemove.cpp:296
+msgid "Error setting pin state"
+msgstr "設定釘選狀態時發生錯誤"
+
+#: ../src/libsync/propagateremotemove.cpp:303
+msgid "Error writing metadata to the database"
+msgstr "將詮釋資料寫入到資料庫時發生錯誤"
+
+#: ../src/libsync/propagateupload.cpp:233
+msgid "Failed to upload encrypted file."
+msgstr "上傳已加密的檔案失敗。"
+
+#: ../src/libsync/propagateupload.cpp:266
+msgid ""
+"File %1 cannot be uploaded because another file with the same name, "
+"differing only in case, exists"
+msgstr "無法上傳 %1 檔案，因為另一個僅有大小寫不同的相同名稱檔案已存在"
+
+#: ../src/libsync/propagateupload.cpp:277
+msgid "Upload of %1 exceeds the quota for the folder"
+msgstr "上傳 %1 將會超過資料夾的大小限制"
+
+#: ../src/libsync/propagateupload.cpp:314
+msgid "File %1 has invalid modification time. Do not upload to the server."
+msgstr "檔案 %1 的修改時間無效。不要上傳到伺服器。"
+
+#: ../src/libsync/propagateupload.cpp:386
+msgid "File Removed (start upload) %1"
+msgstr "檔案已移除（開始上傳）%1"
+
+#: ../src/libsync/propagateupload.cpp:412
+msgid "Local file changed during syncing. It will be resumed."
+msgstr "本機檔案在同步的過程中被修改。其將會被復原。"
+
+#: ../src/libsync/propagateupload.cpp:423
+msgid "Local file changed during sync."
+msgstr "本機檔案在同步的過程中被修改。"
+
+#: ../src/libsync/propagateupload.cpp:433
+msgid "Failed to unlock encrypted folder."
+msgstr "解鎖已加密的資料夾失敗。"
+
+#: ../src/libsync/propagateupload.cpp:701
+msgid "Unable to upload an item with invalid characters"
+msgstr "無法上傳包含無效字元的項目"
+
+#: ../src/libsync/propagateupload.cpp:798
+msgid "Error updating metadata: %1"
+msgstr "更新詮釋資料時發生錯誤：%1"
+
+#: ../src/libsync/propagateupload.cpp:801
+msgid "The file %1 is currently in use"
+msgstr "檔案 %1 目前正在使用中"
+
+#: ../src/libsync/propagateuploadng.cpp:430
+msgid "The local file was removed during sync."
+msgstr "本機檔案在同步的過程中被移除。"
+
+#: ../src/libsync/propagateuploadng.cpp:445
+msgid "Local file changed during sync."
+msgstr "本機檔案在同步的過程中被修改。"
+
+#: ../src/libsync/propagateuploadng.cpp:484
+msgid "Poll URL missing"
+msgstr "缺少輪詢的超連結"
+
+#: ../src/libsync/propagateuploadng.cpp:493
+msgid "Unexpected return code from server (%1)"
+msgstr "伺服器回傳未知的錯誤碼 (%1)"
+
+#: ../src/libsync/propagateuploadng.cpp:500
+msgid "Missing File ID from server"
+msgstr "伺服器遺失檔案 ID"
+
+#: ../src/libsync/propagateuploadng.cpp:514
+msgid "Missing ETag from server"
+msgstr "伺服器遺失 ETag"
+
+#: ../src/libsync/propagateuploadv1.cpp:228
+msgid "Poll URL missing"
+msgstr "缺少輪詢的超連結"
+
+#: ../src/libsync/propagateuploadv1.cpp:252
+msgid "The local file was removed during sync."
+msgstr "本機檔案在同步的過程中被移除。"
+
+#: ../src/libsync/propagateuploadv1.cpp:267
+msgid "Local file changed during sync."
+msgstr "本機檔案在同步的過程中被修改。"
+
+#: ../src/libsync/propagateuploadv1.cpp:281
+msgid "The server did not acknowledge the last chunk. (No e-tag was present)"
+msgstr "伺服器不承認檔案的最後一個分割檔。（e-tag不存在）"
+
+#: ../src/gui/proxyauthdialog.ui:20
+msgid "Proxy authentication required"
+msgstr "代理伺服器要求驗證"
+
+#: ../src/gui/proxyauthdialog.ui:26
+msgid "Username:"
+msgstr "使用者名稱："
+
+#: ../src/gui/proxyauthdialog.ui:36
+msgid "Proxy:"
+msgstr "代理伺服器："
+
+#: ../src/gui/proxyauthdialog.ui:43
+msgid "The proxy server needs a username and password."
+msgstr "代理伺服器需要使用者名稱以及密碼。"
+
+#: ../src/gui/proxyauthdialog.ui:50
+msgid "Password:"
+msgstr "密碼："
+
+#: ../src/gui/selectivesyncdialog.cpp:507
+msgid "Choose What to Sync"
+msgstr "選擇要同步的項目"
+
+#: ../src/gui/selectivesyncdialog.cpp:72
+msgid "Loading …"
+msgstr "正在載入……"
+
+#: ../src/gui/selectivesyncdialog.cpp:78
+msgid "Deselect remote folders you do not wish to synchronize."
+msgstr "取消選擇您不想要同步的遠端資料夾。"
+
+#: ../src/gui/selectivesyncdialog.cpp:94
+msgid "Name"
+msgstr "名稱"
+
+#: ../src/gui/selectivesyncdialog.cpp:95
+msgid "Size"
+msgstr "大小"
+
+#: ../src/gui/selectivesyncdialog.cpp:236
+msgid "No subfolders currently on the server."
+msgstr "目前沒有子資料夾在伺服器上。"
+
+#: ../src/gui/selectivesyncdialog.cpp:315
+msgid "An error occurred while loading the list of sub folders."
+msgstr "列出子資料夾時出錯。"
+
+#: ../src/gui/tray/notificationhandler.cpp:122
+msgid "Reply"
+msgstr "回覆"
+
+#: ../src/gui/tray/notificationhandler.cpp:154
+msgid "Dismiss"
+msgstr "我已了解"
+
+#: ../src/gui/settingsdialog.ui:14
+msgid "Settings"
+msgstr "設定"
+
+#: ../src/gui/settingsdialog.cpp:102
+msgid "%1 Settings"
+msgstr "%1 設定"
+
+#: ../src/gui/settingsdialog.cpp:120
+msgid "General"
+msgstr "一般"
+
+#: ../src/gui/settingsdialog.cpp:129
+msgid "Network"
+msgstr "網路"
+
+#: ../src/gui/settingsdialog.cpp:237
+msgid "Account"
+msgstr "帳號"
+
+#: ../src/gui/filedetails/sharemodel.cpp:692
+msgid "Secure file drop link"
+msgstr "安全檔案投放連結"
+
+#: ../src/gui/filedetails/sharemodel.cpp:692
+msgid "Share link"
+msgstr "分享連結"
+
+#: ../src/gui/filedetails/sharemodel.cpp:700
+msgid "Link share"
+msgstr "連結分享"
+
+#: ../src/gui/filedetails/sharemodel.cpp:702
+msgid "Internal link"
+msgstr "內部連結"
+
+#: ../src/gui/filedetails/sharemodel.cpp:704
+msgid "Secure file drop"
+msgstr "安全檔案投放"
+
+#: ../src/gui/filedetails/sharemodel.cpp:993
+msgid "Enter a note for the recipient"
+msgstr "輸入給收件者的訊息"
+
+#: ../src/gui/filedetails/shareemodel.cpp:33
+msgid "Search globally"
+msgstr "全域搜尋"
+
+#: ../src/gui/filedetails/shareemodel.cpp:286
+msgid "No results found"
+msgstr "找不到結果"
+
+#: ../src/gui/filedetails/shareemodel.cpp:286
+msgid "Global search results"
+msgstr "全域搜尋結果"
+
+#: ../src/gui/filedetails/shareemodel.cpp:302
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: ../src/gui/socketapi/socketapi.cpp:527
+msgid "Failed to encrypt folder at \"%1\""
+msgstr "加密位於「%1」的資料夾失敗"
+
+#: ../src/gui/socketapi/socketapi.cpp:528
+msgid ""
+"The account %1 does not have end-to-end encryption configured. Please "
+"configure this in your account settings to enable folder encryption."
+msgstr "帳號 %1 沒有設定端到端加密。請在您的帳號設定中設定這個以啟用資料夾加密。"
+
+#: ../src/gui/socketapi/socketapi.cpp:549
+msgid "Failed to encrypt folder"
+msgstr "加密資料夾失敗"
+
+#: ../src/gui/socketapi/socketapi.cpp:550
+msgid ""
+"Could not encrypt the following folder: \"%1\".\n"
+"\n"
+"Server replied with error: %2"
+msgstr ""
+"無法加密以下資料夾：「%1」。\n"
+"\n"
+"伺服器回覆錯誤：%2"
+
+#: ../src/gui/socketapi/socketapi.cpp:555
+msgid "Folder encrypted successfully"
+msgstr "資料夾加密成功"
+
+#: ../src/gui/socketapi/socketapi.cpp:556
+msgid "The following folder was encrypted successfully: \"%1\""
+msgstr "以下資料夾加密成功：「%1」"
+
+#: ../src/gui/socketapi/socketapi.cpp:766
+msgid "Context menu share"
+msgstr "分享內容選單"
+
+#: ../src/gui/socketapi/socketapi.cpp:1060
+msgid "Select new location …"
+msgstr "選取新位置……"
+
+#: ../src/gui/socketapi/socketapi.cpp:1120
+msgid "I shared something with you"
+msgstr "我與您分享了一些東西"
+
+#: ../src/gui/socketapi/socketapi.cpp:1133
+msgid "Share options"
+msgstr "分享選項"
+
+#: ../src/gui/socketapi/socketapi.cpp:1134
+msgid "Activity"
+msgstr "事件"
+
+#: ../src/gui/socketapi/socketapi.cpp:1136
+msgid "Copy private link to clipboard"
+msgstr "將私人連結複製到剪貼簿"
+
+#: ../src/gui/socketapi/socketapi.cpp:1137
+msgid "Send private link by email …"
+msgstr "用電子郵件發送私人連結……"
+
+#: ../src/gui/socketapi/socketapi.cpp:1162
+msgid "Leave this share"
+msgstr "離開此分享"
+
+#: ../src/gui/socketapi/socketapi.cpp:1168
+msgid "Resharing this file is not allowed"
+msgstr "此檔案不允許二次分享"
+
+#: ../src/gui/socketapi/socketapi.cpp:1168
+msgid "Resharing this folder is not allowed"
+msgstr "此資料夾不允許二次分享"
+
+#: ../src/gui/socketapi/socketapi.cpp:1183
+msgid "Copy secure file drop link"
+msgstr "複製安全檔案投放連結"
+
+#: ../src/gui/socketapi/socketapi.cpp:1185
+msgid "Copy public link"
+msgstr "複製公開連結"
+
+#: ../src/gui/socketapi/socketapi.cpp:1189
+msgid "Copy secure filedrop link"
+msgstr "複製安全檔案投放連結"
+
+#: ../src/gui/socketapi/socketapi.cpp:1197
+msgid "Copy internal link"
+msgstr "複製內部連結"
+
+#: ../src/gui/socketapi/socketapi.cpp:1234
+msgid "Encrypt"
+msgstr "加密"
+
+#: ../src/gui/socketapi/socketapi.cpp:1245
+msgid "Lock file"
+msgstr "鎖定檔案"
+
+#: ../src/gui/socketapi/socketapi.cpp:1248
+msgid "Unlock file"
+msgstr "解鎖檔案"
+
+#: ../src/gui/socketapi/socketapi.cpp:1263
+msgid "Locked by %1"
+msgstr "被 %1 鎖定"
+
+#: ../src/gui/socketapi/socketapi.cpp:1267
+msgid "Expires in %1 minutes"
+msgstr ""
+
+#: ../src/gui/socketapi/socketapi.cpp:1369
+msgid "Edit"
+msgstr "編輯"
+
+#: ../src/gui/socketapi/socketapi.cpp:1371
+msgid "Open in browser"
+msgstr "用瀏覽器打開"
+
+#: ../src/gui/socketapi/socketapi.cpp:1398
+msgid "Resolve conflict …"
+msgstr "解決衝突……"
+
+#: ../src/gui/socketapi/socketapi.cpp:1402
+msgid "Move and rename …"
+msgstr "移動並重新命名……"
+
+#: ../src/gui/socketapi/socketapi.cpp:1405
+msgid "Move, rename and upload …"
+msgstr "移動、重新命名並上傳……"
+
+#: ../src/gui/socketapi/socketapi.cpp:1407
+msgid "Delete local changes"
+msgstr "刪除本機變更"
+
+#: ../src/gui/socketapi/socketapi.cpp:1413
+msgid "Move and upload …"
+msgstr "移動並上傳……"
+
+#: ../src/gui/socketapi/socketapi.cpp:1414
+msgid "Delete"
+msgstr "刪除"
+
+#: ../src/gui/sslbutton.cpp:88
+msgid "<h3>Certificate Details</h3>"
+msgstr "<h3>證書詳細資訊</h3>"
+
+#: ../src/gui/sslbutton.cpp:91
+msgid "Common Name (CN):"
+msgstr "一般名稱 (CN)："
+
+#: ../src/gui/sslbutton.cpp:92
+msgid "Subject Alternative Names:"
+msgstr "主題備用名稱："
+
+#: ../src/gui/sslbutton.cpp:93
+msgid "Organization (O):"
+msgstr "組織 (O)："
+
+#: ../src/gui/sslbutton.cpp:94
+msgid "Organizational Unit (OU):"
+msgstr "組織部門 (OU)："
+
+#: ../src/gui/sslbutton.cpp:95
+msgid "State/Province:"
+msgstr "州／省："
+
+#: ../src/gui/sslbutton.cpp:96
+msgid "Country:"
+msgstr "國家："
+
+#: ../src/gui/sslbutton.cpp:97
+msgid "Serial:"
+msgstr "序號："
+
+#: ../src/gui/sslbutton.cpp:100
+msgid "<h3>Issuer</h3>"
+msgstr "<h3>簽發者</h3>"
+
+#: ../src/gui/sslbutton.cpp:103
+msgid "Issuer:"
+msgstr "簽發者："
+
+#: ../src/gui/sslbutton.cpp:104
+msgid "Issued on:"
+msgstr "簽發於："
+
+#: ../src/gui/sslbutton.cpp:105
+msgid "Expires on:"
+msgstr "過期於："
+
+#: ../src/gui/sslbutton.cpp:108
+msgid "<h3>Fingerprints</h3>"
+msgstr "<h3>指紋</h3>"
+
+#: ../src/gui/sslbutton.cpp:112
+msgid "SHA-256:"
+msgstr "SHA-256："
+
+#: ../src/gui/sslbutton.cpp:113
+msgid "SHA-1:"
+msgstr "SHA-1："
+
+#: ../src/gui/sslbutton.cpp:117
+msgid "<p><b>Note:</b> This certificate was manually approved</p>"
+msgstr "<p><b>注意：</b> 此憑證為手動核准</p>"
+
+#: ../src/gui/sslbutton.cpp:137
+msgid "%1 (self-signed)"
+msgstr "%1（自我簽章）"
+
+#: ../src/gui/sslbutton.cpp:139
+msgid "%1"
+msgstr "%1"
+
+#: ../src/gui/sslbutton.cpp:174
+msgid "This connection is encrypted using %1 bit %2.\n"
+msgstr "此連線已經使用 %1 位元 %2 加密。\n"
+
+#: ../src/gui/sslbutton.cpp:177
+msgid "This connection is NOT secure as it is not encrypted.\n"
+msgstr "這個連線沒有經過加密，是不安全的。\n"
+
+#: ../src/gui/sslbutton.cpp:191
+msgid "Server version: %1"
+msgstr "伺服器版本：%1"
+
+#: ../src/gui/sslbutton.cpp:205
+msgid "No support for SSL session tickets/identifiers"
+msgstr "不支援 SSL 工作階段證書／標識符"
+
+#: ../src/gui/sslbutton.cpp:215
+msgid "Certificate information:"
+msgstr "憑證資訊："
+
+#: ../src/gui/sslbutton.cpp:244
+msgid "The connection is not secure"
+msgstr "不安全的連線"
+
+#: ../src/gui/sslerrordialog.ui:25
+msgid "Trust this certificate anyway"
+msgstr "信任此憑證"
+
+#: ../src/gui/sslerrordialog.cpp:65
+msgid "Untrusted Certificate"
+msgstr "不信任的憑證"
+
+#: ../src/gui/sslerrordialog.cpp:138
+msgid "Cannot connect securely to <i>%1</i>:"
+msgstr "無法安全地連線到 <i>%1</i>："
+
+#: ../src/gui/sslerrordialog.cpp:157
+msgid "Additional errors:"
+msgstr "其他錯誤："
+
+#: ../src/gui/sslerrordialog.cpp:183
+msgid "with Certificate %1"
+msgstr "與憑證 %1"
+
+#: ../src/gui/sslerrordialog.cpp:192
+msgid "&lt;not specified&gt;"
+msgstr "&lt;未指定&gt;"
+
+#: ../src/gui/sslerrordialog.cpp:197
+msgid "Organization: %1"
+msgstr "組織：%1"
+
+#: ../src/gui/sslerrordialog.cpp:198
+msgid "Unit: %1"
+msgstr "單位：%1"
+
+#: ../src/gui/sslerrordialog.cpp:199
+msgid "Country: %1"
+msgstr "國家：%1"
+
+#: ../src/gui/sslerrordialog.cpp:206
+msgid "Fingerprint (SHA1): <tt>%1</tt>"
+msgstr "指紋 (SHA1)：<tt>%1</tt>"
+
+#: ../src/gui/sslerrordialog.cpp:211
+msgid "Fingerprint (SHA-256): <tt>%1</tt>"
+msgstr "指紋 (SHA-256)：<tt>%1</tt>"
+
+#: ../src/gui/sslerrordialog.cpp:212
+msgid "Fingerprint (SHA-512): <tt>%1</tt>"
+msgstr "指紋 (SHA-512)：<tt>%1</tt>"
+
+#: ../src/gui/sslerrordialog.cpp:214
+msgid "Effective Date: %1"
+msgstr "有效日期：%1"
+
+#: ../src/gui/sslerrordialog.cpp:215
+msgid "Expiration Date: %1"
+msgstr "到期日：%1"
+
+#: ../src/gui/sslerrordialog.cpp:219
+msgid "Issuer: %1"
+msgstr "簽發者：%1"
+
+#: ../src/libsync/syncengine.cpp:197
+msgid "%1 (skipped due to earlier error, trying again in %2)"
+msgstr "%1（因先前錯誤而跳過，%2 後重試）"
+
+#: ../src/libsync/syncengine.cpp:385
+msgid "Could not update file: %1"
+msgstr "無法更新檔案：%1"
+
+#: ../src/libsync/syncengine.cpp:410
+msgid "Could not update virtual file metadata: %1"
+msgstr "無法更新虛擬檔案詮釋資料：%1"
+
+#: ../src/libsync/syncengine.cpp:417
+msgid "Could not update file metadata: %1"
+msgstr "無法更新檔案詮釋資料：%1"
+
+#: ../src/libsync/syncengine.cpp:427
+msgid "Could not set file record to local DB: %1"
+msgstr "無法將檔案紀錄設定至本機資料庫：%1"
+
+#: ../src/libsync/syncengine.cpp:457
+msgid "Unresolved conflict."
+msgstr "未解決的衝突。"
+
+#: ../src/libsync/syncengine.cpp:549
+msgid "Only %1 are available, need at least %2 to start"
+msgstr "目前僅有 %1 可以使用，至少需要 %2 才能開始"
+
+#: ../src/libsync/syncengine.cpp:582
+msgid ""
+"Unable to open or create the local sync database. Make sure you have write "
+"access in the sync folder."
+msgstr "無法開啟或建立本機同步資料庫。請確保您有寫入同步資料夾的權限。"
+
+#: ../src/libsync/syncengine.cpp:598
+msgid "Using virtual files with suffix, but suffix is not set"
+msgstr "正在使用有後綴的虛擬檔案，但未設定後綴"
+
+#: ../src/libsync/syncengine.cpp:610
+msgid "Unable to read the blacklist from the local database"
+msgstr "無法從本機資料庫讀取黑名單"
+
+#: ../src/libsync/syncengine.cpp:653
+msgid "Unable to read from the sync journal."
+msgstr "無法讀取同步日誌。"
+
+#: ../src/libsync/syncengine.cpp:782
+msgid "Cannot open the sync journal"
+msgstr "無法開啟同步日誌"
+
+#: ../src/libsync/syncengine.cpp:1256
+msgid ""
+"Disk space is low: Downloads that would reduce free space below %1 were "
+"skipped."
+msgstr "剩餘空間不足：下載後將使剩餘空間降至低於 %1 的檔案一律跳過。"
+
+#: ../src/libsync/syncengine.cpp:1263
+msgid "There is insufficient space available on the server for some uploads."
+msgstr "伺服器上的剩餘空間不足以容納某些要上傳的檔案。"
+
+#: ../src/gui/tray/syncstatussummary.cpp:124
+msgid "Offline"
+msgstr "離線"
+
+#: ../src/gui/tray/syncstatussummary.cpp:138
+msgid "All synced!"
+msgstr "全部都已同步！"
+
+#: ../src/gui/tray/syncstatussummary.cpp:147
+msgid "Some files couldn't be synced!"
+msgstr "部份檔案無法同步！"
+
+#: ../src/gui/tray/syncstatussummary.cpp:148
+msgid "See below for errors"
+msgstr "請參閱以下錯誤"
+
+#: ../src/gui/tray/syncstatussummary.cpp:159
+msgid "Preparing sync"
+msgstr "正在準備同步"
+
+#: ../src/gui/tray/syncstatussummary.cpp:155
+msgid "Syncing"
+msgstr "正在同步"
+
+#: ../src/gui/tray/syncstatussummary.cpp:162
+msgid "Sync paused"
+msgstr "同步已暫停"
+
+#: ../src/gui/tray/syncstatussummary.cpp:169
+msgid "Some files could not be synced!"
+msgstr "部份檔案無法同步！"
+
+#: ../src/gui/tray/syncstatussummary.cpp:170
+msgid "See below for warnings"
+msgstr "請參閱以下的警告"
+
+#: ../src/gui/tray/syncstatussummary.cpp:218
+msgid "%1 of %2 · %3 left"
+msgstr "%2 中的 %1 · 還剩 %3"
+
+#: ../src/gui/tray/syncstatussummary.cpp:222
+msgid "%1 of %2"
+msgstr "%2 中的 %1"
+
+#: ../src/gui/tray/syncstatussummary.cpp:227
+msgid "Syncing file %1 of %2"
+msgstr "正在同步檔案 %2 中的 %1"
+
+#: ../src/gui/systray.cpp:80
+msgid "Download"
+msgstr "下載"
+
+#: ../src/gui/systray.cpp:180
+msgid "Add account"
+msgstr "新增帳號"
+
+#: ../src/gui/systray.cpp:182
+msgid "Open main dialog"
+msgstr "開啟主對話框"
+
+#: ../src/gui/systray.cpp:185
+msgid "Pause sync"
+msgstr "暫停同步"
+
+#: ../src/gui/systray.cpp:186
+msgid "Resume sync"
+msgstr "繼續同步"
+
+#: ../src/gui/systray.cpp:187
+msgid "Settings"
+msgstr "設定"
+
+#: ../src/gui/systray.cpp:188
+msgid "Help"
+msgstr "說明"
+
+#: ../src/gui/systray.cpp:189
+msgid "Exit %1"
+msgstr "離開 %1"
+
+#: ../src/gui/systray.cpp:195
+msgid "Pause sync for all"
+msgstr "暫停所有同步"
+
+#: ../src/gui/systray.cpp:201
+msgid "Resume sync for all"
+msgstr "恢復所有同步"
+
+#: ../src/gui/systray.cpp:554
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: ../src/libsync/theme.cpp:553
+msgid ""
+"<p>%1 Desktop Client</p><p>Version %1. For more information please click <a "
+"href='%2'>here</a>.</p>"
+msgstr "<p>%1 桌面用戶端</p><p>版本 %1。要取得更多資訊，請點擊<a href='%2'>此處</a>。</p>"
+
+#: ../src/libsync/theme.cpp:554
+msgid "<p>%1 Desktop Client</p>"
+msgstr "<p>%1 桌面版客戶端</p>"
+
+#: ../src/libsync/theme.cpp:561
+msgid "<p><small>Using virtual files plugin: %1</small></p>"
+msgstr "<p><small>正在使用虛擬檔案外掛程式：%1</small></p>"
+
+#: ../src/libsync/theme.cpp:570
+msgid "<p>%1 desktop client %2</p>"
+msgstr "<p>%1 桌面用戶端 %2</p>"
+
+#: ../src/libsync/theme.cpp:557
+msgid ""
+"<p>Version %1. For more information please click <a href='%2'>here</a>.</p>"
+msgstr "<p>版本為 %1。詳細資訊請點擊<a href='%2'>此處</a>。</p>"
+
+#: ../src/libsync/theme.cpp:576
+msgid "<p>This release was supplied by %1.</p>"
+msgstr "<p>此版本由 %1 提供。</p>"
+
+#: ../src/gui/tray/unifiedsearchresultslistmodel.cpp:405
+msgid "Failed to fetch providers."
+msgstr "擷取提供者失敗。"
+
+#: ../src/gui/tray/unifiedsearchresultslistmodel.cpp:416
+msgid "Failed to fetch search providers for '%1'. Error: %2"
+msgstr "擷取「%1」的搜尋提供者失敗。錯誤：%2"
+
+#: ../src/gui/tray/unifiedsearchresultslistmodel.cpp:450
+msgid "Search has failed for '%2'."
+msgstr "搜尋「%2」失敗。"
+
+#: ../src/gui/tray/unifiedsearchresultslistmodel.cpp:479
+msgid "Search has failed for '%1'. Error: %2"
+msgstr "搜尋「%1」失敗。錯誤：%2"
+
+#: ../src/gui/tray/usermodel.cpp:646
+msgid "Retry all uploads"
+msgstr "重試所有上傳"
+
+#: ../src/gui/tray/usermodel.cpp:697
+msgid "Resolve conflict"
+msgstr "解決衝突"
+
+#: ../src/gui/tray/usermodel.cpp:1403
+msgid "Confirm Account Removal"
+msgstr "請確認移除帳號"
+
+#: ../src/gui/tray/usermodel.cpp:1404
+msgid ""
+"<p>Do you really want to remove the connection to the account "
+"<i>%1</i>?</p><p><b>Note:</b> This will <b>not</b> delete any files.</p>"
+msgstr "<p>您真的想要移除帳號 <i>%1</i> 的連線嗎？</p><p><b>請注意：</b>這將<b>不會</b>刪除任何檔案。</p>"
+
+#: ../src/gui/tray/usermodel.cpp:1408
+msgid "Remove connection"
+msgstr "移除連線"
+
+#: ../src/gui/tray/usermodel.cpp:1409
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/gui/userstatusselectormodel.cpp:155
+msgid ""
+"Could not fetch predefined statuses. Make sure you are connected to the "
+"server."
+msgstr "無法擷取預定義的狀態。請確定您已連線至伺服器。"
+
+#: ../src/gui/userstatusselectormodel.cpp:159
+msgid "Could not fetch status. Make sure you are connected to the server."
+msgstr "無法擷取狀態。請確定您已連線至伺服器。"
+
+#: ../src/gui/userstatusselectormodel.cpp:163
+msgid ""
+"Status feature is not supported. You will not be able to set your status."
+msgstr "不支援狀態功能。您將無法設定您的狀態。"
+
+#: ../src/gui/userstatusselectormodel.cpp:167
+msgid "Emojis are not supported. Some status functionality may not work."
+msgstr "不支援表情符號。某些狀態功能可能無法正常運作。"
+
+#: ../src/gui/userstatusselectormodel.cpp:171
+msgid "Could not set status. Make sure you are connected to the server."
+msgstr "無法設定狀態。請確定您已連線至伺服器。"
+
+#: ../src/gui/userstatusselectormodel.cpp:175
+msgid ""
+"Could not clear status message. Make sure you are connected to the server."
+msgstr "無法清除狀態訊息。請確定您已連線至伺服器。"
+
+#: ../src/gui/userstatusselectormodel.cpp:360
+msgid "Don't clear"
+msgstr "不要清除"
+
+#: ../src/gui/userstatusselectormodel.cpp:363
+msgid "30 minutes"
+msgstr "30分鐘"
+
+#: ../src/gui/userstatusselectormodel.cpp:366
+msgid "1 hour"
+msgstr "1小時"
+
+#: ../src/gui/userstatusselectormodel.cpp:369
+msgid "4 hours"
+msgstr "4小時"
+
+#: ../src/gui/userstatusselectormodel.cpp:372
+msgid "Today"
+msgstr "今天"
+
+#: ../src/gui/userstatusselectormodel.cpp:375
+msgid "This week"
+msgstr "本週"
+
+#: ../src/gui/userstatusselectormodel.cpp:410
+msgid "Less than a minute"
+msgstr "不到一分鐘"
+
+#: ../src/gui/userstatusselectormodel.cpp:414
+msgid "1 minute"
+msgstr "1分鐘"
+
+#: ../src/gui/userstatusselectormodel.cpp:416
+msgid "%1 minutes"
+msgstr "%1分鐘"
+
+#: ../src/gui/userstatusselectormodel.cpp:423
+msgid "%1 hours"
+msgstr "%1小時"
+
+#: ../src/gui/userstatusselectormodel.cpp:428
+msgid "1 day"
+msgstr "1天"
+
+#: ../src/gui/userstatusselectormodel.cpp:430
+msgid "%1 days"
+msgstr "%1天"
+
+#: ../src/common/vfs.cpp:75
+msgid ""
+"The Virtual filesystem feature requires a NTFS file system, %1 is using %2"
+msgstr "虛擬檔案系統功能需要 NTFS 檔案系統，%1 正在使用 %2"
+
+#: ../src/gui/vfsdownloaderrordialog.ui:14
+msgid "Download error"
+msgstr "下載錯誤"
+
+#: ../src/gui/vfsdownloaderrordialog.ui:23
+msgid "Error downloading"
+msgstr "下載時發生錯誤"
+
+#: ../src/gui/vfsdownloaderrordialog.ui:39
+msgid "could not be downloaded"
+msgstr "無法下載"
+
+#: ../src/gui/vfsdownloaderrordialog.ui:61
+msgid "> More details"
+msgstr "> 更多詳細資訊"
+
+#: ../src/gui/vfsdownloaderrordialog.ui:68
+msgid "More details"
+msgstr "更多詳細資訊"
+
+#: ../src/gui/vfsdownloaderrordialog.cpp:26
+msgid "Error downloading %1"
+msgstr "下載 %1 時發生錯誤"
+
+#: ../src/gui/vfsdownloaderrordialog.cpp:27
+msgid "%1 could not be downloaded."
+msgstr "無法下載 %1。"
+
+#: ../src/libsync/vfs/suffix/vfs_suffix.cpp:80
+msgid "Error updating metadata due to invalid modification time"
+msgstr "因為修改時間無效，所以更新詮釋資料時發生錯誤"
+
+#: ../src/libsync/vfs/xattr/vfs_xattr.cpp:75
+msgid "Error updating metadata due to invalid modification time"
+msgstr "因為修改時間無效，所以更新詮釋資料時發生錯誤"
+
+#: ../src/gui/wizard/webview.cpp:231
+msgid "Invalid certificate detected"
+msgstr "檢測到無效憑證"
+
+#: ../src/gui/wizard/webview.cpp:232
+msgid "The host \"%1\" provided an invalid certificate. Continue?"
+msgstr "主機「%1」所提供的憑證無效。確定繼續？"
+
+#: ../src/gui/creds/webflowcredentials.cpp:166
+msgid "You have been logged out of your account %1 at %2. Please login again."
+msgstr "您已在 ％2 登出您的帳號 %1。請再次登入。"
+
+#: ../src/gui/creds/webflowcredentials.cpp:190
+msgid "Please login with the account: %1"
+msgstr "請使用帳號 ％1 登入"
+
+#: ../src/gui/wizard/welcomepage.ui:20
+msgid "Form"
+msgstr "表單"
+
+#: ../src/gui/wizard/welcomepage.ui:143
+msgid "Log in"
+msgstr "登入"
+
+#: ../src/gui/wizard/welcomepage.ui:156
+msgid "Sign up with provider"
+msgstr "使用第三方登入"
+
+#: ../src/gui/wizard/welcomepage.cpp:68
+msgid "Keep your data secure and under your control"
+msgstr "保障您的資料安全，且由您掌控"
+
+#: ../src/gui/wizard/welcomepage.cpp:69
+msgid "Secure collaboration & file exchange"
+msgstr "安全地協作與傳輸檔案"
+
+#: ../src/gui/wizard/welcomepage.cpp:70
+msgid "Easy-to-use web mail, calendaring & contacts"
+msgstr "易於使用的網路郵件、日曆與聯絡人"
+
+#: ../src/gui/wizard/welcomepage.cpp:71
+msgid "Screensharing, online meetings & web conferences"
+msgstr "螢幕分享、線上對話與網路會議"
+
+#: ../src/gui/wizard/welcomepage.cpp:111
+msgid "Host your own server"
+msgstr "架設您自己的伺服器"
+
+#: ../src/gui/owncloudgui.cpp:266
+msgid "Unsupported Server Version"
+msgstr "不支援的伺服器版本"
+
+#: ../src/gui/owncloudgui.cpp:267
+msgid ""
+"The server on account %1 runs an unsupported version %2. Using this client "
+"with unsupported server versions is untested and potentially dangerous. "
+"Proceed at your own risk."
+msgstr "%1 帳號所在的伺服器執行了不支援的版本 %2。將此客戶端與不支援的伺服器版本一同使用是未經測試且有潛在的危險性。若要繼續，請自負風險。"
+
+#: ../src/gui/owncloudgui.cpp:308
+msgid "Disconnected"
+msgstr "已斷線"
+
+#: ../src/gui/owncloudgui.cpp:310
+msgid "Disconnected from some accounts"
+msgstr "與某些帳號斷線"
+
+#: ../src/gui/owncloudgui.cpp:318
+msgid "Disconnected from %1"
+msgstr "從 %1 斷線"
+
+#: ../src/gui/owncloudgui.cpp:321
+msgid "Disconnected from accounts:"
+msgstr "與帳號斷線："
+
+#: ../src/gui/owncloudgui.cpp:323
+msgid "Account %1: %2"
+msgstr "帳號 %1：%2"
+
+#: ../src/gui/owncloudgui.cpp:337
+msgid "Please sign in"
+msgstr "請登入"
+
+#: ../src/gui/owncloudgui.cpp:338
+msgid "Signed out"
+msgstr "已登出"
+
+#: ../src/gui/owncloudgui.cpp:342
+msgid "Account synchronization is disabled"
+msgstr "已停用帳號同步"
+
+#: ../src/gui/owncloudgui.cpp:343
+msgid "Synchronization is paused"
+msgstr "已暫停同步"
+
+#: ../src/gui/owncloudgui.cpp:383
+msgid "Folder %1: %2"
+msgstr "資料夾 %1：%2"
+
+#: ../src/gui/owncloudgui.cpp:391
+msgid "Unresolved conflicts"
+msgstr "未解決的衝突"
+
+#: ../src/gui/owncloudgui.cpp:393
+msgid "Up to date"
+msgstr "最新的"
+
+#: ../src/gui/owncloudgui.cpp:398
+msgid "Error during synchronization"
+msgstr "同步時發生錯誤"
+
+#: ../src/gui/owncloudgui.cpp:401
+msgid "There are no sync folders configured."
+msgstr "沒有設定同步資料夾。"
+
+#: ../src/gui/owncloudgui.cpp:402
+msgid "No sync folders configured"
+msgstr "未設定同步資料夾"
+
+#: ../src/gui/owncloudgui.cpp:467
+msgid "Checking for changes in remote \"%1\""
+msgstr "正在檢查遠端「%1」中的變更"
+
+#: ../src/gui/owncloudgui.cpp:470
+msgid "Checking for changes in local \"%1\""
+msgstr "正在檢查本機「%1」中的變更"
+
+#: ../src/gui/owncloudgui.cpp:486
+msgid "Syncing %1 of %2 (%3 left)"
+msgstr "正在同步 %1，共 %2（剩餘 %3）"
+
+#: ../src/gui/owncloudgui.cpp:491
+msgid "Syncing %1 of %2"
+msgstr "正在同步第 %1 項，共 %2 項"
+
+#: ../src/gui/owncloudgui.cpp:500
+msgid "Syncing %1 (%2 left)"
+msgstr "正在同步第 %1 項（剩餘 %2 項）"
+
+#: ../src/gui/owncloudgui.cpp:503
+msgid "Syncing %1"
+msgstr "正在同步 %1"
+
+#: ../src/gui/owncloudgui.cpp:513
+msgid "%1 (%2, %3)"
+msgstr "%1 (%2, %3)"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:77
+msgid "&Local Folder"
+msgstr "本機資料夾 (&L)"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:98
+msgid "Username"
+msgstr "使用者名稱"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:116
+msgid "Local Folder"
+msgstr "本機資料夾"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:135
+msgid "Choose different folder"
+msgstr "選擇其他資料夾"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:228
+msgid "Server address"
+msgstr "伺服器地址"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:244
+msgid "Sync Logo"
+msgstr "同步圖示"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:304
+msgid "Synchronize everything from server"
+msgstr "同步伺服器中的所有內容"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:360
+msgid "Ask before syncing folders larger than"
+msgstr "在同步大於多少的資料夾前詢問"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:386
+msgid "MB"
+msgstr "MB"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:432
+msgid "Ask before syncing external storages"
+msgstr "同步外部儲存空間前詢問"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:475
+msgid "Choose what to sync"
+msgstr "選擇要同步的項目"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:612
+msgid "Keep local data"
+msgstr "保留本機資料"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:628
+msgid ""
+"<html><head/><body><p>If this box is checked, existing content in the local "
+"folder will be erased to start a clean sync from the server.</p><p>Do not "
+"check this if the local content should be uploaded to the servers "
+"folder.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>若勾選了此勾選框，則本機資料夾中的既有內容將會被抹除以從伺服器處乾淨同步。</p><p>如果本機的內容應該要被上傳到伺服器資料夾，則請不要勾選此選項。</p></body></html>"
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:631
+msgid "Erase local folder and start a clean sync"
+msgstr "抹除本機資料夾並開始乾淨的同步"
+
+#: ../src/gui/wizard/owncloudhttpcredspage.ui:73
+msgid "&Username"
+msgstr "使用者名稱(&U)"
+
+#: ../src/gui/wizard/owncloudhttpcredspage.ui:83
+msgid "&Password"
+msgstr "密碼(&P)"
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:32
+msgid "TextLabel"
+msgstr "文字標籤"
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:73
+msgid "Logo"
+msgstr "圖示"
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:183
+msgid "Server address"
+msgstr "伺服器位置"
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:259
+msgid ""
+"This is the link to your %1 web interface when you open it in the browser."
+msgstr "這是您在瀏覽器中開啟時的 %1 網頁介面連結。"
+
+#: ../src/gui/foldercreationdialog.cpp:41
+msgid "New folder"
+msgstr "新資料夾"
+
+#: ../src/gui/tray/usermodel.cpp:763
+msgid "You renamed %1"
+msgstr "您已重新命名 %1"
+
+#: ../src/gui/tray/usermodel.cpp:765
+msgid "You deleted %1"
+msgstr "您已刪除 %1"
+
+#: ../src/gui/tray/usermodel.cpp:767
+msgid "You created %1"
+msgstr "您已建立 %1"
+
+#: ../src/gui/tray/usermodel.cpp:769
+msgid "You changed %1"
+msgstr "您已變更 %1"
+
+#: ../src/gui/tray/usermodel.cpp:793
+msgid "Synced %1"
+msgstr "已同步 %1"
+
+#: ../src/common/utility.cpp:482
+msgid "%nd"
+msgstr ""
+
+#: ../src/common/utility.cpp:486
+msgid "in the future"
+msgstr "未來"
+
+#: ../src/common/utility.cpp:491
+msgid "%nh"
+msgstr ""
+
+#: ../src/common/utility.cpp:497
+msgid "now"
+msgstr "現在"
+
+#: ../src/common/utility.cpp:499
+msgid "1m"
+msgstr "1分鐘"
+
+#: ../src/common/utility.cpp:502
+msgid "%nm"
+msgstr ""
+
+#: ../src/common/utility.cpp:506
+msgid "Some time ago"
+msgstr "前一段時間"
+
+#: ../src/libsync/syncresult.cpp:139
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: ../src/gui/ResolveConflictsDialog.qml:37
+msgid "Solve sync conflicts"
+msgstr "解決同步衝突"
+
+#: ../src/gui/ResolveConflictsDialog.qml:74
+msgid "%1 files in conflict"
+msgstr ""
+
+#: ../src/gui/ResolveConflictsDialog.qml:81
+msgid ""
+"Choose if you want to keep the local version, server version, or both. If "
+"you choose both, the local file will have a number added to its name."
+msgstr "選擇是否要保留本機版本、伺服器版本或兩者。如果您選擇兩者，本機檔案將在其名稱中新增一個數字。"
+
+#: ../src/gui/ResolveConflictsDialog.qml:97
+msgid "All local versions"
+msgstr "所有本機版本"
+
+#: ../src/gui/ResolveConflictsDialog.qml:115
+msgid "All server versions"
+msgstr "所有伺服器版本"
+
+#: ../src/gui/ResolveConflictsDialog.qml:170
+msgid "Resolve conflicts"
+msgstr "解決衝突"
+
+#: ../src/gui/ResolveConflictsDialog.qml:174
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/gui/filedetails/ShareDelegate.qml:161
+msgid "Create a new share link"
+msgstr "建立新分享連結"
+
+#: ../src/gui/filedetails/ShareDelegate.qml:195
+msgid "Copy share link location"
+msgstr "複製分享連結位置"
+
+#: ../src/gui/filedetails/ShareDelegate.qml:197
+msgid "Copied!"
+msgstr "已複製！"
+
+#: ../src/gui/filedetails/ShareDelegate.qml:244
+msgid "Share options"
+msgstr "分享選項"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:97
+msgid "An error occurred setting the share password."
+msgstr "設定分享密碼時發生錯誤"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:216
+msgid "Edit share"
+msgstr "編輯分享"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:232
+msgid "Dismiss"
+msgstr "忽略"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:291
+msgid "Share label"
+msgstr "分享標籤"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:346
+msgid "Allow upload and editing"
+msgstr "允許上傳與編輯"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:379
+msgid "View only"
+msgstr "僅檢視"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:414
+msgid "File drop (upload only)"
+msgstr "檔案投放（僅上傳）"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:453
+msgid "Allow resharing"
+msgstr "允許轉分享"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:466
+msgid "Hide download"
+msgstr "隱藏下載"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:516
+msgid "Password protect"
+msgstr "密碼保護"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:649
+msgid "Set expiration date"
+msgstr "設定到期日"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:757
+msgid "Note to recipient"
+msgstr "給收件人的備註"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:825
+msgid "Unshare"
+msgstr "取消分享"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:842
+msgid "Add another link"
+msgstr "新增其他連結"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:886
+msgid "Share link copied!"
+msgstr "分享連結已複製！"
+
+#: ../src/gui/filedetails/ShareDetailsPage.qml:886
+msgid "Copy share link"
+msgstr "複製分享連結"
+
+#: ../src/gui/filedetails/ShareView.qml:91
+msgid "Password required for new share"
+msgstr "新分享需要密碼"
+
+#: ../src/gui/filedetails/ShareView.qml:118
+msgid "Share password"
+msgstr "分享密碼"
+
+#: ../src/gui/filedetails/ShareView.qml:279
+msgid "Sharing is disabled"
+msgstr "分享功能已停用"
+
+#: ../src/gui/filedetails/ShareView.qml:287
+msgid "This item cannot be shared."
+msgstr "無法分享此項目。"
+
+#: ../src/gui/filedetails/ShareView.qml:296
+msgid "Sharing is disabled."
+msgstr "已停用分享功能。"
+
+#: ../src/gui/filedetails/ShareeSearchField.qml:47
+msgid "Search for users or groups…"
+msgstr "搜尋使用者或群組……"
+
+#: ../src/common/syncjournaldb.cpp:931
+msgid "Failed to connect database."
+msgstr "連結資料庫失敗。"
+
+#: ../src/gui/tray/SyncStatus.qml:101
+msgid "Sync now"
+msgstr "立即同步"
+
+#: ../src/gui/tray/SyncStatus.qml:128
+msgid "Resolve conflicts"
+msgstr "解決衝突"
+
+#: ../src/gui/tray/TalkReplyTextField.qml:16
+msgid "Reply to …"
+msgstr "回覆至……"
+
+#: ../src/gui/tray/TalkReplyTextField.qml:52
+msgid "Send reply to chat message"
+msgstr "傳送回覆至聊天訊息"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:55
+msgid "Open local or group folders"
+msgstr "開啟本機或群組資料夾"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:55
+msgid "Open local folder"
+msgstr "開啟本機資料夾"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:70
+msgid "Connected"
+msgstr "已連線"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:70
+msgid "Disconnected"
+msgstr "已解除連線"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:109
+msgid "Group folder button"
+msgstr "群組資料夾按鈕"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:184
+msgid "Open local folder \"%1\""
+msgstr "開啟本機資料夾「%1」"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:184
+msgid "Open group folder \"%1\""
+msgstr "開啟群組資料夾「%1」"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:198
+msgid "Open %1 in file explorer"
+msgstr "在檔案管理程式中開啟 %1"
+
+#: ../src/gui/tray/TrayFoldersMenuButton.qml:203
+msgid "User group and local folders menu"
+msgstr "使用者群組與本機資料夾選單"
+
+#: ../src/gui/tray/UnifiedSearchInputContainer.qml:43
+msgid "Search files, messages, events …"
+msgstr "搜尋檔案、訊息、事件……"
+
+#: ../src/gui/tray/UnifiedSearchResultFetchMoreTrigger.qml:45
+msgid "Load more results"
+msgstr "載入更多結果"
+
+#: ../src/gui/tray/UnifiedSearchResultItemSkeleton.qml:29
+msgid "Search result skeleton."
+msgstr "搜尋結果骨架。"
+
+#: ../src/gui/tray/UnifiedSearchResultListItem.qml:43
+msgid "Load more results"
+msgstr "載入更多結果"
+
+#: ../src/gui/tray/UnifiedSearchResultNothingFound.qml:40
+msgid "No results for"
+msgstr "沒有結果"
+
+#: ../src/gui/tray/UnifiedSearchResultSectionItem.qml:34
+msgid "Search results section %1"
+msgstr "搜尋結果部份 %1"
+
+#: ../src/gui/tray/UserLine.qml:33
+msgid "Switch to account"
+msgstr "切換到帳號"
+
+#: ../src/gui/tray/UserLine.qml:80
+msgid "Current account status is online"
+msgstr "目前帳號狀態為在線上"
+
+#: ../src/gui/tray/UserLine.qml:80
+msgid "Current account status is do not disturb"
+msgstr "目前帳號狀態為請勿打擾"
+
+#: ../src/gui/tray/UserLine.qml:148
+msgid "Account actions"
+msgstr "帳號動作"
+
+#: ../src/gui/tray/UserLine.qml:165
+msgid "Set status"
+msgstr "設定狀態"
+
+#: ../src/gui/tray/UserLine.qml:173
+msgid "Log out"
+msgstr "登出"
+
+#: ../src/gui/tray/UserLine.qml:173
+msgid "Log in"
+msgstr "登入"
+
+#: ../src/gui/tray/UserLine.qml:207
+msgid "Remove account"
+msgstr "移除帳號"
+
+#: ../src/gui/UserStatusSelector.qml:40
+msgid "Online status"
+msgstr "線上狀態"
+
+#: ../src/gui/UserStatusSelector.qml:60
+msgid "Online"
+msgstr "線上"
+
+#: ../src/gui/UserStatusSelector.qml:71
+msgid "Away"
+msgstr "離開"
+
+#: ../src/gui/UserStatusSelector.qml:83
+msgid "Do not disturb"
+msgstr "請勿打擾"
+
+#: ../src/gui/UserStatusSelector.qml:84
+msgid "Mute all notifications"
+msgstr "靜音所有通知"
+
+#: ../src/gui/UserStatusSelector.qml:99
+msgid "Invisible"
+msgstr "隱藏"
+
+#: ../src/gui/UserStatusSelector.qml:100
+msgid "Appear offline"
+msgstr "顯示為離線"
+
+#: ../src/gui/UserStatusSelector.qml:124
+msgid "Status message"
+msgstr "狀態訊息"
+
+#: ../src/gui/UserStatusSelector.qml:212
+msgid "What is your status?"
+msgstr "您目前的狀態是什麼呢？"
+
+#: ../src/gui/UserStatusSelector.qml:284
+msgid "Clear status message after"
+msgstr "在這個時間後清除狀態訊息"
+
+#: ../src/gui/UserStatusSelector.qml:321
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/gui/UserStatusSelector.qml:328
+msgid "Clear status message"
+msgstr "清除狀態訊息"
+
+#: ../src/gui/UserStatusSelector.qml:336
+msgid "Set status message"
+msgstr "設定狀態訊息"
+
+#: ../src/common/utility.cpp:136
+msgid "%L1 GB"
+msgstr "%L1 GB"
+
+#: ../src/common/utility.cpp:140
+msgid "%L1 MB"
+msgstr "%L1 MB"
+
+#: ../src/common/utility.cpp:144
+msgid "%L1 KB"
+msgstr "%L1 KB"
+
+#: ../src/common/utility.cpp:147
+msgid "%L1 B"
+msgstr "%L1 B"
+
+#: ../src/common/utility.cpp:335
+msgid "%n year(s)"
+msgstr ""
+
+#: ../src/common/utility.cpp:336
+msgid "%n month(s)"
+msgstr ""
+
+#: ../src/common/utility.cpp:337
+msgid "%n day(s)"
+msgstr ""
+
+#: ../src/common/utility.cpp:338
+msgid "%n hour(s)"
+msgstr ""
+
+#: ../src/common/utility.cpp:339
+msgid "%n minute(s)"
+msgstr ""
+
+#: ../src/common/utility.cpp:340
+msgid "%n second(s)"
+msgstr ""
+
+#: ../src/common/utility.cpp:364
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: ../src/common/checksums.cpp:256
+msgid "The checksum header is malformed."
+msgstr "檢查碼標頭異常。"
+
+#: ../src/common/checksums.cpp:297
+msgid "The checksum header contained an unknown checksum type \"%1\""
+msgstr "檢查碼標頭包含了未知的檢查碼類型「%1」"
+
+#: ../src/common/checksums.cpp:302
+msgid ""
+"The downloaded file does not match the checksum, it will be resumed. \"%1\" "
+"!= \"%2\""
+msgstr "已下載的檔案與檢查碼不相符，其將會被還原。「%1」!=「%2」"
+
+#: ../src/gui/tray/Window.qml:256
+msgid "Nextcloud desktop main dialog"
+msgstr "Nextcloud 桌面版主要對話框"
+
+#: ../src/gui/tray/Window.qml:282
+msgid "Current account"
+msgstr "目前帳號"
+
+#: ../src/gui/tray/Window.qml:288
+msgid "Resume sync for all"
+msgstr "恢復所有同步"
+
+#: ../src/gui/tray/Window.qml:288
+msgid "Pause sync for all"
+msgstr "暫停所有同步"
+
+#: ../src/gui/tray/Window.qml:380
+msgid "Add account"
+msgstr "新增帳號"
+
+#: ../src/gui/tray/Window.qml:392
+msgid "Add new account"
+msgstr "新增帳號"
+
+#: ../src/gui/tray/Window.qml:426
+msgid "Settings"
+msgstr "設定"
+
+#: ../src/gui/tray/Window.qml:448
+msgid "Exit"
+msgstr "離開"
+
+#: ../src/gui/tray/Window.qml:492
+msgid "Current account avatar"
+msgstr "目前的帳號大頭照"
+
+#: ../src/gui/tray/Window.qml:531
+msgid "Current account status is online"
+msgstr "目前的帳號狀態為在線上"
+
+#: ../src/gui/tray/Window.qml:531
+msgid "Current account status is do not disturb"
+msgstr "目前的帳號狀態為請勿打擾"
+
+#: ../src/gui/tray/Window.qml:607
+msgid "Account switcher and settings menu"
+msgstr "帳號切換器與設定選單"
+
+#: ../src/gui/tray/Window.qml:641
+msgid "Open Nextcloud Talk in browser"
+msgstr "在瀏覽器中開啟 Nextcloud Talk"
+
+#: ../src/gui/tray/Window.qml:661
+msgid "More apps"
+msgstr "更多應用程式"
+
+#: ../src/gui/tray/Window.qml:715
+msgid "Open %1 in browser"
+msgstr "在瀏覽器中開啟 %1"
+
+#: ../src/gui/tray/Window.qml:821
+msgid "Unified search results list"
+msgstr "統一搜尋結果清單"
+
+#: ../src/gui/tray/Window.qml:883
+msgid "New activities"
+msgstr "新活動"
+
+#: ../src/gui/main.cpp:45
+msgid "System Tray not available"
+msgstr "系統匣不可用"
+
+#: ../src/gui/main.cpp:46
+msgid ""
+"%1 requires on a working system tray. If you are running XFCE, please follow"
+" <a href=\"http://docs.xfce.org/xfce/xfce4-panel/systray\">these "
+"instructions</a>. Otherwise, please install a system tray application such "
+"as \"trayer\" and try again."
+msgstr ""
+"%1 需要可運作的系統匣。如果您正在執行 XFCE，請遵循<a "
+"href=\"http://docs.xfce.org/xfce/xfce4-panel/systray\">這些介紹</a>。否則請安裝如「trayer」等系統匣應用程式並再試一次。"
+
+#: ../src/libsync/theme.cpp:533
+msgid ""
+"<p><small>Built from Git revision <a href=\"%1\">%2</a> on %3, %4 using Qt "
+"%5, %6</small></p>"
+msgstr ""
+"<p><small>從 Git 修訂版本 <a href=\"%1\">%2</a> 在 %3 上建置，%4 使用 Qt "
+"%5，%6</small></p>"
+
+#: ../src/libsync/progressdispatcher.cpp:33
+msgid "Virtual file created"
+msgstr "已建立虛擬檔案"
+
+#: ../src/libsync/progressdispatcher.cpp:35
+msgid "Replaced by virtual file"
+msgstr "使用虛擬檔案取代"
+
+#: ../src/libsync/progressdispatcher.cpp:37
+msgid "Downloaded"
+msgstr "已下載"
+
+#: ../src/libsync/progressdispatcher.cpp:40
+msgid "Uploaded"
+msgstr "已上傳"
+
+#: ../src/libsync/progressdispatcher.cpp:43
+msgid ""
+"Server version downloaded, copied changed local file into conflict file"
+msgstr "已下載伺服器上的版本，並將本機已更改的檔案複製至衝突檔案"
+
+#: ../src/libsync/progressdispatcher.cpp:45
+msgid ""
+"Server version downloaded, copied changed local file into case conflict "
+"conflict file"
+msgstr "已下載伺服器上的版本，並將本機已更改的檔案複製至大小寫衝突檔案"
+
+#: ../src/libsync/progressdispatcher.cpp:47
+msgid "Deleted"
+msgstr "已刪除"
+
+#: ../src/libsync/progressdispatcher.cpp:50
+msgid "Moved to %1"
+msgstr "移動至 %1"
+
+#: ../src/libsync/progressdispatcher.cpp:52
+msgid "Ignored"
+msgstr "已忽略"
+
+#: ../src/libsync/progressdispatcher.cpp:54
+msgid "Filesystem access error"
+msgstr "檔案系統存取錯誤"
+
+#: ../src/libsync/progressdispatcher.cpp:56
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/libsync/progressdispatcher.cpp:58
+msgid "Updated local metadata"
+msgstr "已更新本機詮釋資料"
+
+#: ../src/libsync/progressdispatcher.cpp:61
+msgid "Unknown"
+msgstr "未知"
+
+#: ../src/libsync/progressdispatcher.cpp:75
+msgid "downloading"
+msgstr "正在下載"
+
+#: ../src/libsync/progressdispatcher.cpp:77
+msgid "uploading"
+msgstr "正在上傳"
+
+#: ../src/libsync/progressdispatcher.cpp:79
+msgid "deleting"
+msgstr "正在刪除"
+
+#: ../src/libsync/progressdispatcher.cpp:82
+msgid "moving"
+msgstr "正在移動"
+
+#: ../src/libsync/progressdispatcher.cpp:84
+msgid "ignoring"
+msgstr "正在忽略"
+
+#: ../src/libsync/progressdispatcher.cpp:87
+msgid "error"
+msgstr "錯誤"
+
+#: ../src/libsync/progressdispatcher.cpp:89
+msgid "updating local metadata"
+msgstr "正在更新本機詮釋資料"
+
+#: ../src/libsync/theme.cpp:84
+msgid "Status undefined"
+msgstr "未定義的狀態"
+
+#: ../src/libsync/theme.cpp:87
+msgid "Waiting to start sync"
+msgstr "等待開始同步"
+
+#: ../src/libsync/theme.cpp:90
+msgid "Sync is running"
+msgstr "正在執行同步"
+
+#: ../src/libsync/theme.cpp:93
+msgid "Sync Success"
+msgstr "同步完成"
+
+#: ../src/libsync/theme.cpp:96
+msgid "Sync Success, some files were ignored."
+msgstr "同步成功，部份檔案被忽略"
+
+#: ../src/libsync/theme.cpp:99
+msgid "Sync Error"
+msgstr "同步錯誤"
+
+#: ../src/libsync/theme.cpp:102
+msgid "Setup Error"
+msgstr "安裝錯誤"
+
+#: ../src/libsync/theme.cpp:105
+msgid "Preparing to sync"
+msgstr "正在準備同步"
+
+#: ../src/libsync/theme.cpp:108
+msgid "Aborting …"
+msgstr "正在中止……"
+
+#: ../src/libsync/theme.cpp:111
+msgid "Sync is paused"
+msgstr "同步已暫停"
+
+#: ../src/gui/guiutility.cpp:46
+msgid "Could not open browser"
+msgstr "無法開啟瀏覽器"
+
+#: ../src/gui/guiutility.cpp:47
+msgid ""
+"There was an error when launching the browser to go to URL %1. Maybe no "
+"default browser is configured?"
+msgstr "開啟瀏覽器並前往 %1 網址時發生錯誤。可能未設定預設瀏覽器？"
+
+#: ../src/gui/guiutility.cpp:70
+msgid "Could not open email client"
+msgstr "無法開啟郵件客戶端"
+
+#: ../src/gui/guiutility.cpp:71
+msgid ""
+"There was an error when launching the email client to create a new message. "
+"Maybe no default email client is configured?"
+msgstr "開啟郵件客戶端並撰寫新郵件時發生錯誤。可能未設定預設郵件客戶端？"
+
+#: ../src/gui/guiutility.cpp:86
+msgid "Always available locally"
+msgstr "總是在本機可用"
+
+#: ../src/gui/guiutility.cpp:88
+msgid "Currently available locally"
+msgstr "目前在本機可用"
+
+#: ../src/gui/guiutility.cpp:90
+msgid "Some available online only"
+msgstr "部份僅線上可用"
+
+#: ../src/gui/guiutility.cpp:93
+msgid "Available online only"
+msgstr "僅線上可用"
+
+#: ../src/gui/guiutility.cpp:100
+msgid "Make always available locally"
+msgstr "讓本機始終可用"
+
+#: ../src/gui/guiutility.cpp:105
+msgid "Free up local space"
+msgstr "釋放本機空間"
+
+#: ../src/gui/creds/oauth.cpp:115
+msgid "Error returned from the server: <em>%1</em>"
+msgstr "伺服器回傳錯誤：<em>%1</em>"
+
+#: ../src/gui/creds/oauth.cpp:118
+msgid "There was an error accessing the \"token\" endpoint: <br><em>%1</em>"
+msgstr "存取「權杖」進入點發生錯誤：<br><em>%1</em>"
+
+#: ../src/gui/creds/oauth.cpp:122
+msgid "Empty JSON from OAuth2 redirect"
+msgstr "來自 OAuth2 重新導向的空 JSON"
+
+#: ../src/gui/creds/oauth.cpp:127
+msgid "Could not parse the JSON returned from the server: <br><em>%1</em>"
+msgstr "無法解析伺服器回傳的 JSON：<br><em>%1</em>"
+
+#: ../src/gui/creds/oauth.cpp:130
+msgid "The reply from the server did not contain all expected fields"
+msgstr "伺服器的回應沒有包含所有預期的欄位"
+
+#: ../src/gui/creds/oauth.cpp:134
+msgid "<h1>Login Error</h1><p>%1</p>"
+msgstr "<h1>登入錯誤</h1><p>%1</p>"
+
+#: ../src/gui/creds/oauth.cpp:140
+msgid ""
+"<h1>Wrong account</h1><p>You logged in with the account <em>%1</em>, but "
+"must log in with the account <em>%2</em>.<br>Please log out of %3 in another"
+" tab, then <a href='%4'>click here</a> and log in with %2.</p>"
+msgstr ""
+"<h1>錯誤的帳號</h1><p>您已使用 <em>%1</em> 帳號登入，但必須使用帳號 <em>%2</em>。<br>請在另一個分頁中登出 "
+"%3，然後<a href='%4'>點擊此處</a>並使用 %2 登入。</p>"
+
+#: ../src/gui/wizard/owncloudoauthcredspage.cpp:45
+msgid "Connect to %1"
+msgstr "連線到 %1"
+
+#: ../src/gui/wizard/owncloudoauthcredspage.cpp:46
+msgid "Login in your browser"
+msgstr "請在瀏覽器上登入"
+
+#: ../src/gui/shareuserline.ui:80
+msgid "Username"
+msgstr "使用者名稱"
+
+#: ../src/gui/shareuserline.ui:115
+msgid "Can edit"
+msgstr "可編輯"
+
+#: ../src/gui/shareuserline.ui:149
+msgid "Note:"
+msgstr "備註："
+
+#: ../src/gui/shareuserline.ui:205
+msgid "Password:"
+msgstr "密碼："
+
+#: ../src/gui/shareuserline.ui:277
+msgid "Expires:"
+msgstr "到期："
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:36
+msgid "Please switch to your browser to proceed."
+msgstr "請切換到瀏覽器以繼續。"
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:46
+msgid "An error occurred while connecting. Please try again."
+msgstr "連線時發生錯誤。請重試。"
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:56
+msgid "Re-open Browser"
+msgstr "重新開啟瀏覽器"
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:69
+msgid "Copy link"
+msgstr "複製連結"
+
+#: ../src/libsync/theme.cpp:533
+msgid ""
+"<p><small>Built from Git revision <a href=\"%1\">%2</a> on %3, %4 using Qt "
+"%5, %6</small></p>"
+msgstr ""
+"<p><small>從 Git 修訂版本 <a href=\"%1\">%2</a> 在 %3 上建置，%4 使用 Qt "
+"%5，%6</small></p>"

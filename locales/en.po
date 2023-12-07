@@ -1,0 +1,3102 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Language: en\n"
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:107
+msgid "%1 (%2, %3)"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:124
+msgid "Checking for changes in '%1'"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:129
+msgid "Syncing %1 of %2  (%3 left)"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:134
+msgid "Syncing %1 of %2"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:141
+msgid "Syncing %1 (%2 left)"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:144
+msgid "Syncing %1"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:165
+msgid "No recently changed files"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:181
+msgid "Sync paused"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:184
+msgid "Syncing"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:220
+msgid "Open website"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:232
+msgid "Recently changed"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:239
+msgid "Pause synchronization"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:246
+msgid "Help"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:249
+msgid "Settings"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:252
+msgid "Log out"
+msgstr ""
+
+#: ../src/gui/cloudproviders/cloudproviderwrapper.cpp:255
+msgid "Quit sync client"
+msgstr ""
+
+#: ../src/common/filesystembase.cpp:445
+msgid "Could not make directories in trash"
+msgstr ""
+
+#: ../src/common/filesystembase.cpp:459
+msgid "Could not move '%1' to '%2'"
+msgstr ""
+
+#: ../src/common/filesystembase.cpp:502
+msgid "Moving to the trash is not implemented on this platform"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.ui:26
+msgid "Browser Authentication"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.ui:32
+msgid "Please switch to your browser to proceed."
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.ui:42
+msgid "An error occurred while connecting. Please try again."
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.ui:52
+msgid "Re-open Browser"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.ui:65
+msgid "Copy link"
+msgstr ""
+
+#: ../src/gui/folderwizardsourcepage.ui:33
+msgid "Pick a local folder on your computer to sync"
+msgstr ""
+
+#: ../src/gui/folderwizardsourcepage.ui:44
+msgid "&Choose …"
+msgstr ""
+
+#: ../src/gui/folderwizardtargetpage.ui:131
+msgid "Select a remote destination folder"
+msgstr ""
+
+#: ../src/gui/folderwizardtargetpage.ui:143
+msgid "Create Folder"
+msgstr ""
+
+#: ../src/gui/folderwizardtargetpage.ui:163
+msgid "Refresh"
+msgstr ""
+
+#: ../src/gui/folderwizardtargetpage.ui:177
+msgid "Folders"
+msgstr ""
+
+#: ../src/libsync/abstractnetworkjob.cpp:282
+msgid "Connection timed out"
+msgstr ""
+
+#: ../src/libsync/abstractnetworkjob.cpp:284
+msgid "Unknown error: network reply was deleted"
+msgstr ""
+
+#: ../src/libsync/abstractnetworkjob.cpp:436
+msgid "Server replied \"%1 %2\" to \"%3 %4\""
+msgstr ""
+
+#: ../src/gui/accountmanager.cpp:353
+msgid "End to end encryption mnemonic"
+msgstr ""
+
+#: ../src/gui/accountmanager.cpp:354
+msgid ""
+"To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 "
+"dictionary words. Please note these down and keep them safe. They will be "
+"needed to add other devices to your account (like your mobile phone or "
+"laptop)."
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:31
+msgid ""
+"Unchecked folders will be <b>removed</b> from your local file system and "
+"will not be synchronized to this computer anymore"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:77
+msgid "Synchronize all"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:84
+msgid "Synchronize none"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:91
+msgid "Apply manual changes"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:139
+msgid "Apply"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:204
+msgid "Storage space: …"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:126
+msgid "Cancel"
+msgstr ""
+
+#: ../src/gui/accountsettings.ui:174
+msgid "Connected with <server> as <user>"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:187
+msgid "No account configured."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:216
+msgid "This account supports end-to-end encryption"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:218
+msgid "Enable encryption"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:561
+msgid "Encrypt"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:569
+msgid "Edit Ignored Files"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:609
+msgid "Choose what to sync"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:615
+msgid "Force sync now"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:617
+msgid "Restart sync"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:626
+msgid "Remove folder sync connection"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:697
+msgid "Folder creation failed"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:751
+msgid "Confirm Folder Sync Connection Removal"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:758
+msgid "Remove Folder Sync Connection"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:843
+msgid "Sync Running"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:844
+msgid "The syncing operation is running.<br/>Do you want to terminate it?"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:933
+msgid "%1 in use"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:960
+msgid "%1 as <i>%2</i>"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:966
+msgid ""
+"The server version %1 is old and unsupported! Proceed at your own risk."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:968
+msgid "Connected to %1."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:970
+msgid "Server %1 is temporarily unavailable."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:972
+msgid "Server %1 is currently in maintenance mode."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:974
+msgid "Signed out from %1."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:983
+msgid ""
+"Obtaining authorization from the browser. <a href='%1'>Click here</a> to re-"
+"open the browser."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:990
+msgid "No connection to %1 at %2."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:1109
+msgid ""
+"There are folders that were not synchronized because they are too big: "
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:1111
+msgid ""
+"There are folders that were not synchronized because they are external "
+"storages: "
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:1112
+msgid ""
+"There are folders that were not synchronized because they are too big or "
+"external storages: "
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:1146
+msgid "Confirm Account Removal"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:1147
+msgid ""
+"<p>Do you really want to remove the connection to the account "
+"<i>%1</i>?</p><p><b>Note:</b> This will <b>not</b> delete any files.</p>"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:1153
+msgid "Remove connection"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:545
+msgid "Open folder"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:623
+msgid "Resume sync"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:623
+msgid "Pause sync"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:698
+msgid "<p>Could not create local folder <i>%1</i>.</p>"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:752
+msgid ""
+"<p>Do you really want to stop syncing the folder "
+"<i>%1</i>?</p><p><b>Note:</b> This will <b>not</b> delete any files.</p>"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:920
+msgid ""
+"%1 (%3%) of %2 in use. Some folders, including network mounted or shared "
+"folders, might have different limits."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:921
+msgid "%1 of %2 in use"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:930
+msgid "Currently there is no storage usage information available."
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:987
+msgid "Connecting to %1 …"
+msgstr ""
+
+#: ../src/gui/accountsettings.cpp:996
+msgid "No %1 connection configured."
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:134
+msgid "Signed out"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:136
+msgid "Disconnected"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:138
+msgid "Connected"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:140
+msgid "Service unavailable"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:142
+msgid "Maintenance mode"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:144
+msgid "Network error"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:146
+msgid "Configuration error"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:148
+msgid "Asking Credentials"
+msgstr ""
+
+#: ../src/gui/accountstate.cpp:150
+msgid "Unknown account state"
+msgstr ""
+
+#: ../src/gui/tray/ActivityListModel.cpp:322
+msgid ""
+"Files from the ignore list as well as symbolic links are not synced. This "
+"includes:"
+msgstr ""
+
+#: ../src/gui/tray/ActivityListModel.cpp:424
+msgid "For more activities please open the Activity app."
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.ui:17
+msgid "SSL client certificate authentication"
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.ui:23
+msgid "This server probably requires a SSL client certificate."
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.ui:35
+msgid "Certificate & Key (pkcs12) :"
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.ui:51
+msgid "Browse …"
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.ui:60
+msgid "Certificate password :"
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.cpp:38
+msgid "Select a certificate"
+msgstr ""
+
+#: ../src/gui/addcertificatedialog.cpp:38
+msgid "Certificate files (*.p12 *.pfx)"
+msgstr ""
+
+#: ../src/gui/application.cpp:202
+msgid "Error accessing the configuration file"
+msgstr ""
+
+#: ../src/gui/application.cpp:203
+msgid ""
+"There was an error while accessing the configuration file at %1. Please make"
+" sure the file can be accessed by your user."
+msgstr ""
+
+#: ../src/gui/application.cpp:206
+msgid "Quit %1"
+msgstr ""
+
+#: ../src/gui/authenticationdialog.cpp:30
+msgid "Authentication Required"
+msgstr ""
+
+#: ../src/gui/authenticationdialog.cpp:32
+msgid "Enter username and password for '%1' at %2."
+msgstr ""
+
+#: ../src/gui/authenticationdialog.cpp:37
+msgid "&User:"
+msgstr ""
+
+#: ../src/gui/authenticationdialog.cpp:38
+msgid "&Password:"
+msgstr ""
+
+#: ../src/libsync/owncloudpropagator.cpp:1041
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/clientsideencryption.cpp:1000
+msgid ""
+"Please enter your end to end encryption passphrase:<br><br>User: "
+"%2<br>Account: %3<br>"
+msgstr ""
+
+#: ../src/libsync/clientsideencryption.cpp:1008
+msgid "Enter E2E passphrase"
+msgstr ""
+
+#: ../src/gui/connectionvalidator.cpp:289
+msgid "The configured server for this client is too old"
+msgstr ""
+
+#: ../src/gui/connectionvalidator.cpp:290
+msgid "Please update to the latest server and restart the client."
+msgstr ""
+
+#: ../src/gui/connectionvalidator.cpp:147
+msgid "Authentication error: Either username or password are wrong."
+msgstr ""
+
+#: ../src/gui/connectionvalidator.cpp:50
+msgid "No Nextcloud account configured"
+msgstr ""
+
+#: ../src/gui/connectionvalidator.cpp:159
+msgid "timeout"
+msgstr ""
+
+#: ../src/gui/connectionvalidator.cpp:196
+msgid "The provided credentials are not correct"
+msgstr ""
+
+#: ../src/libsync/discoveryphase.cpp:638
+msgid "Aborted by the user"
+msgstr ""
+
+#: ../src/libsync/discoveryphase.cpp:399
+msgid "The server file discovery reply is missing data."
+msgstr ""
+
+#: ../src/gui/creds/flow2auth.cpp:109
+msgid "Error returned from the server: <em>%1</em>"
+msgstr ""
+
+#: ../src/gui/creds/flow2auth.cpp:112
+msgid "There was an error accessing the 'token' endpoint: <br><em>%1</em>"
+msgstr ""
+
+#: ../src/gui/creds/flow2auth.cpp:115
+msgid "Could not parse the JSON returned from the server: <br><em>%1</em>"
+msgstr ""
+
+#: ../src/gui/creds/flow2auth.cpp:118
+msgid "The reply from the server did not contain all expected fields"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authcredspage.cpp:37
+msgid "Connect to %1"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authcredspage.cpp:38
+msgid "Login in your browser (Login Flow v2)"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.cpp:80
+msgid "Unable to open the Browser, please copy the link to your Browser."
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.cpp:143
+msgid "Waiting for authorization"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.cpp:148
+msgid "Polling for authorization"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.cpp:153
+msgid "Starting authorization"
+msgstr ""
+
+#: ../src/gui/wizard/flow2authwidget.cpp:157
+msgid "Link copied to clipboard."
+msgstr ""
+
+#: ../src/gui/folder.cpp:141
+msgid "Local folder %1 does not exist."
+msgstr ""
+
+#: ../src/gui/folder.cpp:144
+msgid "%1 should be a folder but is not."
+msgstr ""
+
+#: ../src/gui/folder.cpp:147
+msgid "%1 is not readable."
+msgstr ""
+
+#: ../src/gui/folder.cpp:375
+msgid "%1 has been removed."
+msgstr ""
+
+#: ../src/gui/folder.cpp:382
+msgid "%1 has been downloaded."
+msgstr ""
+
+#: ../src/gui/folder.cpp:389
+msgid "%1 has been updated."
+msgstr ""
+
+#: ../src/gui/folder.cpp:396
+msgid "%1 has been renamed to %2."
+msgstr ""
+
+#: ../src/gui/folder.cpp:403
+msgid "%1 has been moved to %2."
+msgstr ""
+
+#: ../src/gui/folder.cpp:373
+msgid "%1 and %n other file(s) have been removed."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:380
+msgid "%1 and %n other file(s) have been downloaded."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:387
+msgid "%1 and %n other file(s) have been updated."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:394
+msgid "%1 has been renamed to %2 and %n other file(s) have been renamed."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:401
+msgid "%1 has been moved to %2 and %n other file(s) have been moved."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:408
+msgid "%1 has and %n other file(s) have sync conflicts."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:410
+msgid "%1 has a sync conflict. Please check the conflict file!"
+msgstr ""
+
+#: ../src/gui/folder.cpp:415
+msgid ""
+"%1 and %n other file(s) could not be synced due to errors. See the log for "
+"details."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:417
+msgid "%1 could not be synced due to an error. See the log for details."
+msgstr ""
+
+#: ../src/gui/folder.cpp:422
+msgid "%1 and %n other file(s) are currently locked."
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folder.cpp:424
+msgid "%1 is currently locked."
+msgstr ""
+
+#: ../src/gui/folder.cpp:432
+msgid "Sync Activity"
+msgstr ""
+
+#: ../src/gui/folder.cpp:643
+msgid "Could not read system exclude file"
+msgstr ""
+
+#: ../src/gui/folder.cpp:972
+msgid "A new folder larger than %1 MB has been added: %2.\n"
+msgstr ""
+
+#: ../src/gui/folder.cpp:975
+msgid "A folder from an external storage has been added.\n"
+msgstr ""
+
+#: ../src/gui/folder.cpp:976
+msgid "Please go in the settings to select it if you wish to download it."
+msgstr ""
+
+#: ../src/gui/folder.cpp:1031
+msgid ""
+"The folder %1 was created but was excluded from synchronization previously. "
+"Data inside it will not be synchronized."
+msgstr ""
+
+#: ../src/gui/folder.cpp:1034
+msgid ""
+"The file %1 was created but was excluded from synchronization previously. It"
+" will not be synchronized."
+msgstr ""
+
+#: ../src/gui/folder.cpp:1045
+msgid ""
+"Changes in synchronized folders could not be tracked reliably.\n"
+"\n"
+"This means that the synchronization client might not upload local changes immediately and will instead only scan for local changes and upload them occasionally (every two hours by default).\n"
+"\n"
+"%1"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1090
+msgid ""
+"All files in the sync folder '%1' were deleted on the server.\n"
+"These deletes will be synchronized to your local sync folder, making such files unavailable unless you have a right to restore. \n"
+"If you decide to restore the files, they will be re-synced with the server if you have rights to do so.\n"
+"If you decide to delete the files, they will be unavailable to you, unless you are the owner."
+msgstr ""
+
+#: ../src/gui/folder.cpp:1095
+msgid ""
+"All files got deleted from your local sync folder '%1'.\n"
+"These files will be deleted from the server and will not be available on your other devices if they will not be restored.\n"
+"If this action was unintended you can restore the lost data now."
+msgstr ""
+
+#: ../src/gui/folder.cpp:1099
+msgid "Delete all files?"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1102
+msgid "Delete all files"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1103
+msgid "Restore deleted files"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1120
+msgid ""
+"This sync would reset the files to an earlier time in the sync folder '%1'.\n"
+"This might be because a backup was restored on the server.\n"
+"Continuing the sync as normal will cause all your files to be overwritten by an older file in an earlier state. Do you want to keep your local most recent files as conflict files?"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1125
+msgid "Backup detected"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1128
+msgid "Normal Synchronisation"
+msgstr ""
+
+#: ../src/gui/folder.cpp:1129
+msgid "Keep Local Files as Conflict"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:295
+msgid "Could not reset folder state"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:296
+msgid ""
+"An old sync journal '%1' was found, but could not be removed. Please make "
+"sure that no application is currently using it."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1044
+msgid " (backup)"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1049
+msgid " (backup %1)"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1294
+msgid "Undefined State."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1297
+msgid "Waiting to start syncing."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1300
+msgid "Preparing for sync."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1303
+msgid "Sync is running."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1308
+msgid "Sync was successful, unresolved conflicts."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1310
+msgid "Last Sync was successful."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1316
+msgid "Setup Error."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1319
+msgid "User Abort."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1322
+msgid "Sync is paused."
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1328
+msgid "%1 (Sync is paused)"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1336
+msgid "No valid folder selected!"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1346
+msgid "The selected path is not a folder!"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1350
+msgid "You have no permission to write to the selected folder!"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1406
+msgid ""
+"There is already a sync from the server to this local folder. Please pick "
+"another local folder!"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1386
+msgid ""
+"The local folder %1 already contains a folder used in a folder sync "
+"connection. Please pick another one!"
+msgstr ""
+
+#: ../src/gui/folderman.cpp:1392
+msgid ""
+"The local folder %1 is already contained in a folder used in a folder sync "
+"connection. Please pick another one!"
+msgstr ""
+
+#: ../src/gui/folderstatusdelegate.cpp:48
+msgid "Add Folder Sync Connection"
+msgstr ""
+
+#: ../src/gui/folderstatusdelegate.cpp:256
+msgid "Synchronized with local folder (%1)"
+msgstr ""
+
+#: ../src/gui/folderstatusdelegate.cpp:313
+msgid "File"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:144
+msgid "You need to be connected to add a folder"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:146
+msgid "Click this button to add a folder to synchronize."
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:155
+msgid "%1 (%2)"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:186
+msgid "Error while loading the list of folders from the server."
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:239
+msgid "Signed out"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:215
+msgid "There are unresolved conflicts. Click for details."
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:932
+msgid "Reconciling changes"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:967
+msgid ", '%1'"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:970
+msgid "'%1'"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:994
+msgid "Syncing %1"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:996
+msgid ", "
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1000
+msgid "download %1/s"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1010
+msgid "upload %1/s"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:921
+msgid "Checking for changes in remote '%1'"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:189
+msgid "Fetching folder list from server …"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:925
+msgid "Checking for changes in local '%1'"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1002
+msgid "↓ %1/s"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1012
+msgid "↑ %1/s"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1018
+msgid "%1 %2 (%3 of %4)"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1022
+msgid "%1 %2"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1041
+msgid "%5 left, %1 of %2, file %3 of %4"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1049
+msgid "%1 of %2, file %3 of %4"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1056
+msgid "file %1 of %2"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1102
+msgid "Waiting …"
+msgstr ""
+
+#: ../src/gui/folderstatusmodel.cpp:1104
+msgid "Waiting for %n other folder(s) …"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/gui/folderstatusmodel.cpp:1110
+msgid "Preparing to sync …"
+msgstr ""
+
+#: ../src/gui/folderwatcher_linux.cpp:87
+msgid ""
+"This problem usually happens when the inotify watches are exhausted. Check "
+"the FAQ for details."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:550
+msgid "Add Folder Sync Connection"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:552
+msgid "Add Sync Connection"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:67
+msgid "Click to select a local folder to sync."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:74
+msgid "Enter the path to the local folder."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:135
+msgid "Select the source folder"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:183
+msgid "Create Remote Folder"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:184
+msgid "Enter the name of the new folder to be created below '%1':"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:214
+msgid "Folder was successfully created on %1."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:225
+msgid "Authentication failed accessing %1"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:227
+msgid "Failed to create the folder on %1. Please check manually."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:236
+msgid "Failed to list a folder. Error: %1"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:317
+msgid "Choose this to sync the entire account"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:447
+msgid "This folder is already being synced."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:449
+msgid ""
+"You are already syncing <i>%1</i>, which is a parent folder of <i>%2</i>."
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:48
+msgid "<b>Warning:</b> %1"
+msgstr ""
+
+#: ../src/gui/folderwizard.cpp:50
+msgid "<b>Warning:</b>"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:181
+msgid "No E-Tag received from server, check Proxy/Gateway"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:188
+msgid "We received a different E-Tag for resuming. Retrying next time."
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:215
+msgid "Server returned wrong content-range"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:325
+msgid "Connection Timeout"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:41
+msgid "Legal notice"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:66
+msgid "General Settings"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:72
+msgid "For System Tray"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:89
+msgid "Show Server &Notifications"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:163
+msgid "Advanced"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:195
+msgid "Ask for confirmation before synchronizing folders larger than"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:215
+msgid "MB"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:239
+msgid "Ask for confirmation before synchronizing external storages"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:82
+msgid "&Launch on System Startup"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:75
+msgid "Use &Monochrome Icons"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:171
+msgid "Edit &Ignored Files"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:250
+msgid "Show sync folders in &Explorer's Navigation Pane"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:267
+msgid "S&how crash reporter"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:20
+msgid "About"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:99
+msgid "Updates"
+msgstr ""
+
+#: ../src/gui/generalsettings.ui:124
+msgid "&Restart && Update"
+msgstr ""
+
+#: ../src/gui/generalsettings.cpp:56
+msgid "Server notifications that require attention."
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:556
+msgid "Password for share required"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:557
+msgid "Please enter a password for your link share:"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:576
+msgid "Sharing error"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:577
+msgid ""
+"Could not retrieve or create the public link share. Error:\n"
+"\n"
+"%1"
+msgstr ""
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:100
+msgid "Please enter %1 password:<br><br>User: %2<br>Account: %3<br>"
+msgstr ""
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:114
+msgid "Reading from keychain failed with error: '%1'"
+msgstr ""
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:120
+msgid "Enter Password"
+msgstr ""
+
+#: ../src/gui/creds/httpcredentialsgui.cpp:156
+msgid ""
+"<a href=\"%1\">Click here</a> to request an app password from the web "
+"interface."
+msgstr ""
+
+#: ../src/gui/ignorelisteditor.ui:14
+msgid "Ignored Files Editor"
+msgstr ""
+
+#: ../src/gui/ignorelisteditor.ui:20
+msgid "Global Ignore Settings"
+msgstr ""
+
+#: ../src/gui/ignorelisteditor.ui:26
+msgid "Sync hidden files"
+msgstr ""
+
+#: ../src/gui/ignorelisteditor.ui:36
+msgid "Files Ignored by Patterns"
+msgstr ""
+
+#: ../src/gui/ignorelisteditor.cpp:40
+msgid ""
+"This entry is provided by the system at '%1' and cannot be modified in this "
+"view."
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.ui:33
+msgid "Pattern"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.ui:38
+msgid "Allow Deletion"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.ui:49
+msgid "Add"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.ui:59
+msgid "Remove"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.ui:66
+msgid "Remove all"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.cpp:24
+msgid ""
+"Files or folders matching a pattern will not be synchronized.\n"
+"\n"
+"Items where deletion is allowed will be deleted if they prevent a directory from being removed. This is useful for meta data."
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.cpp:93
+msgid "Could not open file"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.cpp:94
+msgid "Cannot write changes to '%1'."
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.cpp:112
+msgid "Add Ignore Pattern"
+msgstr ""
+
+#: ../src/gui/ignorelisttablewidget.cpp:113
+msgid "Add a new ignore pattern:"
+msgstr ""
+
+#: ../src/gui/legalnotice.ui:26
+msgid "Legal notice"
+msgstr ""
+
+#: ../src/gui/legalnotice.ui:58
+msgid "Close"
+msgstr ""
+
+#: ../src/gui/legalnotice.cpp:27
+msgid ""
+"<p>Copyright 2017-2020 Nextcloud GmbH<br />Copyright 2012-2018 ownCloud "
+"GmbH</p>"
+msgstr ""
+
+#: ../src/gui/legalnotice.cpp:30
+msgid ""
+"<p>Licensed under the GNU General Public License (GPL) Version 2.0 or any "
+"later version.</p>"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:58
+msgid "Log Output"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:70
+msgid "&Search:"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:78
+msgid "&Find"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:89
+msgid "&Capture debug messages"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:101
+msgid "Permanently save logs"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:103
+msgid ""
+"When this option is enabled and no other logging is configured, logs will be written to a temporary folder and expire after a few hours. This setting persists across client restarts.\n"
+"\n"
+"Logs will be written to %1"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:115
+msgid "Clear"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:116
+msgid "Clear the log display."
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:122
+msgid "S&ave"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:123
+msgid "Save the log file to a file on disk for debugging."
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:212
+msgid "Save log file"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:222
+msgid "Error"
+msgstr ""
+
+#: ../src/gui/logbrowser.cpp:222
+msgid "Could not write to log file %1"
+msgstr ""
+
+#: ../src/libsync/logger.cpp:162
+msgid "Error"
+msgstr ""
+
+#: ../src/libsync/logger.cpp:163
+msgid ""
+"<nobr>File '%1'<br/>cannot be opened for writing.<br/><br/>The log output "
+"can <b>not</b> be saved!</nobr>"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:332
+msgid "New Version Available"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:338
+msgid ""
+"<p>A new version of the %1 Client is available.</p><p><b>%2</b> is available"
+" for download. The installed version is %3.</p>"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:352
+msgid "Skip this version"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:353
+msgid "Skip this time"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:354
+msgid "Get update"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:23
+msgid "Proxy Settings"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:29
+msgid "No Proxy"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:42
+msgid "Use system proxy"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:52
+msgid "Specify proxy manually as"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:80
+msgid "Host"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:100
+msgid ":"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:131
+msgid "Proxy server requires authentication"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:190
+msgid "Download Bandwidth"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:196
+msgid "Limit to"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:241
+msgid "KBytes/s"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:203
+msgid "No limit"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:250
+msgid "Limit to 3/4 of estimated bandwidth"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:269
+msgid "Upload Bandwidth"
+msgstr ""
+
+#: ../src/gui/networksettings.ui:253
+msgid "Limit automatically"
+msgstr ""
+
+#: ../src/gui/networksettings.cpp:37
+msgid "Hostname of proxy server"
+msgstr ""
+
+#: ../src/gui/networksettings.cpp:38
+msgid "Username for proxy server"
+msgstr ""
+
+#: ../src/gui/networksettings.cpp:39
+msgid "Password for proxy server"
+msgstr ""
+
+#: ../src/gui/networksettings.cpp:41
+msgid "HTTP(S) proxy"
+msgstr ""
+
+#: ../src/gui/networksettings.cpp:42
+msgid "SOCKS5 proxy"
+msgstr ""
+
+#: ../src/gui/creds/oauth.cpp:112
+msgid "Error returned from the server: <em>%1</em>"
+msgstr ""
+
+#: ../src/gui/creds/oauth.cpp:115
+msgid "There was an error accessing the 'token' endpoint: <br><em>%1</em>"
+msgstr ""
+
+#: ../src/gui/creds/oauth.cpp:118
+msgid "Could not parse the JSON returned from the server: <br><em>%1</em>"
+msgstr ""
+
+#: ../src/gui/creds/oauth.cpp:121
+msgid "The reply from the server did not contain all expected fields"
+msgstr ""
+
+#: ../src/gui/creds/oauth.cpp:125
+msgid "<h1>Login Error</h1><p>%1</p>"
+msgstr ""
+
+#: ../src/gui/creds/oauth.cpp:131
+msgid ""
+"<h1>Wrong user</h1><p>You logged-in with user <em>%1</em>, but must login "
+"with user <em>%2</em>.<br>Please log out of %3 in another tab, then <a "
+"href='%4'>click here</a> and log in as user %2</p>"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:103
+msgid "New %1 Update Ready"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:104
+msgid ""
+"A new update for %1 is about to be installed. The updater may ask\n"
+"for additional privileges during the process."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:143
+msgid "Downloading version %1. Please wait …"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:147
+msgid ""
+"Could not download update. Please click <a href='%1'>here</a> to download "
+"the update manually."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:149
+msgid "Could not check for new updates."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:151
+msgid ""
+"New %1 version %2 is available. Please click <a href='%3'>here</a> to "
+"download the update."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:153
+msgid "Checking update server …"
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:145
+msgid "%1 version %2 available. Restart application to start the update."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:155
+msgid "Update status is unknown: Did not check for new updates."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:159
+msgid "No updates available. Your installation is at the latest version."
+msgstr ""
+
+#: ../src/gui/updater/ocupdater.cpp:178
+msgid "Update Check"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:51
+msgid "Connect to %1"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:52
+msgid "Setup local folder options"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:61
+msgid "Connect …"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:159
+msgid "%1 folder '%2' is synced to local folder '%3'"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:162
+msgid "Sync the folder '%1'"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:167
+msgid ""
+"<p><small><strong>Warning:</strong> The local folder is not empty. Pick a "
+"resolution!</small></p>"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:176
+msgid "Free space: %1"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:299
+msgid "Local Sync Folder"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:342
+msgid "(%1)"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.cpp:389
+msgid "There isn't enough free space in the local folder!"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:14
+msgid "Connection failed"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:43
+msgid ""
+"<html><head/><body><p>Failed to connect to the secure server address "
+"specified. How do you wish to proceed?</p></body></html>"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:55
+msgid "Select a different URL"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:62
+msgid "Retry unencrypted over HTTP (insecure)"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.ui:69
+msgid "Configure client-side TLS certificate"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudconnectionmethoddialog.cpp:34
+msgid ""
+"<html><head/><body><p>Failed to connect to the secure server address "
+"<em>%1</em>. How do you wish to proceed?</p></body></html>"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudhttpcredspage.cpp:49
+msgid "&Email"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudhttpcredspage.cpp:59
+msgid "Connect to %1"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudhttpcredspage.cpp:60
+msgid "Enter user credentials"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudoauthcredspage.cpp:45
+msgid "Connect to %1"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudoauthcredspage.cpp:46
+msgid "Login in your browser"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:54
+msgid "Connect to %1"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:55
+msgid "Setup %1 server"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:83
+msgid "Keep your data secure and under your control"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:84
+msgid "Secure collaboration & file exchange"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:85
+msgid "Easy-to-use web mail, calendaring & contacts"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:86
+msgid "Screensharing, online meetings & web conferences"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:182
+msgid ""
+"This URL is NOT secure as it is not encrypted.\n"
+"It is not advisable to use it."
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:186
+msgid "This URL is secure. You can use it."
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:225
+msgid "&Next >"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:285
+msgid "Invalid URL"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetuppage.cpp:414
+msgid "Could not load certificate. Maybe wrong password?"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:250
+msgid ""
+"<font color=\"green\">Successfully connected to %1: %2 version %3 "
+"(%4)</font><br/><br/>"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:280
+msgid "Failed to connect to %1 at %2:<br/>%3"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:315
+msgid "Timeout while trying to connect to %1 at %2."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:385
+msgid ""
+"The authenticated request to the server was redirected to '%1'. The URL is "
+"bad, the server is misconfigured."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:407
+msgid "There was an invalid response to an authenticated webdav request"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:398
+msgid ""
+"Access forbidden by server. To verify that you have proper access, <a "
+"href=\"%1\">click here</a> to access the service with your browser."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:278
+msgid "Invalid URL"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:297
+msgid "The server reported the following error:"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:334
+msgid "Trying to connect to %1 at %2 …"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:453
+msgid "Local sync folder %1 already exists, setting it up for sync.<br/><br/>"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:456
+msgid "Creating local sync folder %1 …"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:460
+msgid "ok"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:462
+msgid "failed."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:464
+msgid "Could not create local folder %1"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:524
+msgid "No remote folder specified!"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:530
+msgid "Error: %1"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:543
+msgid "creating folder on Nextcloud: %1"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:559
+msgid "Remote folder %1 created successfully."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:561
+msgid "The remote folder %1 already exists. Connecting it for syncing."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:563
+msgid "The folder creation resulted in HTTP error code %1"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:567
+msgid ""
+"The remote folder creation failed because the provided credentials are "
+"wrong!<br/>Please go back and check your credentials.</p>"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:571
+msgid ""
+"<p><font color=\"red\">Remote folder creation failed probably because the "
+"provided credentials are wrong.</font><br/>Please go back and check your "
+"credentials.</p>"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:576
+msgid "Remote folder %1 creation failed with error <tt>%2</tt>."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:594
+msgid "A sync connection from %1 to remote directory %2 was set up."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:599
+msgid "Successfully connected to %1!"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:606
+msgid "Connection to %1 could not be established. Please check again."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:620
+msgid "Folder rename failed"
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:621
+msgid ""
+"Can't remove and back up the folder because the folder or a file in it is "
+"open in another program. Please close the folder or file and hit retry or "
+"cancel the setup."
+msgstr ""
+
+#: ../src/gui/owncloudsetupwizard.cpp:668
+msgid ""
+"<font color=\"green\"><b>Local sync folder %1 successfully "
+"created!</b></font>"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudwizard.cpp:94
+msgid "%1 Connection Wizard"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudwizard.cpp:103
+msgid "Skip folders configuration"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudwizardresultpage.cpp:36
+msgid "Everything set up!"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudwizardresultpage.cpp:40
+msgid "Open Local Folder"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudwizardresultpage.cpp:48
+msgid "Open %1 in Browser"
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:140
+msgid "Invalid JSON reply from the poll URL"
+msgstr ""
+
+#: ../src/libsync/owncloudpropagator.cpp:993
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:357
+msgid ""
+"File %1 can not be downloaded because encryption information is missing."
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:427
+msgid "File %1 can not be downloaded because of a local file name clash!"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:477
+msgid "The download would reduce free local disk space below the limit"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:481
+msgid "Free space on disk is less than %1"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:601
+msgid "File was deleted from server"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:654
+msgid "The file could not be downloaded completely."
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:661
+msgid ""
+"The downloaded file is empty despite that the server announced it should "
+"have been %1."
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:850
+msgid "File %1 cannot be saved because of a local file name clash!"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:885
+msgid "File has changed since discovery"
+msgstr ""
+
+#: ../src/libsync/propagatedownload.cpp:941
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/owncloudpropagator.cpp:234
+msgid "; Restoration Failed: %1"
+msgstr ""
+
+#: ../src/libsync/owncloudpropagator.cpp:302
+msgid ""
+"A file or folder was removed from a read only share, but restoring failed: "
+"%1"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:170
+msgid "could not delete file %1, error: %2"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:185
+msgid "Attention, possible case sensitivity clash with %1"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:191
+msgid "could not create folder %1"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:203
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:77
+msgid "Error removing '%1': %2;"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:102
+msgid "Could not remove folder '%1'"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:123
+msgid "Could not remove %1 because of a local file name clash"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:241
+msgid "File %1 can not be renamed to %2 because of a local file name clash"
+msgstr ""
+
+#: ../src/libsync/propagatorjobs.cpp:272
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/propagateremotedelete.cpp:130
+msgid "Wrong HTTP code returned by server. Expected 204, but received \"%1 %2\"."
+msgstr ""
+
+#: ../src/libsync/propagateremotemkdir.cpp:99
+msgid "Wrong HTTP code returned by server. Expected 201, but received \"%1 %2\"."
+msgstr ""
+
+#: ../src/libsync/propagateremotemkdir.cpp:151
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/propagateremotemove.cpp:134
+msgid "Wrong HTTP code returned by server. Expected 201, but received \"%1 %2\"."
+msgstr ""
+
+#: ../src/libsync/propagateremotemove.cpp:166
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:214
+msgid ""
+"File %1 cannot be uploaded because another file with the same name, "
+"differing only in case, exists"
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:348
+msgid "Local file changed during syncing. It will be resumed."
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:363
+msgid "Local file changed during sync."
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:225
+msgid "Upload of %1 exceeds the quota for the folder"
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:334
+msgid "File Removed (start upload) %1"
+msgstr ""
+
+#: ../src/libsync/propagateupload.cpp:685
+msgid "Error writing metadata to the database"
+msgstr ""
+
+#: ../src/libsync/propagateuploadng.cpp:404
+msgid "The local file was removed during sync."
+msgstr ""
+
+#: ../src/libsync/propagateuploadng.cpp:415
+msgid "Local file changed during sync."
+msgstr ""
+
+#: ../src/libsync/propagateuploadng.cpp:449
+msgid "Unexpected return code from server (%1)"
+msgstr ""
+
+#: ../src/libsync/propagateuploadng.cpp:456
+msgid "Missing File ID from server"
+msgstr ""
+
+#: ../src/libsync/propagateuploadng.cpp:470
+msgid "Missing ETag from server"
+msgstr ""
+
+#: ../src/libsync/propagateuploadv1.cpp:213
+msgid "Poll URL missing"
+msgstr ""
+
+#: ../src/libsync/propagateuploadv1.cpp:240
+msgid "The local file was removed during sync."
+msgstr ""
+
+#: ../src/libsync/propagateuploadv1.cpp:251
+msgid "Local file changed during sync."
+msgstr ""
+
+#: ../src/libsync/propagateuploadv1.cpp:265
+msgid "The server did not acknowledge the last chunk. (No e-tag was present)"
+msgstr ""
+
+#: ../src/gui/proxyauthdialog.ui:20
+msgid "Proxy authentication required"
+msgstr ""
+
+#: ../src/gui/proxyauthdialog.ui:26
+msgid "Username:"
+msgstr ""
+
+#: ../src/gui/proxyauthdialog.ui:36
+msgid "Proxy:"
+msgstr ""
+
+#: ../src/gui/proxyauthdialog.ui:43
+msgid "The proxy server needs a username and password."
+msgstr ""
+
+#: ../src/gui/proxyauthdialog.ui:50
+msgid "Password:"
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:459
+msgid "Choose What to Sync"
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:73
+msgid "Loading …"
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:79
+msgid "Deselect remote folders you do not wish to synchronize."
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:95
+msgid "Name"
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:96
+msgid "Size"
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:227
+msgid "No subfolders currently on the server."
+msgstr ""
+
+#: ../src/gui/selectivesyncdialog.cpp:279
+msgid "An error occurred while loading the list of sub folders."
+msgstr ""
+
+#: ../src/gui/tray/NotificationHandler.cpp:139
+msgid "Dismiss"
+msgstr ""
+
+#: ../src/gui/settingsdialog.ui:14
+msgid "Settings"
+msgstr ""
+
+#: ../src/gui/settingsdialog.cpp:100
+msgid "General"
+msgstr ""
+
+#: ../src/gui/settingsdialog.cpp:109
+msgid "Network"
+msgstr ""
+
+#: ../src/gui/settingsdialog.cpp:207
+msgid "Account"
+msgstr ""
+
+#: ../src/gui/sharedialog.cpp:105
+msgid "%1 Sharing"
+msgstr ""
+
+#: ../src/gui/sharedialog.cpp:81
+msgid "%1"
+msgstr ""
+
+#: ../src/gui/sharedialog.cpp:102
+msgid "Folder: %2"
+msgstr ""
+
+#: ../src/gui/sharedialog.cpp:276
+msgid ""
+"The file can not be shared because it was shared without sharing permission."
+msgstr ""
+
+#: ../src/gui/sharedialog.cpp:311
+msgid "Password for share required"
+msgstr ""
+
+#: ../src/gui/sharedialog.cpp:312
+msgid "Please enter a password for your link share:"
+msgstr ""
+
+#: ../src/gui/sharedialog.ui:51
+msgid "share label"
+msgstr ""
+
+#: ../src/gui/sharedialog.ui:82
+msgid "Nextcloud Path:"
+msgstr ""
+
+#: ../src/gui/sharedialog.ui:113
+msgid "Icon"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.ui:38
+msgid "Share link"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.ui:133
+msgid "Note:"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.ui:192
+msgid "Password:"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.ui:245
+msgid "Expires:"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:470
+msgid "Delete"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:158
+msgid "Allow Editing"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:164
+msgid "Read only"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:169
+msgid "Allow Upload && Editing"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:174
+msgid "File Drop (Upload Only)"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:189
+msgid "Add note to recipient"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:199
+msgid "Password Protect"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:216
+msgid "Expiration Date"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:235
+msgid "Unshare"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:240
+msgid "Add another link"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:463
+msgid "Confirm Link Share Deletion"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:464
+msgid ""
+"<p>Do you really want to delete the public link share <i>%1</i>?</p><p>Note:"
+" This action cannot be undone.</p>"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:471
+msgid "Cancel"
+msgstr ""
+
+#: ../src/gui/sharelinkwidget.cpp:489
+msgid "Public link"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:270
+msgid "Copy link"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:280
+msgid "No results for '%1'"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:367
+msgid "I shared something with you"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.ui:59
+msgid "Share with users or groups …"
+msgstr ""
+
+#: ../src/gui/shareuserline.ui:57
+msgid "Username"
+msgstr ""
+
+#: ../src/gui/shareuserline.ui:89
+msgid "can edit"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:415
+msgid "Can reshare"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:425
+msgid "Unshare"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:434
+msgid "Can create"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:440
+msgid "Can change"
+msgstr ""
+
+#: ../src/gui/shareusergroupwidget.cpp:446
+msgid "Can delete"
+msgstr ""
+
+#: ../src/gui/creds/shibbolethcredentials.cpp:259
+msgid "Login Error"
+msgstr ""
+
+#: ../src/gui/creds/shibbolethcredentials.cpp:259
+msgid "You must sign in as user %1"
+msgstr ""
+
+#: ../src/gui/creds/shibboleth/shibbolethwebview.cpp:83
+msgid "%1 - Authenticate"
+msgstr ""
+
+#: ../src/gui/creds/shibboleth/shibbolethwebview.cpp:93
+msgid "SSL Cipher Debug View"
+msgstr ""
+
+#: ../src/gui/creds/shibboleth/shibbolethwebview.cpp:101
+msgid "Reauthentication required"
+msgstr ""
+
+#: ../src/gui/creds/shibboleth/shibbolethwebview.cpp:101
+msgid ""
+"Your session has expired. You need to re-login to continue to use the "
+"client."
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:529
+msgid "Context menu share"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:668
+msgid "I shared something with you"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:681
+msgid "Share options"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:684
+msgid "Send private link by email …"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:683
+msgid "Copy private link to clipboard"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:709
+msgid "Resharing this file is not allowed"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:722
+msgid "Copy public link"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:728
+msgid "Copy internal link"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:782
+msgid "Edit"
+msgstr ""
+
+#: ../src/gui/socketapi.cpp:784
+msgid "Open in browser"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:88
+msgid "<h3>Certificate Details</h3>"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:91
+msgid "Common Name (CN):"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:92
+msgid "Subject Alternative Names:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:93
+msgid "Organization (O):"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:94
+msgid "Organizational Unit (OU):"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:95
+msgid "State/Province:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:96
+msgid "Country:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:97
+msgid "Serial:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:100
+msgid "<h3>Issuer</h3>"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:103
+msgid "Issuer:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:104
+msgid "Issued on:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:105
+msgid "Expires on:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:108
+msgid "<h3>Fingerprints</h3>"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:112
+msgid "SHA-256:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:113
+msgid "SHA-1:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:117
+msgid "<p><b>Note:</b> This certificate was manually approved</p>"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:137
+msgid "%1 (self-signed)"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:139
+msgid "%1"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:174
+msgid "This connection is encrypted using %1 bit %2.\n"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:191
+msgid "Server version: %1"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:205
+msgid "No support for SSL session tickets/identifiers"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:215
+msgid "Certificate information:"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:244
+msgid "The connection is not secure"
+msgstr ""
+
+#: ../src/gui/sslbutton.cpp:177
+msgid "This connection is NOT secure as it is not encrypted.\n"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.ui:25
+msgid "Trust this certificate anyway"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:65
+msgid "Untrusted Certificate"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:132
+msgid "Cannot connect securely to <i>%1</i>:"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:166
+msgid "with Certificate %1"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:175
+msgid "&lt;not specified&gt;"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:180
+msgid "Organization: %1"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:181
+msgid "Unit: %1"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:182
+msgid "Country: %1"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:189
+msgid "Fingerprint (SHA1): <tt>%1</tt>"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:194
+msgid "Fingerprint (SHA-256): <tt>%1</tt>"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:195
+msgid "Fingerprint (SHA-512): <tt>%1</tt>"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:197
+msgid "Effective Date: %1"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:198
+msgid "Expiration Date: %1"
+msgstr ""
+
+#: ../src/gui/sslerrordialog.cpp:202
+msgid "Issuer: %1"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:122
+msgid "Success."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:132
+msgid "A network connection timeout happened."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:135
+msgid "A HTTP transmission error happened."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:159
+msgid "The mounted folder is temporarily not available on the server"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:165
+msgid "An error occurred while opening a folder"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:168
+msgid "Error while reading folder."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:244
+msgid "%1 (skipped due to earlier error, trying again in %2)"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:516
+msgid "File/Folder is ignored because it's hidden."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:519
+msgid "Folder hierarchy is too deep"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:535
+msgid ""
+"Conflict: Server version downloaded, local copy renamed and not uploaded."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:800
+msgid "Only %1 are available, need at least %2 to start"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:835
+msgid ""
+"Unable to open or create the local sync database. Make sure you have write "
+"access in the sync folder."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1393
+msgid "Not allowed because you don't have permission to add parent folder"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1400
+msgid ""
+"Not allowed because you don't have permission to add files in that folder"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1733
+msgid ""
+"Disk space is low: Downloads that would reduce free space below %1 were "
+"skipped."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1740
+msgid "There is insufficient space available on the server for some uploads."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:150
+msgid "CSync unspecified error."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:153
+msgid "Aborted by the user"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:125
+msgid ""
+"Failed to load or create the journal file. Make sure you have read and write"
+" permissions in the local sync folder."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:129
+msgid "Discovery step failed."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:138
+msgid "Permission denied."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:141
+msgid "File or directory not found:"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:144
+msgid "Tried to create a folder that already exists."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:147
+msgid "No space on %1 server available."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:156
+msgid "The service is temporarily unavailable"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:162
+msgid "Access is forbidden"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:173
+msgid "An internal error number %1 occurred."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:485
+msgid "Symbolic links are not supported in syncing."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:488
+msgid "File is listed on the ignore list."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:492
+msgid "File names ending with a period are not supported on this file system."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:502
+msgid ""
+"File names containing the character '%1' are not supported on this file "
+"system."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:505
+msgid "The file name is a reserved name on this file system."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:510
+msgid "Filename contains trailing spaces."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:513
+msgid "Filename is too long."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:522
+msgid "The filename cannot be encoded on your file system."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:531
+msgid "Unresolved conflict."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:539
+msgid "Stat failed."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:566
+msgid "Filename encoding is not valid"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:730
+msgid "Invalid characters, please rename \"%1\""
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:863
+msgid "Unable to read the blacklist from the local database"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:904
+msgid "Unable to read from the sync journal."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:967
+msgid "Cannot open the sync journal"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1033
+msgid "File name contains at least one invalid character"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1319
+msgid "Ignored because of the \"choose what to sync\" blacklist"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1378
+msgid ""
+"Not allowed because you don't have permission to add subfolders to that "
+"folder"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1425
+msgid ""
+"Not allowed to upload this file because it is read-only on the server, "
+"restoring"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1441
+msgid "Not allowed to remove, restoring"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1474
+msgid "Local files and share folder removed."
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1528
+msgid "Move not allowed, item restored"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1539
+msgid "Move not allowed because %1 is read-only"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1539
+msgid "the destination"
+msgstr ""
+
+#: ../src/libsync/syncengine.cpp:1539
+msgid "the source"
+msgstr ""
+
+#: ../src/gui/synclogdialog.ui:14
+msgid "Synchronisation Log"
+msgstr ""
+
+#: ../src/gui/systray.cpp:130
+msgid "%1: %2"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:345
+msgid ""
+"<p>Version %1. For more information please click <a href='%2'>here</a>.</p>"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:349
+msgid "<p>This release was supplied by %1</p>"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:319
+msgid "Retry all uploads"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:368
+msgid "You renamed"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:370
+msgid "You deleted"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:372
+msgid "You created"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:374
+msgid "You changed"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:688
+msgid "Confirm Account Removal"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:689
+msgid ""
+"<p>Do you really want to remove the connection to the account "
+"<i>%1</i>?</p><p><b>Note:</b> This will <b>not</b> delete any files.</p>"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:694
+msgid "Remove connection"
+msgstr ""
+
+#: ../src/gui/tray/UserModel.cpp:695
+msgid "Cancel"
+msgstr ""
+
+#: ../src/gui/wizard/webview.cpp:208
+msgid "Invalid certificate detected"
+msgstr ""
+
+#: ../src/gui/wizard/webview.cpp:209
+msgid "The host \"%1\" provided an invalid certificate. Continue?"
+msgstr ""
+
+#: ../src/gui/creds/webflowcredentials.cpp:169
+msgid "You have been logged out of %1 as user %2. Please login again"
+msgstr ""
+
+#: ../src/gui/creds/webflowcredentials.cpp:189
+msgid "Please login with the user: %1"
+msgstr ""
+
+#: ../src/gui/creds/webflowcredentialsdialog.cpp:34
+msgid "Log in"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:289
+msgid "Please sign in"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:335
+msgid "Folder %1: %2"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:353
+msgid "There are no sync folders configured."
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:270
+msgid "Disconnected from %1"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:220
+msgid "Unsupported Server Version"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:221
+msgid ""
+"The server on account %1 runs an old and unsupported version %2. Using this "
+"client with unsupported server versions is untested and potentially "
+"dangerous. Proceed at your own risk."
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:260
+msgid "Disconnected"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:262
+msgid "Disconnected from some accounts"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:273
+msgid "Disconnected from accounts:"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:275
+msgid "Account %1: %2"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:290
+msgid "Signed out"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:294
+msgid "Account synchronization is disabled"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:295
+msgid "Synchronization is paused"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:343
+msgid "Unresolved conflicts"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:350
+msgid "Error during synchronization"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:354
+msgid "No sync folders configured"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:418
+msgid "Syncing %1 of %2 (%3 left)"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:423
+msgid "Syncing %1 of %2"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:432
+msgid "Syncing %1 (%2 left)"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:435
+msgid "Syncing %1"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:445
+msgid "%1 (%2, %3)"
+msgstr ""
+
+#: ../src/gui/owncloudgui.cpp:345
+msgid "Up to date"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:304
+msgid "Server"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:354
+msgid ""
+"<html><head/><body><p>If this box is checked, existing content in the local "
+"folder will be erased to start a clean sync from the server.</p><p>Do not "
+"check this if the local content should be uploaded to the servers "
+"folder.</p></body></html>"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:357
+msgid "Start a &clean sync (Erases the local folder!)"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:148
+msgid "Ask for confirmation before synchroni&zing folders larger than"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:165
+msgid "MB"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:174
+msgid "Ask for confirmation before synchronizing e&xternal storages"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:198
+msgid "Choose what to sync"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:251
+msgid "&Local Folder"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:344
+msgid "&Keep local data"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudadvancedsetuppage.ui:90
+msgid "S&ync everything from server"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudhttpcredspage.ui:73
+msgid "&Username"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudhttpcredspage.ui:83
+msgid "&Password"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:36
+msgid "Please switch to your browser to proceed."
+msgstr ""
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:46
+msgid "An error occurred while connecting. Please try again."
+msgstr ""
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:56
+msgid "Re-open Browser"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudoauthcredspage.ui:69
+msgid "Copy link"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:343
+msgid "Register with a provider"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:365
+msgid "Log in"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudsetupnocredspage.ui:194
+msgid "Server Address"
+msgstr ""
+
+#: ../src/gui/wizard/owncloudwizardresultpage.ui:163
+msgid "Your entire account is synced to the local folder "
+msgstr ""
+
+#: ../src/common/utility.cpp:463
+msgid "in the future"
+msgstr ""
+
+#: ../src/common/utility.cpp:457
+msgid "%n day ago"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:459
+msgid "%n days ago"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:469
+msgid "%n hour ago"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:471
+msgid "%n hours ago"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:478
+msgid "now"
+msgstr ""
+
+#: ../src/common/utility.cpp:480
+msgid "Less than a minute ago"
+msgstr ""
+
+#: ../src/common/utility.cpp:484
+msgid "%n minute ago"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:486
+msgid "%n minutes ago"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:490
+msgid "Some time ago"
+msgstr ""
+
+#: ../src/libsync/syncresult.cpp:153
+msgid "%1: %2"
+msgstr ""
+
+#: ../src/common/utility.cpp:130
+msgid "%L1 GB"
+msgstr ""
+
+#: ../src/common/utility.cpp:134
+msgid "%L1 MB"
+msgstr ""
+
+#: ../src/common/utility.cpp:138
+msgid "%L1 KB"
+msgstr ""
+
+#: ../src/common/utility.cpp:141
+msgid "%L1 B"
+msgstr ""
+
+#: ../src/common/utility.cpp:310
+msgid "%n year(s)"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:311
+msgid "%n month(s)"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:312
+msgid "%n day(s)"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:313
+msgid "%n hour(s)"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:314
+msgid "%n minute(s)"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:315
+msgid "%n second(s)"
+msgstr ""
+"\n"
+"            "
+
+#: ../src/common/utility.cpp:339
+msgid "%1 %2"
+msgstr ""
+
+#: ../src/common/checksums.cpp:233
+msgid "The checksum header is malformed."
+msgstr ""
+
+#: ../src/common/checksums.cpp:248
+msgid "The checksum header contained an unknown checksum type '%1'"
+msgstr ""
+
+#: ../src/common/checksums.cpp:252
+msgid "The downloaded file does not match the checksum, it will be resumed."
+msgstr ""
+
+#: ../src/gui/main.cpp:39
+msgid "System Tray not available"
+msgstr ""
+
+#: ../src/gui/main.cpp:40
+msgid ""
+"%1 requires on a working system tray. If you are running XFCE, please follow"
+" <a href=\"http://docs.xfce.org/xfce/xfce4-panel/systray\">these "
+"instructions</a>. Otherwise, please install a system tray application such "
+"as 'trayer' and try again."
+msgstr ""
+
+#: ../src/libsync/theme.cpp:329
+msgid ""
+"<p><small>Built from Git revision <a href=\"%1\">%2</a> on %3, %4 using Qt "
+"%5, %6</small></p>"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:32
+msgid "Downloaded"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:34
+msgid "Uploaded"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:37
+msgid ""
+"Server version downloaded, copied changed local file into conflict file"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:39
+msgid "Deleted"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:42
+msgid "Moved to %1"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:44
+msgid "Ignored"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:46
+msgid "Filesystem access error"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:48
+msgid "Error"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:50
+msgid "Updated local metadata"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:53
+msgid "Unknown"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:66
+msgid "downloading"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:68
+msgid "uploading"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:70
+msgid "deleting"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:73
+msgid "moving"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:75
+msgid "ignoring"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:77
+msgid "error"
+msgstr ""
+
+#: ../src/libsync/progressdispatcher.cpp:81
+msgid "updating local metadata"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:62
+msgid "Status undefined"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:65
+msgid "Waiting to start sync"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:68
+msgid "Sync is running"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:71
+msgid "Sync Success"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:74
+msgid "Sync Success, some files were ignored."
+msgstr ""
+
+#: ../src/libsync/theme.cpp:77
+msgid "Sync Error"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:80
+msgid "Setup Error"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:83
+msgid "Preparing to sync"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:86
+msgid "Aborting …"
+msgstr ""
+
+#: ../src/libsync/theme.cpp:89
+msgid "Sync is paused"
+msgstr ""
+
+#: ../src/gui/guiutility.cpp:34
+msgid "Could not open browser"
+msgstr ""
+
+#: ../src/gui/guiutility.cpp:35
+msgid ""
+"There was an error when launching the browser to go to URL %1. Maybe no "
+"default browser is configured?"
+msgstr ""
+
+#: ../src/gui/guiutility.cpp:58
+msgid "Could not open email client"
+msgstr ""
+
+#: ../src/gui/guiutility.cpp:59
+msgid ""
+"There was an error when launching the email client to create a new message. "
+"Maybe no default email client is configured?"
+msgstr ""
