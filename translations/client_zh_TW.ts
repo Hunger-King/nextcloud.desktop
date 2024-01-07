@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="zh_TW">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_TW">
 <context>
     <name>ActivityItem</name>
     <message>
@@ -30,7 +32,7 @@
     <message>
         <location filename="../src/gui/tray/ActivityList.qml" line="31"/>
         <source>Activity list</source>
-        <translation>事件清單</translation>
+        <translation>活動清單</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/ActivityList.qml" line="108"/>
@@ -94,7 +96,7 @@
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="140"/>
         <source>Syncing %1 (%2 left)</source>
-        <translation>正在同步%1（剩餘 %2 項）</translation>
+        <translation>正在同步 %1（剩餘 %2 項）</translation>
     </message>
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="143"/>
@@ -255,7 +257,7 @@
     <message>
         <location filename="../src/gui/wizard/flow2authwidget.ui" line="56"/>
         <source>Logo</source>
-        <translation>商標</translation>
+        <translation>標誌</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/flow2authwidget.ui" line="73"/>
@@ -278,7 +280,7 @@
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="44"/>
         <source>&amp;Choose …</source>
-        <translation>選擇(&amp;C)...</translation>
+        <translation>選擇(&amp;C)……</translation>
     </message>
 </context>
 <context>
@@ -286,7 +288,7 @@
     <message>
         <location filename="../src/gui/folderwizardtargetpage.ui" line="131"/>
         <source>Select a remote destination folder</source>
-        <translation>選擇一個遠端的目標資料夾</translation>
+        <translation>選擇遠端目標資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizardtargetpage.ui" line="143"/>
@@ -409,7 +411,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="31"/>
         <source>Unchecked folders will be &lt;b&gt;removed&lt;/b&gt; from your local file system and will not be synchronized to this computer anymore</source>
-        <translation>未標示的資料夾將會從這台電腦被&lt;b&gt;刪除&lt;/b&gt;，而且不會再被同步到這台電腦 </translation>
+        <translation>未標示的資料夾將會從這台電腦被&lt;b&gt;刪除&lt;/b&gt;，而且不會再被同步到這台電腦</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="70"/>
@@ -626,7 +628,7 @@ Wait for the new sync, then encrypt it.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="746"/>
         <source>&lt;p&gt;Could not create local folder &lt;i&gt;%1&lt;/i&gt;.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;無法建立本機資料夾&lt;i&gt;%1&lt;/i&gt;。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;無法建立本機資料夾 &lt;i&gt;%1&lt;/i&gt;。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="803"/>
@@ -669,12 +671,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1014"/>
         <source>End-to-end encryption mnemonic</source>
-        <translation>端到端加密助記字串</translation>
+        <translation>端到端加密助記碼</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1016"/>
         <source>To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 dictionary words. Please note these down and keep them safe. They will be needed to add other devices to your account (like your mobile phone or laptop).</source>
-        <translation>為了保護您的身份，我們將用含 12 個單詞的助記詞進行加密。請將這些單詞記在一個安全的地方。要將其他裝置（如手機或筆記型電腦）加入您的帳號中，需用到此助記詞。</translation>
+        <translation>為了保護您的身份，我們將用含 12 個單詞的助記碼進行加密。請將這些單字記在一個安全的地方。要將其他裝置（如手機或筆記型電腦）加入您的帳號中，需用到此助記碼。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1041"/>
@@ -734,7 +736,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1227"/>
         <source>Connected to %1.</source>
-        <translation>已連線到 %1</translation>
+        <translation>已連線到 %1。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1231"/>
@@ -784,17 +786,17 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1517"/>
         <source>There are folders that were not synchronized because they are too big: </source>
-        <translation>有部份的資料夾因為容量太大沒有辦法同步：</translation>
+        <translation>有部份的資料夾因為容量太大沒有辦法同步： </translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1519"/>
         <source>There are folders that were not synchronized because they are external storages: </source>
-        <translation>有部分資料夾因為是外部儲存空間沒有辦法同步：</translation>
+        <translation>有部分資料夾因為是外部儲存空間沒有辦法同步： </translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1520"/>
         <source>There are folders that were not synchronized because they are too big or external storages: </source>
-        <translation>有部分資料夾因為容量太大或是外部儲存空間沒有辦法同步：</translation>
+        <translation>有部分資料夾因為容量太大或是外部儲存空間沒有辦法同步： </translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1572"/>
@@ -804,12 +806,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1577"/>
         <source>End-to-end encryption has been enabled on this account with another device.&lt;br&gt;It can be enabled on this device by entering your mnemonic.&lt;br&gt;This will enable synchronisation of existing encrypted folders.</source>
-        <translation>已在其他裝置上為此帳號啟用端到端加密。&lt;br&gt;可透過輸入您的助記字串在此裝置上啟用。&lt;br&gt;這將啟用現有加密資料夾的同步。</translation>
+        <translation>已在其他裝置上為此帳號啟用端到端加密。&lt;br&gt;可透過輸入您的助記碼在此裝置上啟用。&lt;br&gt;這將啟用現有加密資料夾的同步。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1568"/>
         <source>This account supports end-to-end encryption</source>
-        <translation>此帳號支援端點對端點加密</translation>
+        <translation>此帳號支援端到端加密</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1572"/>
@@ -1294,7 +1296,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/libsync/clientsideencryption.cpp" line="1377"/>
         <source>Enter E2E passphrase</source>
-        <translation>輸入端到端加密認證資訊</translation>
+        <translation>輸入端到端加密通關密語</translation>
     </message>
 </context>
 <context>
@@ -1313,7 +1315,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/conflictdialog.ui" line="32"/>
         <source>Which version of the file do you want to keep?&lt;br/&gt;If you select both versions, the local file will have a number added to its name.</source>
-        <translation>您想要保留哪個版本的檔案？&lt;br/&gt;如果您選擇同時保留兩個版本，本機的檔案名稱後方僵化加上數字。</translation>
+        <translation>您想要保留哪個版本的檔案？&lt;br/&gt;如果您選擇同時保留兩個版本，本機的檔案名稱後方將會加上數字。</translation>
     </message>
     <message>
         <location filename="../src/gui/conflictdialog.ui" line="46"/>
@@ -1642,43 +1644,57 @@ This can be an issue with your OpenSSL libraries.</source>
         <location filename="../src/gui/filedetails/filedetails.cpp" line="109"/>
         <source>%1 second(s) ago</source>
         <comment>seconds elapsed since file last modified</comment>
-        <translation><numerusform>%1秒前</numerusform></translation>
+        <translation>
+            <numerusform>%1秒前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/filedetails/filedetails.cpp" line="112"/>
         <source>%1 minute(s) ago</source>
         <comment>minutes elapsed since file last modified</comment>
-        <translation><numerusform>%1分鐘前</numerusform></translation>
+        <translation>
+            <numerusform>%1分鐘前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/filedetails/filedetails.cpp" line="115"/>
         <source>%1 hour(s) ago</source>
         <comment>hours elapsed since file last modified</comment>
-        <translation><numerusform>%1小時前</numerusform></translation>
+        <translation>
+            <numerusform>%1小時前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/filedetails/filedetails.cpp" line="118"/>
         <source>%1 day(s) ago</source>
         <comment>days elapsed since file last modified</comment>
-        <translation><numerusform>%1天前</numerusform></translation>
+        <translation>
+            <numerusform>%1天前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/filedetails/filedetails.cpp" line="121"/>
         <source>%1 month(s) ago</source>
         <comment>months elapsed since file last modified</comment>
-        <translation><numerusform>%1月前</numerusform></translation>
+        <translation>
+            <numerusform>%1月前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/filedetails/filedetails.cpp" line="124"/>
         <source>%1 year(s) ago</source>
         <comment>years elapsed since file last modified</comment>
-        <translation><numerusform>%1年前</numerusform></translation>
+        <translation>
+            <numerusform>%1年前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/filedetails/filedetails.cpp" line="156"/>
         <source>Locked by %1 - Expires in %2 minute(s)</source>
         <comment>remaining time before lock expires</comment>
-        <translation><numerusform>被 %1 鎖定 - %2 分鐘後過期</numerusform></translation>
+        <translation>
+            <numerusform>被 %1 鎖定 - %2 分鐘後過期</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1776,7 +1792,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="428"/>
         <source>%1 and %n other file(s) have been removed.</source>
-        <translation><numerusform>已移除 %1 跟 %n 個其他檔案。</numerusform></translation>
+        <translation>
+            <numerusform>已移除 %1 跟 %n 個其他檔案。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="430"/>
@@ -1787,7 +1805,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="435"/>
         <source>%1 and %n other file(s) have been added.</source>
-        <translation><numerusform>已新增 %1 跟 %n 個其他檔案。</numerusform></translation>
+        <translation>
+            <numerusform>已新增 %1 跟 %n 個其他檔案。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="437"/>
@@ -1798,7 +1818,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="442"/>
         <source>%1 and %n other file(s) have been updated.</source>
-        <translation><numerusform>已更新 %1 跟 %n 個其他檔案。</numerusform></translation>
+        <translation>
+            <numerusform>已更新 %1 跟 %n 個其他檔案。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="444"/>
@@ -1809,7 +1831,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="449"/>
         <source>%1 has been renamed to %2 and %n other file(s) have been renamed.</source>
-        <translation><numerusform>%1 已被更名為 %2，其他 %n 個檔案也被更名。</numerusform></translation>
+        <translation>
+            <numerusform>%1 已被更名為 %2，其他 %n 個檔案也被更名。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="451"/>
@@ -1820,7 +1844,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="456"/>
         <source>%1 has been moved to %2 and %n other file(s) have been moved.</source>
-        <translation><numerusform>%1 已被移動到 %2，其他 %n 個檔案也被移動。</numerusform></translation>
+        <translation>
+            <numerusform>%1 已被移動到 %2，其他 %n 個檔案也被移動。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="458"/>
@@ -1830,7 +1856,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="463"/>
         <source>%1 has and %n other file(s) have sync conflicts.</source>
-        <translation><numerusform>%1 跟 %n 個其他檔案同步時發生衝突。</numerusform></translation>
+        <translation>
+            <numerusform>%1 跟 %n 個其他檔案同步時發生衝突。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="465"/>
@@ -1840,7 +1868,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="470"/>
         <source>%1 and %n other file(s) could not be synced due to errors. See the log for details.</source>
-        <translation><numerusform>%1 跟 %n 個其他檔案因為錯誤無法被同步。請檢視紀錄檔以取得詳細資訊。</numerusform></translation>
+        <translation>
+            <numerusform>%1 跟 %n 個其他檔案因為錯誤無法被同步。請檢視紀錄檔以取得詳細資訊。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="472"/>
@@ -1850,7 +1880,9 @@ This can be an issue with your OpenSSL libraries.</source>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="477"/>
         <source>%1 and %n other file(s) are currently locked.</source>
-        <translation><numerusform>%1 跟 %n 個其他檔案正在被鎖定狀態。</numerusform></translation>
+        <translation>
+            <numerusform>%1 跟 %n 個其他檔案正在被鎖定狀態。</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="479"/>
@@ -1906,7 +1938,7 @@ This can be an issue with your OpenSSL libraries.</source>
     <message>
         <location filename="../src/gui/folder.cpp" line="1396"/>
         <source>The folder %1 has surpassed the set folder size limit of %2MB.</source>
-        <translation>資料夾 %1 已超過設定的資料夾大小限制 %2MB</translation>
+        <translation>資料夾 %1 已超過設定的資料夾大小限制 %2MB。</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="1397"/>
@@ -2020,12 +2052,12 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderman.cpp" line="1337"/>
         <source> (backup)</source>
-        <translation>（備份）</translation>
+        <translation> （備份）</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1342"/>
         <source> (backup %1)</source>
-        <translation>（備份 %1）</translation>
+        <translation> （備份 %1）</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1602"/>
@@ -2136,7 +2168,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="153"/>
         <source>Click this button to add a folder to synchronize.</source>
-        <translation>點擊此按鈕來新增同步資料夾</translation>
+        <translation>點擊此按鈕來新增同步資料夾。</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="166"/>
@@ -2202,7 +2234,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="1066"/>
         <source>Syncing %1</source>
-        <extracomment>Example text: &quot;Syncing 'foo.txt', 'bar.txt'&quot;</extracomment>
+        <extracomment>Example text: &quot;Syncing &apos;foo.txt&apos;, &apos;bar.txt&apos;&quot;</extracomment>
         <translation>正在同步 %1</translation>
     </message>
     <message>
@@ -2254,7 +2286,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="1120"/>
         <source>%5 left, %1 of %2, file %3 of %4</source>
-        <translation>剩餘%5，%1 的 %2，檔案 %3 的 %4</translation>
+        <translation>剩餘 %5，%1 的 %2，檔案 %3 的 %4</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="1129"/>
@@ -2275,7 +2307,9 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message numerus="yes">
         <location filename="../src/gui/folderstatusmodel.cpp" line="1193"/>
         <source>Waiting for %n other folder(s) …</source>
-        <translation><numerusform>正在等待其他 %n 個資料夾……</numerusform></translation>
+        <translation>
+            <numerusform>正在等待其他 %n 個資料夾……</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="1199"/>
@@ -4482,7 +4516,9 @@ Server replied with error: %2</source>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1267"/>
         <source>Expires in %1 minutes</source>
         <comment>remaining time before lock expires</comment>
-        <translation><numerusform>%1 分鐘後過期</numerusform></translation>
+        <translation>
+            <numerusform>%1 分鐘後過期</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1369"/>
@@ -5533,7 +5569,9 @@ Server replied with error: %2</source>
         <location filename="../src/common/utility.cpp" line="482"/>
         <source>%nd</source>
         <comment>delay in days after an activity</comment>
-        <translation><numerusform>%n日</numerusform></translation>
+        <translation>
+            <numerusform>%n日</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/common/utility.cpp" line="486"/>
@@ -5544,7 +5582,9 @@ Server replied with error: %2</source>
         <location filename="../src/common/utility.cpp" line="491"/>
         <source>%nh</source>
         <comment>delay in hours after an activity</comment>
-        <translation><numerusform>%n小時</numerusform></translation>
+        <translation>
+            <numerusform>%n小時</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/common/utility.cpp" line="497"/>
@@ -5561,7 +5601,9 @@ Server replied with error: %2</source>
         <location filename="../src/common/utility.cpp" line="502"/>
         <source>%nm</source>
         <comment>delay in minutes after an activity</comment>
-        <translation><numerusform>%n分鐘</numerusform></translation>
+        <translation>
+            <numerusform>%n分鐘</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/common/utility.cpp" line="506"/>
@@ -5586,7 +5628,9 @@ Server replied with error: %2</source>
         <location filename="../src/gui/ResolveConflictsDialog.qml" line="74"/>
         <source>%1 files in conflict</source>
         <comment>indicate the number of conflicts to resolve</comment>
-        <translation><numerusform>%1 個檔案衝突</numerusform></translation>
+        <translation>
+            <numerusform>%1 個檔案衝突</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/gui/ResolveConflictsDialog.qml" line="81"/>
@@ -6025,32 +6069,44 @@ Server replied with error: %2</source>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="335"/>
         <source>%n year(s)</source>
-        <translation><numerusform>%n年</numerusform></translation>
+        <translation>
+            <numerusform>%n年</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="336"/>
         <source>%n month(s)</source>
-        <translation><numerusform>%n個月</numerusform></translation>
+        <translation>
+            <numerusform>%n個月</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="337"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n天</numerusform></translation>
+        <translation>
+            <numerusform>%n天</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="338"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n小時</numerusform></translation>
+        <translation>
+            <numerusform>%n小時</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="339"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n分鐘</numerusform></translation>
+        <translation>
+            <numerusform>%n分鐘</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="340"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n秒</numerusform></translation>
+        <translation>
+            <numerusform>%n秒</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../src/common/utility.cpp" line="364"/>
