@@ -1708,7 +1708,7 @@ This can be an issue with your OpenSSL libraries.</source>
         <location filename="../src/gui/creds/flow2auth.cpp" line="113"/>
         <location filename="../src/gui/creds/flow2auth.cpp" line="231"/>
         <source>Error returned from the server: &lt;em&gt;%1&lt;/em&gt;</source>
-        <translation>伺服器回傳錯誤訊息：&lt;em&gt;%1&lt;/em&gt;</translation>
+        <translation>伺服器回傳錯誤：&lt;em&gt;%1&lt;/em&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/creds/flow2auth.cpp" line="116"/>
@@ -2361,7 +2361,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="152"/>
         <source>Select the source folder</source>
-        <translation>選擇來源資料夾</translation>
+        <translation>選取來源資料夾</translation>
     </message>
 </context>
 <context>
@@ -2399,7 +2399,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="364"/>
         <source>Choose this to sync the entire account</source>
-        <translation> 請選擇這個功能用來同步整個帳號</translation>
+        <translation>選擇此功能可用來同步整個帳號</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="507"/>
@@ -2434,7 +2434,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="605"/>
         <source>Virtual files are not supported for Windows partition roots as local folder. Please choose a valid subfolder under drive letter.</source>
-        <translation>Windows 分割區跟目錄不支援將虛擬檔案作為本機資料夾使用。請在磁碟區代號下選擇有效的子資料夾。</translation>
+        <translation>Windows 分割區根目錄不支援將虛擬檔案作為本機資料夾使用。請在磁碟區代號下選擇有效的子資料夾。</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="628"/>
@@ -2762,7 +2762,7 @@ Note that this selects only what pool upgrades are taken from, and that there ar
         <source>Could not retrieve or create the public link share. Error:
 
 %1</source>
-        <translation>無法取回或生成公開分享連結。錯誤:
+        <translation>無法擷取或建立公開分享連結。錯誤：
 
 %1</translation>
     </message>
@@ -2787,7 +2787,7 @@ Note that this selects only what pool upgrades are taken from, and that there ar
     <message>
         <location filename="../src/gui/creds/httpcredentialsgui.cpp" line="156"/>
         <source>&lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to request an app password from the web interface.</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;點擊此處&lt;/a&gt;，通過網頁介面索取應用程式密碼</translation>
+        <translation>&lt;a href=&quot;%1&quot;&gt;點擊此處&lt;/a&gt;，通過網頁介面索取應用程式密碼。</translation>
     </message>
 </context>
 <context>
@@ -2800,7 +2800,7 @@ Note that this selects only what pool upgrades are taken from, and that there ar
     <message>
         <location filename="../src/gui/ignorelisteditor.ui" line="20"/>
         <source>Global Ignore Settings</source>
-        <translation>一般忽略設定</translation>
+        <translation>全域忽略設定</translation>
     </message>
     <message>
         <location filename="../src/gui/ignorelisteditor.ui" line="26"/>
@@ -2843,7 +2843,7 @@ Note that this selects only what pool upgrades are taken from, and that there ar
     <message>
         <location filename="../src/gui/ignorelisttablewidget.ui" line="66"/>
         <source>Remove all</source>
-        <translation>移除所有</translation>
+        <translation>全部移除</translation>
     </message>
     <message>
         <location filename="../src/gui/ignorelisttablewidget.cpp" line="24"/>
@@ -2872,7 +2872,7 @@ Items where deletion is allowed will be deleted if they prevent a directory from
     <message>
         <location filename="../src/gui/ignorelisttablewidget.cpp" line="113"/>
         <source>Add a new ignore pattern:</source>
-        <translation>新增要忽略的檔案模式</translation>
+        <translation>新增要忽略的檔案模式：</translation>
     </message>
 </context>
 <context>
@@ -3074,7 +3074,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="461"/>
         <source>&lt;p&gt;A new version of the %1 Client is available but the updating process failed.&lt;/p&gt;&lt;p&gt;&lt;b&gt;%2&lt;/b&gt; has been downloaded. The installed version is %3. If you confirm restart and update, your computer may reboot to complete the installation.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;%1  客戶端有新版本可用，但更新過程失敗。&lt;/p&gt;&lt;p&gt;&lt;b&gt;%2&lt;/b&gt; 已下載。 目前安裝的版本是 %3。如果您確認重新啟動和更新，您的電腦可能會重新啟動以完成安裝。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;%1 客戶端有新版本可用，但更新過程失敗。&lt;/p&gt;&lt;p&gt;&lt;b&gt;%2&lt;/b&gt; 已下載。 目前安裝的版本是 %3。如果您確認重新啟動和更新，您的電腦可能會重新啟動以完成安裝。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="474"/>
@@ -3295,7 +3295,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="258"/>
         <source>Virtual files are not supported for Windows partition roots as local folder. Please choose a valid subfolder under drive letter.</source>
-        <translation>Windows 分割區跟目錄不支援將虛擬檔案作為本機資料夾使用。請在磁碟區代號下選擇有效的子資料夾。</translation>
+        <translation>Windows 分割區根目錄不支援將虛擬檔案作為本機資料夾使用。請在磁碟區代號下選擇有效的子資料夾。</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="295"/>
@@ -4330,7 +4330,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <message>
         <location filename="../src/gui/filedetails/sharemodel.cpp" line="692"/>
         <source>Secure file drop link</source>
-        <translation>安全檔案投放連結</translation>
+        <translation>安全檔案投遞箱連結</translation>
     </message>
     <message>
         <location filename="../src/gui/filedetails/sharemodel.cpp" line="692"/>
@@ -4444,7 +4444,7 @@ Server replied with error: %2</source>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1134"/>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1363"/>
         <source>Activity</source>
-        <translation>事件</translation>
+        <translation>活動</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1136"/>
@@ -4474,7 +4474,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1183"/>
         <source>Copy secure file drop link</source>
-        <translation>複製安全檔案投放連結</translation>
+        <translation>複製安全檔案投遞箱連結</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1185"/>
@@ -4485,7 +4485,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1189"/>
         <source>Copy secure filedrop link</source>
-        <translation>複製安全檔案投放連結</translation>
+        <translation>複製安全檔案投遞箱連結</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1197"/>
@@ -4566,7 +4566,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="88"/>
         <source>&lt;h3&gt;Certificate Details&lt;/h3&gt;</source>
-        <translation>&lt;h3&gt;證書詳細資訊&lt;/h3&gt;</translation>
+        <translation>&lt;h3&gt;憑證詳細資訊&lt;/h3&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="91"/>
@@ -4606,17 +4606,17 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="100"/>
         <source>&lt;h3&gt;Issuer&lt;/h3&gt;</source>
-        <translation>&lt;h3&gt;簽發者&lt;/h3&gt;</translation>
+        <translation>&lt;h3&gt;發行者&lt;/h3&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="103"/>
         <source>Issuer:</source>
-        <translation>簽發者：</translation>
+        <translation>發行者：</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="104"/>
         <source>Issued on:</source>
-        <translation>簽發於：</translation>
+        <translation>發行於：</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="105"/>
@@ -4675,7 +4675,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="205"/>
         <source>No support for SSL session tickets/identifiers</source>
-        <translation>不支援 SSL 工作階段證書／標識符</translation>
+        <translation>不支援 SSL 工作階段憑證／識別字串</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="215"/>
@@ -4768,7 +4768,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="219"/>
         <source>Issuer: %1</source>
-        <translation>簽發者：%1</translation>
+        <translation>發行者：%1</translation>
     </message>
 </context>
 <context>
@@ -5137,7 +5137,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/userstatusselectormodel.cpp" line="410"/>
         <source>Less than a minute</source>
-        <translation>不到一分鐘</translation>
+        <translation>不到1分鐘</translation>
     </message>
     <message>
         <location filename="../src/gui/userstatusselectormodel.cpp" line="414"/>
@@ -5234,7 +5234,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/webview.cpp" line="231"/>
         <source>Invalid certificate detected</source>
-        <translation>檢測到無效憑證</translation>
+        <translation>偵測到無效憑證</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/webview.cpp" line="232"/>
@@ -5270,7 +5270,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/welcomepage.ui" line="156"/>
         <source>Sign up with provider</source>
-        <translation>使用第三方登入</translation>
+        <translation>與提供者註冊</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="68"/>
@@ -5280,17 +5280,17 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="69"/>
         <source>Secure collaboration &amp; file exchange</source>
-        <translation>安全地協作與傳輸檔案</translation>
+        <translation>安全協作與檔案交換</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="70"/>
         <source>Easy-to-use web mail, calendaring &amp; contacts</source>
-        <translation>易於使用的網路郵件、日曆與聯絡人</translation>
+        <translation>易於使用的網路郵件、日曆與通訊錄</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="71"/>
         <source>Screensharing, online meetings &amp; web conferences</source>
-        <translation>螢幕分享、線上對話與網路會議</translation>
+        <translation>分享螢幕畫面、線上會議與研討會</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="111"/>
@@ -5308,7 +5308,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="267"/>
         <source>The server on account %1 runs an unsupported version %2. Using this client with unsupported server versions is untested and potentially dangerous. Proceed at your own risk.</source>
-        <translation>%1 帳號所在的伺服器執行了不支援的版本 %2。將此客戶端與不支援的伺服器版本一同使用是未經測試且有潛在的危險性。若要繼續，請自負風險。</translation>
+        <translation>%1 帳號所在的伺服器執行了不支援的版本 %2。將此客戶端與不支援的伺服器版本一同使用未經測試且有潛在的危險性。若要繼續，請自負風險。</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="308"/>
@@ -5525,7 +5525,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/owncloudsetupnocredspage.ui" line="183"/>
         <source>Server address</source>
-        <translation>伺服器位置</translation>
+        <translation>伺服器地址</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudsetupnocredspage.ui" line="259"/>
@@ -5686,7 +5686,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/filedetails/ShareDetailsPage.qml" line="97"/>
         <source>An error occurred setting the share password.</source>
-        <translation>設定分享密碼時發生錯誤</translation>
+        <translation>設定分享密碼時發生錯誤。</translation>
     </message>
     <message>
         <location filename="../src/gui/filedetails/ShareDetailsPage.qml" line="216"/>
@@ -5717,7 +5717,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/filedetails/ShareDetailsPage.qml" line="414"/>
         <source>File drop (upload only)</source>
-        <translation>檔案投放（僅上傳）</translation>
+        <translation>檔案投遞箱（僅供上傳）</translation>
     </message>
     <message>
         <location filename="../src/gui/filedetails/ShareDetailsPage.qml" line="453"/>
@@ -5855,7 +5855,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/tray/TrayFoldersMenuButton.qml" line="70"/>
         <source>Disconnected</source>
-        <translation>已解除連線</translation>
+        <translation>已斷線</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/TrayFoldersMenuButton.qml" line="109"/>
@@ -6137,7 +6137,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/tray/Window.qml" line="256"/>
         <source>Nextcloud desktop main dialog</source>
-        <translation>Nextcloud 桌面版主要對話框</translation>
+        <translation>Nextcloud 桌面版主要對話方塊</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/Window.qml" line="282"/>
@@ -6184,12 +6184,12 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/tray/Window.qml" line="531"/>
         <source>Current account status is online</source>
-        <translation>目前的帳號狀態為在線上</translation>
+        <translation>目前帳號狀態為在線上</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/Window.qml" line="531"/>
         <source>Current account status is do not disturb</source>
-        <translation>目前的帳號狀態為請勿打擾</translation>
+        <translation>目前帳號狀態為請勿打擾</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/Window.qml" line="607"/>
@@ -6372,7 +6372,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/libsync/theme.cpp" line="96"/>
         <source>Sync Success, some files were ignored.</source>
-        <translation>同步成功，部份檔案被忽略</translation>
+        <translation>同步成功，部份檔案被忽略。</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="99"/>
@@ -6382,7 +6382,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/libsync/theme.cpp" line="102"/>
         <source>Setup Error</source>
-        <translation>安裝錯誤</translation>
+        <translation>設定錯誤</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="105"/>
