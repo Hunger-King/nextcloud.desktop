@@ -76,7 +76,7 @@
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="106"/>
         <source>%1 (%2, %3)</source>
-        <translation>%1 (%2, %3)</translation>
+        <translation>%1（%2，%3）</translation>
     </message>
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="123"/>
@@ -280,7 +280,7 @@
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="44"/>
         <source>&amp;Choose …</source>
-        <translation>選擇(&amp;C)……</translation>
+        <translation>並選擇……</translation>
     </message>
 </context>
 <context>
@@ -561,7 +561,7 @@ Wait for the new sync, then encrypt it.</source>
         <location filename="../src/gui/accountsettings.cpp" line="535"/>
         <location filename="../src/gui/accountsettings.cpp" line="605"/>
         <source>Edit Ignored Files</source>
-        <translation>編輯要忽視的檔案</translation>
+        <translation>編輯已忽視的檔案</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="538"/>
@@ -657,7 +657,7 @@ Wait for the new sync, then encrypt it.</source>
 The only advantage of disabling virtual file support is that the selective sync feature will become available again.
 
 This action will abort any currently running synchronization.</source>
-        <translation>此動作將會停用虛擬檔案支援。結果是將會下載目前標記為「僅線上可用」的資料夾內容。
+        <translation>此動作將會停用虛擬檔案支援。結果將下載目前標記為「僅線上可用」的資料夾內容。
 
 停用虛擬檔案支援的好處是選擇性同步功能將再次可用。
 
@@ -706,7 +706,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1178"/>
         <source>%1 (%3%) of %2 in use. Some folders, including network mounted or shared folders, might have different limits.</source>
-        <translation>%1 (%3%) 中的 %2 正在使用， 有些資料夾，包括網路掛載或分享資料夾，可能有不同的限制。</translation>
+        <translation>%1（%3%）中的 %2 正在使用， 有些資料夾，包括網路掛載或分享資料夾，可能有不同的限制。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1179"/>
@@ -796,7 +796,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1520"/>
         <source>There are folders that were not synchronized because they are too big or external storages: </source>
-        <translation>有部分資料夾因為容量太大或是外部儲存空間沒有辦法同步： </translation>
+        <translation>有部分資料夾因為容量太大或是外部儲存空間而無法同步： </translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1572"/>
@@ -928,7 +928,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/addcertificatedialog.ui" line="35"/>
         <source>Certificate &amp; Key (pkcs12):</source>
-        <translation>憑證與金鑰 (pkcs12)：</translation>
+        <translation>憑證與金鑰（pkcs12）：</translation>
     </message>
     <message>
         <location filename="../src/gui/addcertificatedialog.ui" line="51"/>
@@ -953,7 +953,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/addcertificatedialog.cpp" line="38"/>
         <source>Certificate files (*.p12 *.pfx)</source>
-        <translation>憑證檔案 (*.p12 *.pfx)</translation>
+        <translation>憑證檔案（*.p12 *.pfx）</translation>
     </message>
 </context>
 <context>
@@ -1061,12 +1061,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/authenticationdialog.cpp" line="37"/>
         <source>&amp;Username:</source>
-        <translation>使用者名稱(&amp;U)：</translation>
+        <translation>使用者名稱：</translation>
     </message>
     <message>
         <location filename="../src/gui/authenticationdialog.cpp" line="38"/>
         <source>&amp;Password:</source>
-        <translation>密碼(&amp;P)：</translation>
+        <translation>密碼：</translation>
     </message>
 </context>
 <context>
@@ -1702,7 +1702,7 @@ This can be an issue with your OpenSSL libraries.</source>
     <message>
         <location filename="../src/gui/creds/flow2auth.cpp" line="102"/>
         <source>The polling URL does not start with HTTPS despite the login URL started with HTTPS. Login will not be possible because this might be a security issue. Please contact your administrator.</source>
-        <translation>雖然登入的 URL 是以 HTTPS 開頭，但輪詢的 URL 不是。因為這可能是安全性問題，所以您無法登入。請聯絡您的管理員。</translation>
+        <translation>登入的 URL 是以 HTTPS 開頭，但輪詢的 URL 不是。這可能是安全性問題，所以您無法登入。請聯絡您的管理員。</translation>
     </message>
     <message>
         <location filename="../src/gui/creds/flow2auth.cpp" line="113"/>
@@ -1731,7 +1731,7 @@ This can be an issue with your OpenSSL libraries.</source>
     <message>
         <location filename="../src/gui/creds/flow2auth.cpp" line="219"/>
         <source>The returned server URL does not start with HTTPS despite the login URL started with HTTPS. Login will not be possible because this might be a security issue. Please contact your administrator.</source>
-        <translation>雖然登入的 URL 是以 HTTPS 開頭，但回傳的 URL 不是。因為這可能是安全性問題，所以您無法登入。請聯絡您的管理員。</translation>
+        <translation>登入的 URL 是以 HTTPS 開頭，但回傳的 URL 不是。這可能是安全性問題，所以您無法登入。請聯絡您的管理員。</translation>
     </message>
 </context>
 <context>
@@ -2179,7 +2179,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
         <location filename="../src/gui/folderstatusmodel.cpp" line="168"/>
         <location filename="../src/gui/folderstatusmodel.cpp" line="171"/>
         <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
+        <translation>%1（%2）</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="210"/>
@@ -2515,17 +2515,17 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="75"/>
         <source>Use &amp;Monochrome Icons</source>
-        <translation>使用單色圖示(&amp;M)</translation>
+        <translation>使用單色圖示</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="82"/>
         <source>&amp;Launch on System Startup</source>
-        <translation>系統啟動時啟動(&amp;L)</translation>
+        <translation>系統啟動時啟動</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="89"/>
         <source>Show Server &amp;Notifications</source>
-        <translation>顯示伺服器通知(&amp;N)</translation>
+        <translation>顯示伺服器通知</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="96"/>
@@ -2545,7 +2545,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="114"/>
         <source>&amp;Automatically check for Updates</source>
-        <translation>自動檢查更新(&amp;A)</translation>
+        <translation>自動檢查更新</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="123"/>
@@ -2555,7 +2555,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="134"/>
         <source>&amp;Channel</source>
-        <translation>頻道(&amp;C)</translation>
+        <translation>頻道</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="273"/>
@@ -2570,17 +2570,17 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="158"/>
         <source>Show sync folders in &amp;Explorer&apos;s navigation pane</source>
-        <translation>在檔案總管的導覽面板中顯示同步資料夾(&amp;E)</translation>
+        <translation>在檔案總管的導覽面板中顯示同步資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="301"/>
         <source>S&amp;how crash reporter</source>
-        <translation>顯示當機回報程式(&amp;H)</translation>
+        <translation>顯示當機回報程式</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="312"/>
         <source>Edit &amp;Ignored Files</source>
-        <translation>編輯被忽略的檔案(&amp;I)</translation>
+        <translation>編輯被忽略的檔案</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="319"/>
@@ -2591,7 +2591,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="198"/>
         <source>&amp;Check for Update now</source>
-        <translation>立即檢查更新(&amp;C)</translation>
+        <translation>立即檢查更新</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="218"/>
@@ -2628,17 +2628,17 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="183"/>
         <source>&amp;Restart &amp;&amp; Update</source>
-        <translation>重新啟動並更新(&amp;R)</translation>
+        <translation>重新啟動並更新</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="284"/>
         <source>Show sync folders in &amp;Explorer&apos;s Navigation Pane</source>
-        <translation>在檔案總管的導覽面板中顯示同步資料夾(&amp;E)</translation>
+        <translation>在檔案總管的導覽面板中顯示同步資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="323"/>
         <source>&amp;Automatically check for updates</source>
-        <translation>自動檢查更新(&amp;A)</translation>
+        <translation>自動檢查更新</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="339"/>
@@ -2668,17 +2668,17 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/generalsettings.ui" line="420"/>
         <source>Use &amp;monochrome icons</source>
-        <translation>使用單色圖示(&amp;M)</translation>
+        <translation>使用單色圖示</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="427"/>
         <source>&amp;Launch on system startup</source>
-        <translation>系統啟動時啟動(&amp;L)</translation>
+        <translation>系統啟動時啟動</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="434"/>
         <source>Show server &amp;notifications</source>
-        <translation>顯示伺服器通知(&amp;N)</translation>
+        <translation>顯示伺服器通知</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="441"/>
@@ -2994,7 +2994,7 @@ Items where deletion is allowed will be deleted if they prevent a directory from
     <message>
         <location filename="../src/gui/legalnotice.cpp" line="58"/>
         <source>&lt;p&gt;Licensed under the GNU General Public License (GPL) Version 2.0 or any later version.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;以 GNU 通用公眾授權條款 (GPL) 2.0 版或更新版本授權。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;以 GNU 通用公眾授權條款（GPL）2.0 版或更新版本授權。&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -3010,7 +3010,7 @@ Items where deletion is allowed will be deleted if they prevent a directory from
 Since log files can get large, the client will start a new one for each sync run and compress older ones. It will also delete log files after a couple of hours to avoid consuming too much disk space.
 If enabled, logs will be written to %1</source>
         <translation>客戶端可以將除錯日誌寫入臨時資料夾中。這些紀錄檔對診斷問題非常有用。
-因為紀錄檔會變大，所以客戶端將會在每次同步時開啟一個新檔案，並壓縮較舊的。它將會在數小時候刪除紀錄檔案，以避免消耗太多磁碟空間。
+紀錄檔會變大，所以客戶端將會在每次同步時開啟一個新檔案，並壓縮較舊的。它將會在數小時候刪除紀錄檔案，以避免消耗太多磁碟空間。
 若啟用，紀錄檔將會被寫入 %1</translation>
     </message>
     <message>
@@ -3197,7 +3197,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/networksettings.cpp" line="44"/>
         <source>HTTP(S) proxy</source>
-        <translation>HTTP(S) 代理伺服器</translation>
+        <translation>HTTP 代理伺服器</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.cpp" line="45"/>
@@ -3284,7 +3284,7 @@ Note that using any logging command line options will override this setting.</so
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="104"/>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="262"/>
         <source>Use &amp;virtual files instead of downloading content immediately %1</source>
-        <translation>使用虛擬檔案取代立即下載內容 %1 (&amp;V)</translation>
+        <translation>使用虛擬檔案取代立即下載內容 %1</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="104"/>
@@ -3332,7 +3332,7 @@ Note that using any logging command line options will override this setting.</so
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="501"/>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="542"/>
         <source>(%1)</source>
-        <translation>(%1)</translation>
+        <translation>（%1）</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.cpp" line="559"/>
@@ -3378,7 +3378,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/wizard/owncloudhttpcredspage.cpp" line="48"/>
         <source>&amp;Email</source>
-        <translation>電子郵件(&amp;E)</translation>
+        <translation>電子郵件</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudhttpcredspage.cpp" line="58"/>
@@ -3416,7 +3416,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/wizard/owncloudsetuppage.cpp" line="201"/>
         <source>&amp;Next &gt;</source>
-        <translation>下一步 (&amp;N) &gt;</translation>
+        <translation>下一步 &gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudsetuppage.cpp" line="239"/>
@@ -4664,7 +4664,7 @@ Server replied with error: %2</source>
         <location filename="../src/gui/sslbutton.cpp" line="177"/>
         <source>This connection is NOT secure as it is not encrypted.
 </source>
-        <translation>這個連線沒有經過加密，是不安全的。
+        <translation>連線不安全，因為沒有經過加密。
 </translation>
     </message>
     <message>
@@ -5419,7 +5419,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="513"/>
         <source>%1 (%2, %3)</source>
-        <translation>%1 (%2, %3)</translation>
+        <translation>%1（%2，%3）</translation>
     </message>
 </context>
 <context>
@@ -5427,7 +5427,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.ui" line="77"/>
         <source>&amp;Local Folder</source>
-        <translation>本機資料夾 (&amp;L)</translation>
+        <translation>本機資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudadvancedsetuppage.ui" line="98"/>
@@ -5501,12 +5501,12 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/owncloudhttpcredspage.ui" line="73"/>
         <source>&amp;Username</source>
-        <translation>使用者名稱(&amp;U)</translation>
+        <translation>使用者名稱</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudhttpcredspage.ui" line="83"/>
         <source>&amp;Password</source>
-        <translation>密碼(&amp;P)</translation>
+        <translation>密碼</translation>
     </message>
 </context>
 <context>
