@@ -280,7 +280,7 @@
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="44"/>
         <source>&amp;Choose …</source>
-        <translation>並選擇……</translation>
+        <translation>並選擇…</translation>
     </message>
 </context>
 <context>
@@ -433,7 +433,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="148"/>
         <source>Storage space: …</source>
-        <translation>儲存空間：……</translation>
+        <translation>儲存空間：…</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="256"/>
@@ -608,12 +608,12 @@ Wait for the new sync, then encrypt it.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="643"/>
         <source>Disable virtual file support …</source>
-        <translation>停用虛擬檔案支援……</translation>
+        <translation>停用虛擬檔案支援…</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="651"/>
         <source>Enable virtual file support %1 …</source>
-        <translation>啟用虛擬檔案支援 %1……</translation>
+        <translation>啟用虛擬檔案支援 %1…</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="651"/>
@@ -766,7 +766,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1254"/>
         <source>Connecting to %1 …</source>
-        <translation>正在連線到 %1……</translation>
+        <translation>正在連線到 %1…</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1259"/>
@@ -900,7 +900,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/tray/activitylistmodel.cpp" line="510"/>
         <source>Fetching activities …</source>
-        <translation>正在擷取活動紀錄……</translation>
+        <translation>正在擷取活動紀錄…</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/activitylistmodel.cpp" line="566"/>
@@ -933,7 +933,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/addcertificatedialog.ui" line="51"/>
         <source>Browse …</source>
-        <translation>瀏覽……</translation>
+        <translation>瀏覽…</translation>
     </message>
     <message>
         <location filename="../src/gui/addcertificatedialog.ui" line="60"/>
@@ -2189,7 +2189,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="213"/>
         <source>Fetching folder list from server …</source>
-        <translation>正在從伺服器擷取資料夾列表……</translation>
+        <translation>正在從伺服器擷取資料夾列表…</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="239"/>
@@ -2302,19 +2302,19 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="1191"/>
         <source>Waiting …</source>
-        <translation>請稍候……</translation>
+        <translation>請稍候…</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/folderstatusmodel.cpp" line="1193"/>
         <source>Waiting for %n other folder(s) …</source>
         <translation>
-            <numerusform>正在等待其他 %n 個資料夾……</numerusform>
+            <numerusform>正在等待其他 %n 個資料夾…</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="1199"/>
         <source>Preparing to sync …</source>
-        <translation>正在準備同步……</translation>
+        <translation>正在準備同步…</translation>
     </message>
 </context>
 <context>
@@ -2920,7 +2920,7 @@ Items where deletion is allowed will be deleted if they prevent a directory from
     <message>
         <location filename="../src/gui/invalidfilenamedialog.cpp" line="100"/>
         <source>Checking rename permissions …</source>
-        <translation>正在檢查重新命名權限……</translation>
+        <translation>正在檢查重新命名權限…</translation>
     </message>
     <message>
         <location filename="../src/gui/invalidfilenamedialog.cpp" line="135"/>
@@ -3220,7 +3220,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="152"/>
         <source>Downloading %1. Please wait …</source>
-        <translation>正在下載 %1。請稍候……</translation>
+        <translation>正在下載 %1。請稍候…</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="154"/>
@@ -3255,7 +3255,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="170"/>
         <source>Checking update server …</source>
-        <translation>正在檢查更新伺服器……</translation>
+        <translation>正在檢查更新伺服器…</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="172"/>
@@ -3434,7 +3434,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="278"/>
         <source>&lt;font color=&quot;green&quot;&gt;Successfully connected to %1: %2 version %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</source>
-        <translation>&lt;font color=&quot;green&quot;&gt;成功連線到 %1：%2 版本 %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
+        <translation>&lt;font color=&quot;green&quot;&gt;成功連線到 %1：%2 版本 %3（%4）&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="304"/>
@@ -3454,7 +3454,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="358"/>
         <source>Trying to connect to %1 at %2 …</source>
-        <translation>嘗試以 %1 身分連線到 %2……</translation>
+        <translation>嘗試以 %1 身分連線到 %2…</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="411"/>
@@ -3479,7 +3479,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="482"/>
         <source>Creating local sync folder %1 …</source>
-        <translation>正在新增本機同步資料夾 %1……</translation>
+        <translation>正在新增本機同步資料夾 %1…</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="486"/>
@@ -4177,7 +4177,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <message>
         <location filename="../src/libsync/propagateuploadng.cpp" line="493"/>
         <source>Unexpected return code from server (%1)</source>
-        <translation>伺服器回傳未知的錯誤碼 (%1)</translation>
+        <translation>伺服器回傳未知的錯誤碼（%1）</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagateuploadng.cpp" line="500"/>
@@ -4254,7 +4254,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <message>
         <location filename="../src/gui/selectivesyncdialog.cpp" line="72"/>
         <source>Loading …</source>
-        <translation>正在載入……</translation>
+        <translation>正在載入…</translation>
     </message>
     <message>
         <location filename="../src/gui/selectivesyncdialog.cpp" line="78"/>
@@ -4380,7 +4380,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
         <location filename="../src/gui/filedetails/shareemodel.cpp" line="302"/>
         <source>%1 (%2)</source>
         <comment>sharee (shareWithAdditionalInfo)</comment>
-        <translation>%1 (%2)</translation>
+        <translation>%1（%2）</translation>
     </message>
 </context>
 <context>
@@ -4427,7 +4427,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1060"/>
         <source>Select new location …</source>
-        <translation>選取新位置……</translation>
+        <translation>選取新位置…</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1120"/>
@@ -4454,7 +4454,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1137"/>
         <source>Send private link by email …</source>
-        <translation>用電子郵件發送私人連結……</translation>
+        <translation>用電子郵件發送私人連結…</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1162"/>
@@ -4533,17 +4533,17 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1398"/>
         <source>Resolve conflict …</source>
-        <translation>解決衝突……</translation>
+        <translation>解決衝突…</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1402"/>
         <source>Move and rename …</source>
-        <translation>移動並重新命名……</translation>
+        <translation>移動並重新命名…</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1405"/>
         <source>Move, rename and upload …</source>
-        <translation>移動、重新命名並上傳……</translation>
+        <translation>移動、重新命名並上傳…</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1407"/>
@@ -4553,7 +4553,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1413"/>
         <source>Move and upload …</source>
-        <translation>移動並上傳……</translation>
+        <translation>移動並上傳…</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1414"/>
@@ -4571,7 +4571,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="91"/>
         <source>Common Name (CN):</source>
-        <translation>一般名稱 (CN)：</translation>
+        <translation>一般名稱（CN）：</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="92"/>
@@ -4586,7 +4586,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="94"/>
         <source>Organizational Unit (OU):</source>
-        <translation>組織部門 (OU)：</translation>
+        <translation>組織部門（OU）：</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="95"/>
@@ -4743,17 +4743,17 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="206"/>
         <source>Fingerprint (SHA1): &lt;tt&gt;%1&lt;/tt&gt;</source>
-        <translation>指紋 (SHA1)：&lt;tt&gt;%1&lt;/tt&gt;</translation>
+        <translation>指紋（SHA1）：&lt;tt&gt;%1&lt;/tt&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="211"/>
         <source>Fingerprint (SHA-256): &lt;tt&gt;%1&lt;/tt&gt;</source>
-        <translation>指紋 (SHA-256)：&lt;tt&gt;%1&lt;/tt&gt;</translation>
+        <translation>指紋（SHA-256）：&lt;tt&gt;%1&lt;/tt&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="212"/>
         <source>Fingerprint (SHA-512): &lt;tt&gt;%1&lt;/tt&gt;</source>
-        <translation>指紋 (SHA-512)：&lt;tt&gt;%1&lt;/tt&gt;</translation>
+        <translation>指紋（SHA-512）：&lt;tt&gt;%1&lt;/tt&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/sslerrordialog.cpp" line="214"/>
@@ -5570,7 +5570,7 @@ Server replied with error: %2</source>
         <source>%nd</source>
         <comment>delay in days after an activity</comment>
         <translation>
-            <numerusform>%n日</numerusform>
+            <numerusform>%nd</numerusform>
         </translation>
     </message>
     <message>
@@ -5583,7 +5583,7 @@ Server replied with error: %2</source>
         <source>%nh</source>
         <comment>delay in hours after an activity</comment>
         <translation>
-            <numerusform>%n小時</numerusform>
+            <numerusform>%nh</numerusform>
         </translation>
     </message>
     <message>
@@ -5602,7 +5602,7 @@ Server replied with error: %2</source>
         <source>%nm</source>
         <comment>delay in minutes after an activity</comment>
         <translation>
-            <numerusform>%n分鐘</numerusform>
+            <numerusform>%nm</numerusform>
         </translation>
     </message>
     <message>
@@ -5798,7 +5798,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/filedetails/ShareeSearchField.qml" line="47"/>
         <source>Search for users or groups…</source>
-        <translation>搜尋使用者或群組……</translation>
+        <translation>搜尋使用者或群組…</translation>
     </message>
 </context>
 <context>
@@ -5827,7 +5827,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/tray/TalkReplyTextField.qml" line="16"/>
         <source>Reply to …</source>
-        <translation>回覆至……</translation>
+        <translation>回覆至…</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/TalkReplyTextField.qml" line="52"/>
@@ -5888,7 +5888,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/tray/UnifiedSearchInputContainer.qml" line="43"/>
         <source>Search files, messages, events …</source>
-        <translation>搜尋檔案、訊息、事件……</translation>
+        <translation>搜尋檔案、訊息、事件…</translation>
     </message>
 </context>
 <context>
@@ -6070,42 +6070,42 @@ Server replied with error: %2</source>
         <location filename="../src/common/utility.cpp" line="335"/>
         <source>%n year(s)</source>
         <translation>
-            <numerusform>%n年</numerusform>
+            <numerusform>%n 年</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="336"/>
         <source>%n month(s)</source>
         <translation>
-            <numerusform>%n個月</numerusform>
+            <numerusform>%n 個月</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="337"/>
         <source>%n day(s)</source>
         <translation>
-            <numerusform>%n天</numerusform>
+            <numerusform>%n 天</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="338"/>
         <source>%n hour(s)</source>
         <translation>
-            <numerusform>%n小時</numerusform>
+            <numerusform>%n 小時</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="339"/>
         <source>%n minute(s)</source>
         <translation>
-            <numerusform>%n分鐘</numerusform>
+            <numerusform>%n 分鐘</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/common/utility.cpp" line="340"/>
         <source>%n second(s)</source>
         <translation>
-            <numerusform>%n秒</numerusform>
+            <numerusform>%n 秒</numerusform>
         </translation>
     </message>
     <message>
@@ -6392,7 +6392,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/libsync/theme.cpp" line="108"/>
         <source>Aborting …</source>
-        <translation>正在中止……</translation>
+        <translation>正在中止…</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="111"/>
