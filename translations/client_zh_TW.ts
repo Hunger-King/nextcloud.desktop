@@ -1509,7 +1509,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/editlocallyjob.cpp" line="62"/>
         <source>Invalid token received.</source>
-        <translation>收到無效的權杖。</translation>
+        <translation>收到無效的代符。</translation>
     </message>
     <message>
         <location filename="../src/gui/editlocallyjob.cpp" line="62"/>
@@ -1714,7 +1714,7 @@ This can be an issue with your OpenSSL libraries.</source>
         <location filename="../src/gui/creds/flow2auth.cpp" line="116"/>
         <location filename="../src/gui/creds/flow2auth.cpp" line="234"/>
         <source>There was an error accessing the &quot;token&quot; endpoint: &lt;br&gt;&lt;em&gt;%1&lt;/em&gt;</source>
-        <translation>存取「權杖」進入點發生錯誤：&lt;br&gt;&lt;em&gt;%1&lt;/em&gt;</translation>
+        <translation>存取「代符」進入點發生錯誤：&lt;br&gt;&lt;em&gt;%1&lt;/em&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/creds/flow2auth.cpp" line="119"/>
@@ -4675,7 +4675,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="205"/>
         <source>No support for SSL session tickets/identifiers</source>
-        <translation>不支援 SSL 工作階段憑證／識別字串</translation>
+        <translation>不支援 SSL 作業階段憑票/辨識碼</translation>
     </message>
     <message>
         <location filename="../src/gui/sslbutton.cpp" line="215"/>
@@ -5285,7 +5285,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="70"/>
         <source>Easy-to-use web mail, calendaring &amp; contacts</source>
-        <translation>易於使用的網路郵件、日曆與通訊錄</translation>
+        <translation>易於使用的網路郵件、行事曆與聯絡人</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/welcomepage.cpp" line="71"/>
@@ -6463,7 +6463,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/creds/oauth.cpp" line="118"/>
         <source>There was an error accessing the &quot;token&quot; endpoint: &lt;br&gt;&lt;em&gt;%1&lt;/em&gt;</source>
-        <translation>存取「權杖」進入點發生錯誤：&lt;br&gt;&lt;em&gt;%1&lt;/em&gt;</translation>
+        <translation>存取「代符」進入點發生錯誤：&lt;br&gt;&lt;em&gt;%1&lt;/em&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/creds/oauth.cpp" line="122"/>
