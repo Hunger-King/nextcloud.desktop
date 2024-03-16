@@ -233,7 +233,7 @@
     <message>
         <location filename="../src/common/filesystembase.cpp" line="384"/>
         <source>Could not make directories in trash</source>
-        <translation>無法將目錄移到回收桶</translation>
+        <translation>無法將目錄移到垃圾桶</translation>
     </message>
     <message>
         <location filename="../src/common/filesystembase.cpp" line="398"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="../src/common/filesystembase.cpp" line="438"/>
         <source>Moving to the trash is not implemented on this platform</source>
-        <translation>此平台不具有移至回收桶功能</translation>
+        <translation>此平台不具有移至垃圾桶功能</translation>
     </message>
 </context>
 <context>
@@ -573,7 +573,7 @@ Wait for the new sync, then encrypt it.</source>
         <location filename="../src/gui/accountsettings.cpp" line="544"/>
         <location filename="../src/gui/accountsettings.cpp" line="634"/>
         <source>Availability</source>
-        <translation>可用性</translation>
+        <translation>可約時間</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="613"/>
@@ -829,7 +829,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsetupfromcommandlinejob.cpp" line="152"/>
         <source>Access forbidden by server. To verify that you have proper access, &lt;a href=&quot;%1&quot;&gt;click here&lt;/a&gt; to access the service with your browser.</source>
-        <translation>伺服器禁止存取。為了驗證您是否有適當的存取權限，&lt;a href=&quot;%1&quot;&gt;點擊此處&lt;/a&gt;以使用您的瀏覽器存取服務。</translation>
+        <translation>伺服器禁止存取。為了驗證您是否有適當的存取權，&lt;a href=&quot;%1&quot;&gt;點擊此處&lt;/a&gt;以使用您的瀏覽器存取服務。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsetupfromcommandlinejob.cpp" line="160"/>
@@ -1486,7 +1486,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/libsync/discoveryphase.cpp" line="281"/>
         <source>Directory not accessible on client, permission denied</source>
-        <translation>客戶端無法存取目錄，權限被拒</translation>
+        <translation>客戶端無法存取目錄，取用遭拒</translation>
     </message>
     <message>
         <location filename="../src/libsync/discoveryphase.cpp" line="285"/>
@@ -1980,8 +1980,8 @@ These deletes will be synchronized to your local sync folder, making such files 
 If you decide to restore the files, they will be re-synced with the server if you have rights to do so.
 If you decide to delete the files, they will be unavailable to you, unless you are the owner.</source>
         <translation>「%1」資料夾中的所有檔案已從伺服器上移除。
-同步後，這些檔案也會從您的本地資料夾中移除。除非您有復原的權限，否則您將無法讀取這些檔案。
-假如您決定復原這些檔案，只要您擁有權限，這些檔案就會重新和伺服器同步。
+同步後，這些檔案也會從您的本地資料夾中移除。除非您有復原的權能，否則您無法讀取這些檔案。
+假如您決定復原這些檔案，只要您有權執行，這些檔案就會重新和伺服器同步。
 假如您決定移除這些檔案，除非您是檔案的所有者，否則您將無法讀取這些檔案。</translation>
     </message>
     <message>
@@ -2034,7 +2034,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/foldercreationdialog.cpp" line="80"/>
         <source>Could not create a folder! Check your write permissions.</source>
-        <translation>無法建立資料夾！請檢查您的寫入權限。</translation>
+        <translation>無法建立資料夾！請檢查您的寫入權。</translation>
     </message>
 </context>
 <context>
@@ -2127,7 +2127,7 @@ If this was an accident and you decide to keep your files, they will be re-synce
     <message>
         <location filename="../src/gui/folderman.cpp" line="1664"/>
         <source>You have no permission to write to the selected folder!</source>
-        <translation>您沒有權限來寫入被選取的資料夾！</translation>
+        <translation>您無權寫入被選取的資料夾！</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1716"/>
@@ -2920,7 +2920,7 @@ Items where deletion is allowed will be deleted if they prevent a directory from
     <message>
         <location filename="../src/gui/invalidfilenamedialog.cpp" line="100"/>
         <source>Checking rename permissions …</source>
-        <translation>正在檢查重新命名權限…</translation>
+        <translation>正在檢查重新命名權能…</translation>
     </message>
     <message>
         <location filename="../src/gui/invalidfilenamedialog.cpp" line="135"/>
@@ -3215,7 +3215,7 @@ Note that using any logging command line options will override this setting.</so
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="108"/>
         <source>A new update for %1 is about to be installed. The updater may ask for additional privileges during the process. Your computer may reboot to complete the installation.</source>
-        <translation>一個新的 %1 更新已經安裝完成。更新也許會詢問要求給予權限在安裝的過程中。您的電腦可能會重新啟動以完成安裝。</translation>
+        <translation>一個新的 %1 更新已經安裝完成。更新程式也許會在安裝的過程中要求授權。您的電腦可能會重新啟動以完成安裝。</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="152"/>
@@ -4330,7 +4330,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <message>
         <location filename="../src/gui/filedetails/sharemodel.cpp" line="692"/>
         <source>Secure file drop link</source>
-        <translation>安全檔案投遞箱連結</translation>
+        <translation>安全檔案投遞連結</translation>
     </message>
     <message>
         <location filename="../src/gui/filedetails/sharemodel.cpp" line="692"/>
@@ -4474,7 +4474,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1183"/>
         <source>Copy secure file drop link</source>
-        <translation>複製安全檔案投遞箱連結</translation>
+        <translation>複製安全檔案投遞連結</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1185"/>
@@ -4485,7 +4485,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1189"/>
         <source>Copy secure filedrop link</source>
-        <translation>複製安全檔案投遞箱連結</translation>
+        <translation>複製安全檔案投遞連結</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="1197"/>
@@ -4812,7 +4812,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="582"/>
         <source>Unable to open or create the local sync database. Make sure you have write access in the sync folder.</source>
-        <translation>無法開啟或建立本機同步資料庫。請確保您有寫入同步資料夾的權限。</translation>
+        <translation>無法開啟或建立本機同步資料庫。請確保您有同步資料夾的寫入權。</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="598"/>
@@ -5717,7 +5717,7 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/filedetails/ShareDetailsPage.qml" line="414"/>
         <source>File drop (upload only)</source>
-        <translation>檔案投遞箱（僅供上傳）</translation>
+        <translation>檔案投遞（僅供上傳）</translation>
     </message>
     <message>
         <location filename="../src/gui/filedetails/ShareDetailsPage.qml" line="453"/>
