@@ -32,12 +32,12 @@
     <message>
         <location filename="../src/gui/tray/ActivityList.qml" line="31"/>
         <source>Activity list</source>
-        <translation>活動清單</translation>
+        <translation>活動狀態清單</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/ActivityList.qml" line="108"/>
         <source>No activities yet</source>
-        <translation>尚無活動</translation>
+        <translation>尚無活動狀態</translation>
     </message>
 </context>
 <context>
@@ -53,7 +53,7 @@
     <message>
         <location filename="../src/gui/tray/CallNotificationDialog.qml" line="194"/>
         <source>Talk notification caller avatar</source>
-        <translation>Talk 通知來電者大頭照</translation>
+        <translation>Talk 通知來電者頭像</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/CallNotificationDialog.qml" line="260"/>
@@ -63,12 +63,12 @@
     <message>
         <location filename="../src/gui/tray/CallNotificationDialog.qml" line="268"/>
         <source>Decline</source>
-        <translation>回絕</translation>
+        <translation>拒接</translation>
     </message>
     <message>
         <location filename="../src/gui/tray/CallNotificationDialog.qml" line="284"/>
         <source>Decline Talk call notification</source>
-        <translation>回絕 Talk 來電通知</translation>
+        <translation>拒接 Talk 來電通知</translation>
     </message>
 </context>
 <context>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="128"/>
         <source>Syncing %1 of %2  (%3 left)</source>
-        <translation>正在同步第 %1 項，共 %2 項（剩餘 %3 項）</translation>
+        <translation>正在同步第 %1 / %2 項（剩餘 %3 項）</translation>
     </message>
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="133"/>
         <source>Syncing %1 of %2</source>
-        <translation>正在同步第 %1 項，共 %2 項</translation>
+        <translation>正在同步第 %1 / %2 項</translation>
     </message>
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="140"/>
@@ -107,7 +107,7 @@
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="164"/>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="226"/>
         <source>No recently changed files</source>
-        <translation>無在近期更動過的檔案</translation>
+        <translation>無最近更動的檔案</translation>
     </message>
     <message>
         <location filename="../src/gui/cloudproviders/cloudproviderwrapper.cpp" line="180"/>
@@ -202,7 +202,7 @@
     <message>
         <location filename="../src/gui/filedetails/FileDetailsPage.qml" line="229"/>
         <source>Activity</source>
-        <translation>活動</translation>
+        <translation>活動狀態</translation>
     </message>
     <message>
         <location filename="../src/gui/filedetails/FileDetailsPage.qml" line="238"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="../src/common/filesystembase.cpp" line="438"/>
         <source>Moving to the trash is not implemented on this platform</source>
-        <translation>此平台不具有移至垃圾桶功能</translation>
+        <translation>此平台未實作移至垃圾桶功能</translation>
     </message>
 </context>
 <context>
@@ -252,7 +252,7 @@
     <message>
         <location filename="../src/gui/wizard/flow2authwidget.ui" line="26"/>
         <source>Browser Authentication</source>
-        <translation>瀏覽器驗證</translation>
+        <translation>瀏覽器認證</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/flow2authwidget.ui" line="56"/>
@@ -275,12 +275,12 @@
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="33"/>
         <source>Pick a local folder on your computer to sync</source>
-        <translation>在您的電腦選取要用來同步的本機資料夾</translation>
+        <translation>選取您電腦中要用來同步的本機資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="44"/>
         <source>&amp;Choose …</source>
-        <translation>並選擇…</translation>
+        <translation>選擇(&amp;C)…</translation>
     </message>
 </context>
 <context>
@@ -288,12 +288,12 @@
     <message>
         <location filename="../src/gui/folderwizardtargetpage.ui" line="131"/>
         <source>Select a remote destination folder</source>
-        <translation>選擇遠端目標資料夾</translation>
+        <translation>選取遠端目標資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizardtargetpage.ui" line="143"/>
         <source>Create folder</source>
-        <translation>新增資料夾</translation>
+        <translation>建立資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizardtargetpage.ui" line="163"/>
@@ -329,12 +329,12 @@
     <message>
         <location filename="../src/libsync/abstractpropagateremotedeleteencrypted.cpp" line="139"/>
         <source>Wrong HTTP code returned by server. Expected 204, but received &quot;%1 %2&quot;.</source>
-        <translation>伺服器回傳錯誤的 HTTP 代碼。預期為 204，但收到的是「%1 %2」。</translation>
+        <translation>伺服器回傳錯誤的 HTTP 代碼。預期為 204，但收到「%1 %2」。</translation>
     </message>
     <message>
         <location filename="../src/libsync/abstractpropagateremotedeleteencrypted.cpp" line="183"/>
         <source>&quot;%1 Failed to unlock encrypted folder %2&quot;.</source>
-        <translation>「%1 解鎖已加密的資料夾 %2 失敗」。</translation>
+        <translation>「%1 無法解鎖已加密的資料夾 %2」。</translation>
     </message>
 </context>
 <context>
@@ -361,22 +361,22 @@
         <location filename="../src/gui/accountmanager.cpp" line="184"/>
         <source>An existing configuration from a legacy desktop client was detected.
 Should an account import be attempted?</source>
-        <translation>偵測到既有的來自舊版桌面客戶端的設定。
-應該嘗試匯入帳號嗎？</translation>
+        <translation>偵測到舊版桌面客戶端的既有組態設定。
+是否要嘗試匯入帳號？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountmanager.cpp" line="195"/>
         <source>%1 accounts were detected from a legacy desktop client.
 Should the accounts be imported?</source>
-        <translation>偵測到 %1 個來自舊版桌面客戶端的帳號。
-是否應該匯入這些帳號？</translation>
+        <translation>偵測到 %1 個舊版桌面客戶端的帳號。
+是否該匯入這些帳號？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountmanager.cpp" line="197"/>
         <source>1 account was detected from a legacy desktop client.
 Should the account be imported?</source>
-        <translation>偵測到 1 個來自舊版桌面客戶端的帳號。
-是否應該匯入這些帳號？</translation>
+        <translation>偵測到 1 個舊版桌面客戶端的帳號。
+是否該匯入這些帳號？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountmanager.cpp" line="186"/>
@@ -403,7 +403,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountmanager.cpp" line="263"/>
         <source>Could not import accounts from legacy client configuration.</source>
-        <translation>無法從舊版客戶端設定中匯入帳號。</translation>
+        <translation>無法從舊版客戶端組態設定中匯入帳號。</translation>
     </message>
 </context>
 <context>
@@ -411,7 +411,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="31"/>
         <source>Unchecked folders will be &lt;b&gt;removed&lt;/b&gt; from your local file system and will not be synchronized to this computer anymore</source>
-        <translation>未標示的資料夾將會從這台電腦被&lt;b&gt;刪除&lt;/b&gt;，而且不會再被同步到這台電腦</translation>
+        <translation>未勾選的資料夾會從您的本機檔案系統中&lt;b&gt;移除&lt;/b&gt;，而且再也不會同步到這台電腦中</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="70"/>
@@ -458,7 +458,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="94"/>
         <source>You seem to have the Virtual Files feature enabled on this folder. At the moment, it is not possible to implicitly download virtual files that are end-to-end encrypted. To get the best experience with virtual files and end-to-end encryption, make sure the encrypted folder is marked with &quot;Make always available locally&quot;.</source>
-        <translation>您似乎在此資料夾啟用了虛擬檔案的功能。目前無法下載透過端到端加密的虛擬檔案。為了得到最佳的虛擬檔案與端到端加密體驗，請確保已加密的資料夾被標記為「一律可在本機使用」。</translation>
+        <translation>您似乎在此資料夾中啟用了「虛擬檔案」功能。目前還無法以隱含方式下載有端到端加密的虛擬檔案。為了有最佳的虛擬檔案與端到端加密體驗，請確保已加密的資料夾有標記為「一律可在本機使用」。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="102"/>
@@ -479,8 +479,8 @@ Should the account be imported?</source>
         <location filename="../src/gui/accountsettings.cpp" line="118"/>
         <source>This will encrypt your folder and all files within it. These files will no longer be accessible without your encryption mnemonic key. 
 &lt;b&gt;This process is not reversible. Are you sure you want to proceed?&lt;/b&gt;</source>
-        <translation>這將會加密您的資料夾與其中的所有檔案。若無您的加密助記金鑰，將無法再存取這些檔案。
-&lt;b&gt;此過程是不可逆的。您確定您要繼續嗎？&lt;/b&gt;</translation>
+        <translation>這將會加密您的資料夾與其中的所有檔案。一旦丟失您的加密記憶關鍵密語，將無法再存取這些檔案。
+&lt;b&gt;此過程不可逆轉。您確定要繼續嗎？&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="232"/>
@@ -495,7 +495,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="250"/>
         <source>Display mnemonic</source>
-        <translation>顯示助記碼</translation>
+        <translation>顯示記憶密語</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="256"/>
@@ -510,31 +510,31 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="356"/>
         <source>Please wait for the folder to sync before trying to encrypt it.</source>
-        <translation>請等待資料夾同步，然後再嘗試對其進行加密。</translation>
+        <translation>請等待資料夾同步完畢，再嘗試加密。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="358"/>
         <source>The folder has a minor sync problem. Encryption of this folder will be possible once it has synced successfully</source>
-        <translation>資料夾有輕微的同步問題。同步成功後即可加密該資料夾</translation>
+        <translation>資料夾有些微的同步問題。等同步成功後才能加密此資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="360"/>
         <source>The folder has a sync error. Encryption of this folder will be possible once it has synced successfully</source>
-        <translation>資料夾有同步錯誤。同步成功後即可加密該資料夾</translation>
+        <translation>資料夾有同步錯誤。等同步成功後才能加密此資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="341"/>
         <source>End-to-end encryption is not configured on this device. Once it is configured, you will be able to encrypt this folder.
 Would you like to set up end-to-end encryption?</source>
-        <translation>端到端加密尚未在此裝置上設定。一旦其設定好，您將可以加密此資料夾。
-您想要設定端到端加密嗎？</translation>
+        <translation>端到端加密在此裝置上尚未組態設定。等設定完成後，您才能加密此資料夾。
+您想要設置端到端加密嗎？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="366"/>
         <source>You cannot encrypt a folder with contents, please remove the files.
 Wait for the new sync, then encrypt it.</source>
         <translation>您無法加密有內容的資料夾，請移除檔案。
-等待新同步，然後加密。</translation>
+等新同步完成，然後再加密。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="390"/>
@@ -544,7 +544,7 @@ Wait for the new sync, then encrypt it.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="390"/>
         <source>Could not encrypt folder because the folder does not exist anymore</source>
-        <translation>無法加密資料夾，因為該資料夾不存在</translation>
+        <translation>無法加密資料夾，因為資料夾不再存在</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="510"/>
@@ -573,7 +573,7 @@ Wait for the new sync, then encrypt it.</source>
         <location filename="../src/gui/accountsettings.cpp" line="544"/>
         <location filename="../src/gui/accountsettings.cpp" line="634"/>
         <source>Availability</source>
-        <translation>可約時間</translation>
+        <translation>可用性</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="613"/>
@@ -583,7 +583,7 @@ Wait for the new sync, then encrypt it.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="619"/>
         <source>Force sync now</source>
-        <translation>強制同步</translation>
+        <translation>強制立刻同步</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="621"/>
@@ -638,7 +638,7 @@ Wait for the new sync, then encrypt it.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="804"/>
         <source>&lt;p&gt;Do you really want to stop syncing the folder &lt;i&gt;%1&lt;/i&gt;?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This will &lt;b&gt;not&lt;/b&gt; delete any files.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;您真的想要停止同步資料夾 &lt;i&gt;%1&lt;/i&gt; 嗎？&lt;/p&gt;&lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;這&lt;b&gt;不會&lt;/b&gt;刪除任何檔案。&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;您真的要停止同步資料夾 &lt;i&gt;%1&lt;/i&gt; 嗎？&lt;/p&gt;&lt;p&gt;&lt;b&gt;注意：&lt;/b&gt;這&lt;b&gt;不會&lt;/b&gt;刪除任何檔案。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="810"/>
@@ -657,9 +657,9 @@ Wait for the new sync, then encrypt it.</source>
 The only advantage of disabling virtual file support is that the selective sync feature will become available again.
 
 This action will abort any currently running synchronization.</source>
-        <translation>此動作將會停用虛擬檔案支援。結果將下載目前標記為「僅線上可用」的資料夾內容。
+        <translation>此動作將會停用虛擬檔案支援。接下來會下載目前標記為「僅可線上使用」的資料夾內容。
 
-停用虛擬檔案支援的好處是選擇性同步功能將再次可用。
+停用虛擬檔案支援的唯一好處，是可以再次使用選擇性同步功能。
 
 此動作將會中止任何目前正在執行的同步。</translation>
     </message>
@@ -671,12 +671,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1014"/>
         <source>End-to-end encryption mnemonic</source>
-        <translation>端到端加密助記碼</translation>
+        <translation>端到端加密記憶密語</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1016"/>
         <source>To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 dictionary words. Please note these down and keep them safe. They will be needed to add other devices to your account (like your mobile phone or laptop).</source>
-        <translation>為了保護您的身份，我們將用含 12 個單詞的助記碼進行加密。請將這些單字記在一個安全的地方。要將其他裝置（如手機或筆記型電腦）加入您的帳號中，需用到此助記碼。</translation>
+        <translation>為了保護您的加密識別性，我們是用 12 個單字的記憶密語來進行加密。請將這些單字寫下來，並放在安全的地方保存。如果未來需要將其他裝置（如手機或筆電等）加入您的帳號中，就會用到這組記憶密語。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1041"/>
@@ -691,7 +691,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1043"/>
         <source>Removing end-to-end encryption will remove locally-synced files that are encrypted.&lt;br&gt;Encrypted files will remain on the server.</source>
-        <translation>移除端到端加密將會移除本機同步的加密檔案。&lt;br&gt;加密檔案將會保留在伺服器上。</translation>
+        <translation>移除端到端加密，將會移除本機已同步的加密檔案。&lt;br&gt;加密檔案將會保留在伺服器上。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1105"/>
@@ -701,12 +701,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1106"/>
         <source>The syncing operation is running.&lt;br/&gt;Do you want to terminate it?</source>
-        <translation>正在執行同步動作。&lt;br/&gt;您真的想要中斷嗎？</translation>
+        <translation>正在執行同步操作。&lt;br/&gt;您想要中斷嗎？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1178"/>
         <source>%1 (%3%) of %2 in use. Some folders, including network mounted or shared folders, might have different limits.</source>
-        <translation>%1（%3%）中的 %2 正在使用， 有些資料夾，包括網路掛載或分享資料夾，可能有不同的限制。</translation>
+        <translation>已使用 %1（%3%）中的 %2。有些資料夾，包含網路掛載的或分享的資料夾，可能有不同的限制。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1179"/>
@@ -716,7 +716,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1188"/>
         <source>Currently there is no storage usage information available.</source>
-        <translation>目前無法查詢儲存空間使用資訊。</translation>
+        <translation>目前沒有儲存空間的使用資訊。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1191"/>
@@ -806,7 +806,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1577"/>
         <source>End-to-end encryption has been enabled on this account with another device.&lt;br&gt;It can be enabled on this device by entering your mnemonic.&lt;br&gt;This will enable synchronisation of existing encrypted folders.</source>
-        <translation>已在其他裝置上為此帳號啟用端到端加密。&lt;br&gt;可透過輸入您的助記碼在此裝置上啟用。&lt;br&gt;這將啟用現有加密資料夾的同步。</translation>
+        <translation>已在其他裝置上為此帳號啟用端到端加密。&lt;br&gt;可透過輸入您的記憶密語在此裝置上啟用。&lt;br&gt;這將啟用現有加密資料夾的同步。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1568"/>
@@ -6425,27 +6425,27 @@ Server replied with error: %2</source>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="86"/>
         <source>Always available locally</source>
-        <translation>總是在本機可用</translation>
+        <translation>一律可在本機使用</translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="88"/>
         <source>Currently available locally</source>
-        <translation>目前在本機可用</translation>
+        <translation>目前可在本機使用</translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="90"/>
         <source>Some available online only</source>
-        <translation>部份僅線上可用</translation>
+        <translation>部份僅可線上使用</translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="93"/>
         <source>Available online only</source>
-        <translation>僅線上可用</translation>
+        <translation>僅可線上使用</translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="100"/>
         <source>Make always available locally</source>
-        <translation>讓本機始終可用</translation>
+        <translation>啟用一律可在本機使用</translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="105"/>
