@@ -87,34 +87,6 @@ private:
     BIO* _bio;
 };
 
-class Pkcs11Context {
-public:
-    Pkcs11Context()
-        : _pkcsS11Ctx(PKCS11_CTX_new())
-    {
-    }
-
-    ~Pkcs11Context()
-    {
-        PKCS11_CTX_free(_pkcsS11Ctx);
-    }
-
-    operator const PKCS11_CTX*() const
-    {
-        return _pkcsS11Ctx;
-    }
-
-    operator PKCS11_CTX*()
-    {
-        return _pkcsS11Ctx;
-    }
-
-private:
-    Q_DISABLE_COPY(Pkcs11Context)
-
-    PKCS11_CTX* _pkcsS11Ctx = nullptr;
-};
-
 static unsigned char* unsignedData(QByteArray& array)
 {
     return (unsigned char*)array.data();
@@ -214,7 +186,7 @@ void ClientSideEncryptionTokenSelector::discoverCertificates(const AccountPtr &a
         qCDebug(lcCseSelector()) << oneCaCertificate.subjectDisplayName() << oneCaCertificate.issuerDisplayName();
     }
 
-    Pkcs11Context ctx;
+    auto ctx = Pkcs11Context{Pkcs11Context::State::CreateContext};
 
     auto rc = PKCS11_CTX_load(ctx, account->encryptionHardwareTokenDriverPath().toLatin1().constData());
     if (rc) {
@@ -225,14 +197,20 @@ void ClientSideEncryptionTokenSelector::discoverCertificates(const AccountPtr &a
     }
 
     auto tokensCount = 0u;
-    PKCS11_SLOT *tokenSlots = nullptr;
+    PKCS11_SLOT *tempTokenSlots = nullptr;
     /* get information on all slots */
-    if (PKCS11_enumerate_slots(ctx, &tokenSlots, &tokensCount) < 0) {
+    if (PKCS11_enumerate_slots(ctx, &tempTokenSlots, &tokensCount) < 0) {
         qCWarning(lcCseSelector()) << "no slots available" << ERR_reason_error_string(ERR_get_error());
 
         Q_EMIT failedToInitialize(account);
         return;
     }
+
+    auto deleter = [&ctx, tokensCount] (PKCS11_SLOT* pointer) noexcept -> void {
+        PKCS11_release_all_slots(ctx, pointer, tokensCount);
+    };
+
+    auto tokenSlots = std::unique_ptr<PKCS11_SLOT[], decltype(deleter)>{tempTokenSlots, deleter};
 
     if (!tokensCount) {
         qCWarning(lcCseSelector()) << "no tokens found";
@@ -244,7 +222,7 @@ void ClientSideEncryptionTokenSelector::discoverCertificates(const AccountPtr &a
     _discoveredCertificates.clear();
     auto currentSlot = static_cast<PKCS11_SLOT*>(nullptr);
     for(auto tokenIndex = 0u; tokenIndex < tokensCount; ++tokenIndex) {
-        currentSlot = PKCS11_find_next_token(ctx, tokenSlots, tokensCount, currentSlot);
+        currentSlot = PKCS11_find_next_token(ctx, tokenSlots.get(), tokensCount, currentSlot);
         if (currentSlot == nullptr || currentSlot->token == nullptr) {
             break;
         }

@@ -135,34 +135,6 @@ unsigned char* unsignedData(QByteArray& array)
        // data structures
        //
 
-class Pkcs11Context {
-public:
-    Pkcs11Context()
-        : _pkcsS11Ctx(PKCS11_CTX_new())
-    {
-    }
-
-    ~Pkcs11Context()
-    {
-        PKCS11_CTX_free(_pkcsS11Ctx);
-    }
-
-    operator const PKCS11_CTX*() const
-    {
-        return _pkcsS11Ctx;
-    }
-
-    operator PKCS11_CTX*()
-    {
-        return _pkcsS11Ctx;
-    }
-
-private:
-    Q_DISABLE_COPY(Pkcs11Context)
-
-    PKCS11_CTX* _pkcsS11Ctx = nullptr;
-};
-
 class CipherCtx {
 public:
     CipherCtx()
@@ -1183,7 +1155,7 @@ void ClientSideEncryption::initialize(QWidget *settingsDialog,
 void ClientSideEncryption::initializeHardwareTokenEncryption(QWidget *settingsDialog,
                                                              const AccountPtr &account)
 {
-    auto ctx = PKCS11_CTX_new();
+    auto ctx = Pkcs11Context{Pkcs11Context::State::CreateContext};
 
     if (PKCS11_CTX_load(ctx, account->encryptionHardwareTokenDriverPath().toLatin1().constData())) {
         qCWarning(lcCse()) << "loading pkcs11 engine failed:" << ERR_reason_error_string(ERR_get_error());
@@ -1193,18 +1165,25 @@ void ClientSideEncryption::initializeHardwareTokenEncryption(QWidget *settingsDi
     }
 
     auto tokensCount = 0u;
-    PKCS11_SLOT *tokenSlots = nullptr;
+    PKCS11_SLOT *tempTokenSlots = nullptr;
     /* get information on all slots */
-    if (PKCS11_enumerate_slots(ctx, &tokenSlots, &tokensCount) < 0) {
+    if (PKCS11_enumerate_slots(ctx, &tempTokenSlots, &tokensCount) < 0) {
         qCWarning(lcCse()) << "no slots available" << ERR_reason_error_string(ERR_get_error());
 
         failedToInitialize(account);
         return;
     }
 
+    auto deleter = [&ctx, tokensCount] (PKCS11_SLOT* pointer) noexcept -> void {
+        qCWarning(lcCse()) << "destructor" << pointer << ctx;
+        PKCS11_release_all_slots(ctx, pointer, tokensCount);
+    };
+
+    auto tokenSlots = decltype(_tokenSlots){tempTokenSlots, deleter};
+
     auto currentSlot = static_cast<PKCS11_SLOT*>(nullptr);
     for(auto i = 0u; i < tokensCount; ++i) {
-        currentSlot = PKCS11_find_next_token(ctx, tokenSlots, tokensCount, currentSlot);
+        currentSlot = PKCS11_find_next_token(ctx, tokenSlots.get(), tokensCount, currentSlot);
         if (currentSlot == nullptr || currentSlot->token == nullptr) {
             break;
         }
@@ -1285,7 +1264,7 @@ void ClientSideEncryption::initializeHardwareTokenEncryption(QWidget *settingsDi
         if (PKCS11_enumerate_certs(currentSlot->token, &certificatesFromToken, &keysCount)) {
             qCWarning(lcCse()) << "PKCS11_enumerate_certs failed" << ERR_reason_error_string(ERR_get_error());
 
-            Q_EMIT failedToInitialize(account);
+            failedToInitialize(account);
             return;
         }
 
@@ -1297,7 +1276,7 @@ void ClientSideEncryption::initializeHardwareTokenEncryption(QWidget *settingsDi
             if (ret <= 0){
                 qCWarning(lcCse()) << "PEM_write_bio_X509 failed" << ERR_reason_error_string(ERR_get_error());
 
-                Q_EMIT failedToInitialize(account);
+                failedToInitialize(account);
                 return;
             }
 
@@ -1313,7 +1292,7 @@ void ClientSideEncryption::initializeHardwareTokenEncryption(QWidget *settingsDi
             if (!certificateKey) {
                 qCWarning(lcCse()) << "PKCS11_find_key failed" << ERR_reason_error_string(ERR_get_error());
 
-                Q_EMIT failedToInitialize(account);
+                failedToInitialize(account);
                 return;
             }
 
@@ -1353,6 +1332,10 @@ void ClientSideEncryption::initializeHardwareTokenEncryption(QWidget *settingsDi
         saveCertificateIdentification(account);
 
         emit initializationFinished();
+
+        _context = std::move(ctx);
+        _tokenSlots = std::move(tokenSlots);
+
         return;
     }
 
@@ -3206,6 +3189,28 @@ void CertificateInformation::checkEncryptionCertificate()
         case QSslError::NoError:
             break;
         }
+    }
+}
+
+Pkcs11Context::Pkcs11Context(State initState)
+    : _pkcsS11Ctx(initState == State::CreateContext ? PKCS11_CTX_new() : nullptr)
+{
+}
+
+Pkcs11Context::Pkcs11Context(Pkcs11Context &&otherContext)
+    : _pkcsS11Ctx(otherContext._pkcsS11Ctx)
+{
+    otherContext._pkcsS11Ctx = nullptr;
+}
+
+Pkcs11Context::~Pkcs11Context()
+{
+    qCWarning(lcCse()) << "destructor" << this;
+    if (_pkcsS11Ctx) {
+        PKCS11_CTX_free(_pkcsS11Ctx);
+        _pkcsS11Ctx = nullptr;
+    } else {
+        qCWarning(lcCse()) << "destructor" << this << "nullptr";
     }
 }
 

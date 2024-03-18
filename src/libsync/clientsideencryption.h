@@ -34,6 +34,7 @@
 
 #include <openssl/evp.h>
 
+#include <functional>
 #include <optional>
 
 class QWidget;
@@ -48,6 +49,52 @@ namespace OCC {
 
 class ClientSideEncryption;
 QString e2eeBaseUrl();
+
+class Pkcs11Context {
+public:
+    enum class State {
+        CreateContext,
+        EmptyContext,
+    };
+
+    explicit Pkcs11Context(State initState);
+
+    Pkcs11Context(Pkcs11Context &&otherContext);
+
+    Pkcs11Context(const Pkcs11Context&) = delete;
+
+
+    ~Pkcs11Context();
+
+    Pkcs11Context& operator=(Pkcs11Context &&otherContext)
+    {
+        if (&otherContext != this) {
+            if (_pkcsS11Ctx) {
+                PKCS11_CTX_free(_pkcsS11Ctx);
+                _pkcsS11Ctx = nullptr;
+            }
+            std::swap(_pkcsS11Ctx, otherContext._pkcsS11Ctx);
+        }
+
+        return *this;
+    }
+
+    Pkcs11Context& operator=(const Pkcs11Context&) = delete;
+
+    operator const PKCS11_CTX*() const
+    {
+        return _pkcsS11Ctx;
+    }
+
+    operator PKCS11_CTX*()
+    {
+        return _pkcsS11Ctx;
+    }
+
+private:
+    PKCS11_CTX* _pkcsS11Ctx = nullptr;
+};
+
 
 class CertificateInformation {
 public:
@@ -346,6 +393,9 @@ private:
 
     CertificateInformation _encryptionCertificate;
     std::vector<CertificateInformation> _otherCertificates;
+
+    Pkcs11Context _context{Pkcs11Context::State::EmptyContext};
+    std::unique_ptr<PKCS11_SLOT[], std::function<void(PKCS11_SLOT*)>> _tokenSlots;
 };
 
 /* Generates the Metadata for the folder */
