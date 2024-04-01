@@ -103,3 +103,6 @@ https://github.com/nextcloud/desktop.
     WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
     or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
     for more details.
+
+# 軟體中文化
+本專案為數位部開放原始碼軟體中文化專案項目之一，其中文化與專案應用可參考 Wiki。
