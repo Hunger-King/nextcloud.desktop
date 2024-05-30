@@ -453,12 +453,12 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="93"/>
         <source>End-to-end Encryption with Virtual Files</source>
-        <translation>虛擬檔案的端到端加密</translation>
+        <translation>虛擬檔案的端對端加密</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="94"/>
         <source>You seem to have the Virtual Files feature enabled on this folder. At the moment, it is not possible to implicitly download virtual files that are end-to-end encrypted. To get the best experience with virtual files and end-to-end encryption, make sure the encrypted folder is marked with &quot;Make always available locally&quot;.</source>
-        <translation>您似乎在此資料夾中啟用了「虛擬檔案」功能。目前還無法以隱含方式下載有端到端加密的虛擬檔案。為了有最佳的虛擬檔案與端到端加密體驗，請確保已加密的資料夾有標記為「一律可在本機使用」。</translation>
+        <translation>您似乎在此資料夾中啟用了「虛擬檔案」功能。目前還無法以隱含方式下載有端對端加密的虛擬檔案。為了有最佳的虛擬檔案與端對端加密體驗，請確保已加密的資料夾有標記為「一律可在本機使用」。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="102"/>
@@ -473,7 +473,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="116"/>
         <source>End-to-end Encryption</source>
-        <translation>端到端加密</translation>
+        <translation>端對端加密</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="118"/>
@@ -500,7 +500,7 @@ Should the account be imported?</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="256"/>
         <source>End-to-end encryption has been enabled for this account</source>
-        <translation>此帳號已啟用端到端加密</translation>
+        <translation>此帳號已啟用端對端加密</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="288"/>
@@ -526,8 +526,8 @@ Should the account be imported?</source>
         <location filename="../src/gui/accountsettings.cpp" line="341"/>
         <source>End-to-end encryption is not configured on this device. Once it is configured, you will be able to encrypt this folder.
 Would you like to set up end-to-end encryption?</source>
-        <translation>端到端加密在此裝置上尚未組態設定。等設定完成後，您才能加密此資料夾。
-您想要設置端到端加密嗎？</translation>
+        <translation>端對端加密在此裝置上尚未組態設定。等設定完成後，您才能加密此資料夾。
+您想要設置端對端加密嗎？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="366"/>
@@ -671,7 +671,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1014"/>
         <source>End-to-end encryption mnemonic</source>
-        <translation>端到端加密記憶密語</translation>
+        <translation>端對端加密記憶密語</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1016"/>
@@ -681,17 +681,17 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1041"/>
         <source>Disable end-to-end encryption</source>
-        <translation>停用端到端加密</translation>
+        <translation>停用端對端加密</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1042"/>
         <source>Disable end-to-end encryption for %1?</source>
-        <translation>停用 %1 的端到端加密？</translation>
+        <translation>停用 %1 的端對端加密？</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1043"/>
         <source>Removing end-to-end encryption will remove locally-synced files that are encrypted.&lt;br&gt;Encrypted files will remain on the server.</source>
-        <translation>移除端到端加密，將會移除本機已同步的加密檔案。&lt;br&gt;加密檔案將會保留在伺服器上。</translation>
+        <translation>移除端對端加密，將會移除本機已同步的加密檔案。&lt;br&gt;加密檔案將會保留在伺服器上。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1105"/>
@@ -786,12 +786,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1517"/>
         <source>There are folders that were not synchronized because they are too big: </source>
-        <translation>有些資料夾因為容量太大沒有辦法同步： </translation>
+        <translation>有些資料夾因為容量太大無法同步： </translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1519"/>
         <source>There are folders that were not synchronized because they are external storages: </source>
-        <translation>有些資料夾因位在外部儲存空間沒有辦法同步： </translation>
+        <translation>有些資料夾因位在外部儲存空間無法同步： </translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1520"/>
@@ -806,12 +806,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1577"/>
         <source>End-to-end encryption has been enabled on this account with another device.&lt;br&gt;It can be enabled on this device by entering your mnemonic.&lt;br&gt;This will enable synchronisation of existing encrypted folders.</source>
-        <translation>已在其他裝置上為此帳號啟用端到端加密。&lt;br&gt;可透過輸入您的記憶密語在此裝置上啟用。&lt;br&gt;這將啟用既有加密資料夾的同步。</translation>
+        <translation>已在其他裝置上為此帳號啟用端對端加密。&lt;br&gt;可透過輸入您的記憶密語在此裝置上啟用。&lt;br&gt;這將啟用既有加密資料夾的同步。</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1568"/>
         <source>This account supports end-to-end encryption</source>
-        <translation>此帳號支援端到端加密</translation>
+        <translation>此帳號支援端對端加密</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="1572"/>
@@ -1133,7 +1133,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/libsync/caseclashconflictsolver.cpp" line="78"/>
         <source>Cannot rename file because a file with the same name already exists on the server. Please pick another name.</source>
-        <translation>無法重新命名檔案，因為伺服器上已有同名檔案。請改換別的名字。</translation>
+        <translation>無法重新命名檔案，因為伺服器上已有同名檔案。請改換別的名稱。</translation>
     </message>
     <message>
         <location filename="../src/libsync/caseclashconflictsolver.cpp" line="121"/>
@@ -1143,7 +1143,7 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/libsync/caseclashconflictsolver.cpp" line="172"/>
         <source>You don&apos;t have the permission to rename this file. Please ask the author of the file to rename it.</source>
-        <translation>您無權重新命名此檔案。請要求檔案的作者重新命名它。</translation>
+        <translation>您無權重新命名此檔案。請要求檔案的作者將其重新命名。</translation>
     </message>
     <message>
         <location filename="../src/libsync/caseclashconflictsolver.cpp" line="179"/>
@@ -1291,12 +1291,12 @@ This action will abort any currently running synchronization.</source>
     <message>
         <location filename="../src/libsync/clientsideencryption.cpp" line="1369"/>
         <source>Please enter your end-to-end encryption passphrase:&lt;br&gt;&lt;br&gt;Username: %2&lt;br&gt;Account: %3&lt;br&gt;</source>
-        <translation>請輸入您的端到端加密通行密語：&lt;br&gt;&lt;br&gt;使用者名稱：%2&lt;br&gt;帳號：%3&lt;br&gt;</translation>
+        <translation>請輸入您的端對端加密通行密語：&lt;br&gt;&lt;br&gt;使用者名稱：%2&lt;br&gt;帳號：%3&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/clientsideencryption.cpp" line="1377"/>
         <source>Enter E2E passphrase</source>
-        <translation>輸入端到端加密通行密語</translation>
+        <translation>輸入端對端加密通行密語</translation>
     </message>
 </context>
 <context>
@@ -2925,7 +2925,7 @@ Items where deletion is allowed will be deleted if they prevent a directory from
     <message>
         <location filename="../src/gui/invalidfilenamedialog.cpp" line="135"/>
         <source>You don&apos;t have the permission to rename this file. Please ask the author of the file to rename it.</source>
-        <translation>您無權重新命名此檔案。請要求檔案的作者重新命名。</translation>
+        <translation>您無權重新命名此檔案。請要求檔案的作者將其重新命名。</translation>
     </message>
     <message>
         <location filename="../src/gui/invalidfilenamedialog.cpp" line="140"/>
@@ -4393,7 +4393,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="528"/>
         <source>The account %1 does not have end-to-end encryption configured. Please configure this in your account settings to enable folder encryption.</source>
-        <translation>帳號 %1 沒有設定端到端加密組態。請在您的帳號設定中設定這個組態以啟用資料夾加密。</translation>
+        <translation>帳號 %1 沒有設定端對端加密組態。請在您的帳號設定中設定這個組態以啟用資料夾加密。</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="549"/>
